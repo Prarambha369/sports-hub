@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" data-year="2025">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sports News | Kick Sports</title>
+  <meta name="description" content="Latest sports news and headlines across football, cricket, NBA, NFL, F1 and more." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1 id="news-title">Sports News</h1>
+        <p class="sub" id="news-sub">Breaking news, top stories and daily updates.</p>
+
+        <div class="articles" id="articles">
+          <!-- Article cards are placeholders. Replace with your own posts
+               or pull from a headless CMS / RSS feed you have rights to. -->
+          <article class="article">
+            <div class="thumb">⚽</div>
+            <div class="body">
+              <span class="tag">Football</span>
+              <h3>Sample headline: transfer window heats up</h3>
+              <p>Write your own original reporting or summaries here. Never paste full articles you don't own.</p>
+            </div>
+          </article>
+          <article class="article">
+            <div class="thumb">🏏</div>
+            <div class="body">
+              <span class="tag">Cricket</span>
+              <h3>Sample headline: series decider preview</h3>
+              <p>Short original previews, analysis and opinion are safe. Link out to official sources for detail.</p>
+            </div>
+          </article>
+          <article class="article">
+            <div class="thumb">🏀</div>
+            <div class="body">
+              <span class="tag">NBA</span>
+              <h3>Sample headline: playoff race tightens</h3>
+              <p>Combine your commentary with public score data from your widget provider.</p>
+            </div>
+          </article>
+          <article class="article">
+            <div class="thumb">🏎️</div>
+            <div class="body">
+              <span class="tag">Formula 1</span>
+              <h3>Sample headline: qualifying report</h3>
+              <p>Original recaps perform well for SEO and stay fully within copyright rules.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ad: in-content -->
+    <div class="container">
+      <div class="ad-slot" aria-hidden="true">
+        <ins class="adsbygoogle" style="display:block" data-ad-slot="0000000003" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      </div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/js/site.js"></script>
+  <script>
+    // Set title from ?sport= query param for a nicer landing experience.
+    (function () {
+      var map = { football:"Football", cricket:"Cricket", nba:"NBA", nfl:"NFL",
+        f1:"Formula 1", ufc:"UFC", tennis:"Tennis", rugby:"Rugby", golf:"Golf",
+        motogp:"MotoGP", boxing:"Boxing", hockey:"Hockey" };
+      var s = new URLSearchParams(location.search).get("sport");
+      if (s && map[s]) {
+        document.getElementById("news-title").textContent = map[s] + " News";
+        document.getElementById("news-sub").textContent = "Latest " + map[s] + " headlines and updates.";
+        document.title = map[s] + " News | Kick Sports";
+      }
+    })();
+  </script>
+</body>
+</html>

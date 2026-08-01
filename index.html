@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-year="2025">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kick Sports | Football, Cricket, NBA, NFL & More</title>
+  <meta name="description" content="Kick Sports is your hub for sports news and live scores across football, cricket, NBA, NFL, F1, UFC and more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Every score. Every headline. One hub.</h1>
+        <p>News, live scores and stats across football, cricket, NBA, NFL, F1, UFC and more &mdash; updated all day.</p>
+        <div class="cta">
+          <a class="btn primary" href="news.html">Read the news</a>
+          <a class="btn" href="#scores">Live scores</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ad: leaderboard -->
+    <div class="container">
+      <div class="ad-slot" aria-hidden="true">
+        <ins class="adsbygoogle" style="display:block" data-ad-slot="0000000001" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      </div>
+    </div>
+
+    <section class="section" id="sports">
+      <div class="container">
+        <h2>Browse by sport</h2>
+        <p class="sub">Pick a sport for the latest news &amp; updates.</p>
+        <div class="grid">
+          <a class="card" href="news.html?sport=football"><div class="icon">⚽</div><h3>Football</h3><p>Premier League · La Liga · UCL</p></a>
+          <a class="card" href="news.html?sport=cricket"><div class="icon">🏏</div><h3>Cricket</h3><p>ICC · IPL · T20 World Cup</p></a>
+          <a class="card" href="news.html?sport=nba"><div class="icon">🏀</div><h3>NBA</h3><p>NBA · Playoffs · All-Star</p></a>
+          <a class="card" href="news.html?sport=nfl"><div class="icon">🏈</div><h3>NFL</h3><p>NFL · Super Bowl · Draft</p></a>
+          <a class="card" href="news.html?sport=f1"><div class="icon">🏎️</div><h3>Formula 1</h3><p>Grand Prix · Drivers · Teams</p></a>
+          <a class="card" href="news.html?sport=ufc"><div class="icon">🥊</div><h3>UFC</h3><p>UFC · MMA · Fight Night</p></a>
+          <a class="card" href="news.html?sport=tennis"><div class="icon">🎾</div><h3>Tennis</h3><p>Wimbledon · US Open · ATP</p></a>
+          <a class="card" href="news.html?sport=rugby"><div class="icon">🏉</div><h3>Rugby</h3><p>World Cup · Six Nations</p></a>
+          <a class="card" href="news.html?sport=golf"><div class="icon">⛳</div><h3>Golf</h3><p>PGA Tour · Masters · The Open</p></a>
+          <a class="card" href="news.html?sport=motogp"><div class="icon">🏍️</div><h3>MotoGP</h3><p>MotoGP · Moto2 · Moto3</p></a>
+          <a class="card" href="news.html?sport=boxing"><div class="icon">🥋</div><h3>Boxing</h3><p>World Titles · Rankings</p></a>
+          <a class="card" href="news.html?sport=hockey"><div class="icon">🏒</div><h3>Hockey</h3><p>NHL · World Championship</p></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="scores">
+      <div class="container">
+        <h2>Live scores</h2>
+        <p class="sub">Powered by a third-party sports-data widget (score data only &mdash; no video).</p>
+        <div class="widget-wrap">
+          <!-- scores.js renders public fixtures/results here (score data only, no video). -->
+          <div id="scores-widget"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ad: in-content -->
+    <div class="container">
+      <div class="ad-slot" aria-hidden="true">
+        <ins class="adsbygoogle" style="display:block" data-ad-slot="0000000002" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      </div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/js/site.js"></script>
+  <script src="assets/js/scores.js"></script>
+</body>
+</html>
