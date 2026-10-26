@@ -175,6 +175,8 @@
     // Display auto-fetched sportsonline.st matches
     document.addEventListener("DOMContentLoaded", function () {
       var stored = JSON.parse(localStorage.getItem("sports-hub-latest-matches") || "[]");
+      var lastSportsonlineFetch = localStorage.getItem("sports-hub-last-sportsonline-fetch");
+      var fetchStatus = lastSportsonlineFetch ? "cached" : "fresh fetch";
       var integrationDiv = document.querySelector(".sportsonline-integration");
       if (!stored.length || !integrationDiv) return;
       // Sport icons mapping
@@ -196,8 +198,7 @@
       // Insert after the integration note
       var note = integrationDiv.querySelector("em");
       if (note) {
-        note.insertAdjacentHTML('afterend', '<div class="auto-matches-section" style=\"margin-top:8px;padding:4px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border); background:var(--bg-card); padding:8px; border-radius:var(--radius);\">' + html + '</div>');
-      }
+      note.insertAdjacentHTML('afterend', '<div class="auto-matches-section" style="margin-top:8px;padding:4px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border); background:var(--bg-card); padding:8px; border-radius:var(--radius); font-size:.75rem; color:var(--muted);">\n          <div style="margin-bottom:8px;">' + html + '</div>\n          <div style="text-align:right; font-size:.65rem; color:var(--muted); margin-top:4px;">Fetched: ' + (lastSportsonlineFetch ? new Date(localStorage.getItem("sports-hub-last-sportsonline-fetch")).toLocaleTimeString() : 'never fetched') + ' | <button class="btn tiny" style="padding:4px 8px; font-size:.6rem;" onclick="localStorage.removeItem("sports-hub-latest-matches"); localStorage.removeItem("sports-hub-last-sportsonline-fetch"); window.location.reload();">Refresh</button></div>');\n      }
     });
 
     function esc(s) {
