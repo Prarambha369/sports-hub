@@ -177,16 +177,26 @@
       var stored = JSON.parse(localStorage.getItem("sports-hub-latest-matches") || "[]");
       var integrationDiv = document.querySelector(".sportsonline-integration");
       if (!stored.length || !integrationDiv) return;
+      // Sport icons mapping
+      var sportIcons = {
+        'football': '⚽', 'soccer': '⚽', 'cricket': '🏏', 'nba': '🏀', 'nfl': '🏈',
+        'tennis': '🎾', 'ufc': '🥊', 'rugby': '🏉', 'golf': '⛳', 'moto gp': '🏍️',
+        'boxing': '🥋', 'hockey': '🏒'
+      };
       var html = stored.map(function (match) {
         var time = match.time || "-";
         var teams = match.teams || "-";
         var url = match.url || "-";
-        return '<div style=\"margin-top:8px;font-size:.75rem;color:var(--muted)\">\n          <strong> sportsonline.st:</strong> ' + time + ' | ' + teams + '\n          <a href=\"'+ url +'\" target=\"_blank\" style=\"color:var(--acc);text-decoration:underline;font-size:.75rem\">Watch match</a>\n        </div>';
+        // Extract sport from teams text for thumbnail
+        var sportKey = (teams.match(/\b(football|soccer|cricket|nba|nfl|tennis|ufc|rugby|golf|boxing|hockey)\b/i) || [""])[1].toLowerCase() || "sports";
+        var icon = sportIcons[sportKey] || '⚽';
+        var teamPair = teams.split('|').map(t => t.trim()).filter(t => t)[0] || teams;
+        return '<div style=\"margin-top:12px;\">\n          <div style=\"display:flex; align-items:center; gap:8px; margin-bottom:6px;\">\n            <span style=\"font-size:1.2rem;\">' + icon + '</span>\n            <span style=\"font-weight:600; color:var(--text); font-size:0.9rem;\">' + (teamPair || "Match") + '</span>\n          </div>\n          <button class="btn secondary" style=\"padding:6px 12px; font-size:.75rem;\" onclick="window.open(\"'+ url +'\", \"_blank\"); return false;\">Play</button>\n        </div>';
       }).join("");
       // Insert after the integration note
       var note = integrationDiv.querySelector("em");
       if (note) {
-        note.insertAdjacentHTML('afterend', '<div class="auto-matches-section" style=\"margin-top:8px;padding:4px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)\">' + html + '</div>');
+        note.insertAdjacentHTML('afterend', '<div class="auto-matches-section" style=\"margin-top:8px;padding:4px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border); background:var(--bg-card); padding:8px; border-radius:var(--radius);\">' + html + '</div>');
       }
     });
 
