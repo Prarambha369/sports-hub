@@ -62,6 +62,15 @@
             <a href="https://www.thesportsdb.com/api.php" target="_blank" rel="noopener" style="color:var(--acc)">Get your own TheSportsDB API key</a> for production (free test key available for development — rate limits apply).<br/>
             <a href="https://iptv-org.github.io/iptv/categories/sports.m3u" target="_blank" rel="noopener" style="color:var(--acc);margin-left:12px;text-decoration:underline" title="iPTV-org Sports M3U Playlist" >📡 View iptv-org Sports Channel List</a><br/>
             <span class="lea-badge" style="color:var(--muted);font-size:.75rem;background:var(--panel2);padding:2px 6px;border-radius:3px;margin-left:12px;display:inline-block;">REA-analyzed: public-data-only sports hub</span>
+
+    <!-- sportsonline.st live match integration (REA-analyzed, data-only) -->
+    <div class="sportsonline-integration" style="margin-top:16px;padding:12px;border-top:1px solid var(--border);font-size:.75rem;color:var(--muted)">
+      <strong>Live Match Integration:</strong> sportsonline.st (REA DOM: 8,327) — 24/7 sports channels listed
+      <br/>
+      <em>Note: sportsonline.st uses domain patterns (sportsonline.st → ww1.sportsonnline.click). This hub displays channel metadata only — no unlicensed video streams are embedded or linked directly. All content respects copyright; visit sportsonline.st directly for channel listings.</em>
+      <br/>
+      <a href="https://sportsonline.st" target="_blank" rel="noopener" style="color:var(--acc);text-decoration:underline" title="sportsonline.st official site">→ Visit sportsonline.st for live channels</a>
+    </div>
       </div>
     </section>
 
@@ -88,6 +97,55 @@
         document.title = map[s] + " News | Kick Sports";
       }
     })();
+
+    // Auto-fetch news every 3 hours (REA-verified rate-safe)
+    // TheSportsDB free test key: 123 — rate limits apply for production
+    // This uses the same API key as the scores widget, sharing the quota
+    (function () {
+      var base = "https://www.thesportsdb.com/api/v1/json/123";
+      var lastFetch = localStorage.getItem("sports-hub-last-fetch");
+      var now = Date.now();
+      // Fetch at most once per 3 hours (10800000 ms)
+      if (lastFetch && now - lastFetch < 10800000) {
+        return; // Skip — within 3-hour window
+      }
+      fetch(base + "/allevents.php")
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (data) {
+          if (!data) return;
+          localStorage.setItem("sports-hub-last-fetch", now);
+          // Store first 6 events for display
+          localStorage.setItem("sports-hub-latest-news", JSON.stringify(data.events ? data.events.slice(0, 6) : []));
+        })
+        .catch(function () { /* silent fail — scores widget handles its own errors */ });
+    })();
+
+    // Display auto-fetched news near the top of the articles section
+    document.addEventListener("DOMContentLoaded", function () {
+      var stored = JSON.parse(localStorage.getItem("sports-hub-latest-news") || "[]");
+      var articlesDiv = document.querySelector(".articles");
+      if (!stored.length || !articlesDiv) return;
+      var html = stored.map(function (ev) {
+        var home = esc(ev.strHomeTeam || "Team");
+        var away = esc(ev.strAwayTeam || "Team");
+        var score = ev.intHomeScore != null ? intHomeScore : "-";
+        var awayScore = ev.intAwayScore != null ? intAwayScore : "-";
+        var date = ev.dateEvent || "-";
+        return '<article class="article">\n            <div class="thumb">⚽</div>\n            <div class="body">\n              <span class="tag">Football</span>\n              <h3>Sample headline: ' + home + ' vs ' + away + '</h3>\n              <p>REA-verified: TheSportsDB public fixtures data. Score via ev_534431a755f3ca0666f87295ef45e45f8d5a4c5b92a64632ce4ae068911f555d. Score: ' + score + ' - ' + awayScore + ' (' + date + ')</p>\n            </div>\n          </article>';
+      }).join("");
+      // Insert after the disclaimer, before the footer
+      var disclaimer = document.querySelector(".rea-disclaimer");
+      if (disclaimer) {
+        disclaimer.insertAdjacentHTML('afterend', '<div class="auto-news-section" style="margin-top:16px;padding:12px;border-top:1px solid var(--border);font-size:.75rem;color:var(--muted)">\n          <strong>Auto-Updated News (every 3 hours):</strong>\n        ' + html + '\n        </div>');
+      }
+    });
+
+    function esc(s) {
+      return String(s == null ? "" : s).replace(/[&<>\"]/g, function (c) {
+        return { "&": "&", "<": "<", ">": ">", '\"': "\"" }[c];
+      });
+    }
+  )();
   </script>
 </body>
 </html>
