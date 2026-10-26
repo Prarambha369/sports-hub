@@ -14,7 +14,7 @@
     <section class="section">
       <div class="container">
         <h1 id="news-title">Sports News</h1>
-        <p class="sub" id="news-sub">Breaking news, top stories and daily updates.</p>
+        <h2 class="section-sub" id="news-sub">Breaking news, top stories and daily updates.</h2>
 
         <div class="articles" id="articles">
           <!-- REA-analyzed public sports news — data/score integration -->
@@ -22,7 +22,7 @@
             <div class="thumb">⚽</div>
             <div class="body">
               <span class="tag">Football</span>
-              <h3>Sample headline: transfer window heats up</h3>
+              <h2>Sample headline: transfer window heats up</h2>
               <p>REA-verified: TheSportsDB public fixtures data. Scores via ev_534431a755f3ca0666f87295ef45e45f8d5a4c5b92a64632ce4ae068911f555d. Never paste full articles you don't own.</p>
             </div>
           </article>
@@ -30,7 +30,7 @@
             <div class="thumb">🏏</div>
             <div class="body">
               <span class="tag">Cricket</span>
-              <h3>Sample headline: series decider preview</h3>
+              <h2>Sample headline: series decider preview</h2>
               <p>REA-verified: Public cricket fixtures. Score data indexed from official sources only.</p>
             </div>
           </article>
@@ -38,7 +38,7 @@
             <div class="thumb">🏀</div>
             <div class="body">
               <span class="tag">NBA</span>
-              <h3>Sample headline: playoff race tightens</h3>
+              <h2>Sample headline: playoff race tightens</h2>
               <p>REA-verified: NBA public data from TheSportsDB API. Score integration via REA analysis.</p>
             </div>
           </article>
@@ -46,7 +46,7 @@
             <div class="thumb">🏎️</div>
             <div class="body">
               <span class="tag">Formula 1</span>
-              <h3>Sample headline: qualifying report</h3>
+              <h2>Sample headline: qualifying report</h2>
               <p>REA-verified: F1 public data showcase. REA evidence captured from thesportsdb.com (DOM: 13840). Original recaps stay within copyright rules.</p>
             </div>
           </article>
@@ -131,7 +131,7 @@
         var score = ev.intHomeScore != null ? intHomeScore : "-";
         var awayScore = ev.intAwayScore != null ? intAwayScore : "-";
         var date = ev.dateEvent || "-";
-        return '<article class="article">\n            <div class="thumb">⚽</div>\n            <div class="body">\n              <span class="tag">Football</span>\n              <h3>Sample headline: ' + home + ' vs ' + away + '</h3>\n              <p>REA-verified: TheSportsDB public fixtures data. Score via ev_534431a755f3ca0666f87295ef45e45f8d5a4c5b92a64632ce4ae068911f555d. Score: ' + score + ' - ' + awayScore + ' (' + date + ')</p>\n            </div>\n          </article>';
+        return '<article class="article">\n            <div class="thumb">⚽</div>\n            <div class="body">\n              <span class="tag">Football</span>\n              <h2>Sample headline: ' + home + ' vs ' + away + '</h2>\n              <p>REA-verified: TheSportsDB public fixtures data. Score via ev_534431a755f3ca0666f87295ef45e45f8d5a4c5b92a64632ce4ae068911f555d. Score: ' + score + ' - ' + awayScore + ' (' + date + ')</p>\n            </div>\n          </article>';
       }).join("");
       // Insert after the disclaimer, before the footer
       var disclaimer = document.querySelector(".rea-disclaimer");
