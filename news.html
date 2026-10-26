@@ -140,6 +140,56 @@
       }
     });
 
+    // Fetch latest matches from sportsonline.st (REA-analyzed, data-only)
+    (function () {
+      var lastFetch = localStorage.getItem("sports-hub-last-sportsonline-fetch");
+      var now = Date.now();
+      // Fetch at most once per 6 hours (21600000 ms) - respect rate limits
+      if (lastFetch && now - lastFetch < 21600000) {
+        return; // Skip — within 6-hour window
+      }
+      fetch("https://sportsonline.st")
+        .then(function (r) { return r.text(); })
+        .then(function (text) {
+          // Extract match schedules from the 24/7 channels text format
+          var matches = [];
+          var lines = text.split("\n");
+          for (var i = 0; i < lines.length; i++) {
+            // Look for lines with match format: time | teams | URL
+            var matchLine = lines[i].match(/^\s*([0-9:]+)\s+(.+)\|\s*(https?:\/\/.+)$/);
+            if (matchLine) {
+              var time = matchLine[1];
+              var teams = matchLine[2].trim();
+              var url = matchLine[3];
+              matches.push({ time: time, teams: teams, url: url });
+            }
+          }
+          // Store top 6 matches for display
+          if (matches.length > 0) {
+            localStorage.setItem("sports-hub-latest-matches", JSON.stringify(matches.slice(0, 6)));
+          }
+        })
+        .catch(function () { /* silent fail */ });
+    })();
+
+    // Display auto-fetched sportsonline.st matches
+    document.addEventListener("DOMContentLoaded", function () {
+      var stored = JSON.parse(localStorage.getItem("sports-hub-latest-matches") || "[]");
+      var integrationDiv = document.querySelector(".sportsonline-integration");
+      if (!stored.length || !integrationDiv) return;
+      var html = stored.map(function (match) {
+        var time = match.time || "-";
+        var teams = match.teams || "-";
+        var url = match.url || "-";
+        return '<div style=\"margin-top:8px;font-size:.75rem;color:var(--muted)\">\n          <strong> sportsonline.st:</strong> ' + time + ' | ' + teams + '\n          <a href=\"'+ url +'\" target=\"_blank\" style=\"color:var(--acc);text-decoration:underline;font-size:.75rem\">Watch match</a>\n        </div>';
+      }).join("");
+      // Insert after the integration note
+      var note = integrationDiv.querySelector("em");
+      if (note) {
+        note.insertAdjacentHTML('afterend', '<div class="auto-matches-section" style=\"margin-top:8px;padding:4px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)\">' + html + '</div>');
+      }
+    });
+
     function esc(s) {
       return String(s == null ? "" : s).replace(/[&<>\"]/g, function (c) {
         return { "&": "&", "<": "<", ">": ">", '\"': "\"" }[c];
