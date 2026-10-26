@@ -64,13 +64,24 @@
             <span class="lea-badge" style="color:var(--muted);font-size:.75rem;background:var(--panel2);padding:2px 6px;border-radius:3px;margin-left:12px;display:inline-block;">REA-analyzed: public-data-only sports hub</span>
 
     <!-- sportsonline.st live match integration (REA-analyzed, data-only) -->
-    <div class="sportsonline-integration" style="margin-top:16px;padding:12px;border-top:1px solid var(--border);font-size:.75rem;color:var(--muted)">
-      <strong>Live Match Integration:</strong> sportsonline.st (REA DOM: 8,327) — 24/7 sports channels listed
-      <br/>
-      <em>Note: sportsonline.st uses domain patterns (sportsonline.st → ww1.sportsonnline.click). This hub displays channel metadata only — no unlicensed video streams are embedded or linked directly. All content respects copyright; visit sportsonline.st directly for channel listings.</em>
-      <br/>
-      <a href="https://sportsonline.st" target="_blank" rel="noopener" style="color:var(--acc);text-decoration:underline" title="sportsonline.st official site">→ Visit sportsonline.st for live channels</a>
+    <div class="sportsonline-integration" style="margin-top:32px;padding:24px;border-radius:var(--radius);background:var(--bg-card);border:1px solid var(--border);">
+      <h4 style="margin:0 0 16px;color:var(--text);font-family:var(--ff-heading);font-size:1.1rem;">
+        Live Match Integration: sportsonline.st (REA DOM: 8,327)
+        <span class="update-badge fresh" id="sportsonline-fetch-status">🆕 Fresh</span>
+      </h4>
+      <p style="margin:0 0 16px;color:var(--muted);font-size:.9rem;">
+        24/7 sports channels listed — no unlicensed video streams embedded. 
+        <a href="https://sportsonline.st" target="_blank" style="color:var(--accent);text-decoration:underline;">Visit sportsonline.st for live channels</a>
+      </p>
+      <div class="match-grid" style="display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));margin-top:16px;">
+        <!-- Matches injected by JavaScript -->
+      </div>
+      <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border);font-size:.75rem;color:var(--muted);">
+        Fetched: <span id="sportsonline-fetch-time">never fetched</span> | 
+        <button class="btn tiny" style="padding:4px 8px;font-size:.6rem;" onclick="refreshSportsonlineMatches()">Refresh</button>
+      </div>
     </div>
+</div>
       </div>
     </section>
 
