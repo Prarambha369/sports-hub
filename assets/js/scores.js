@@ -24,6 +24,31 @@
     { id: 4396, label: "NHL", icon: "🏒", sport: "hockey" }
   ];
 
+// TheSportsDB → iptv-org channel mapping (league ID → iptv category name)
+// Used to display stream links alongside scores
+// Source: iptv-org GitHub categories (sports.m3u has 320+ sports channels)
+var LEAGUE_TO_IPTV = {
+  // Football soccer mappings
+  '4328': 'football',     // Premier League
+  // Basketball mappings
+  '4387': 'basketball',   // NBA
+  // American football mappings
+  '4391': 'american_football', // NFL
+  // Baseball mappings
+  '4395': 'baseball',     // MLB
+  // Hockey mappings
+  '4396': 'hockey'      // NHL
+};
+
+// Mapping of iptv-org category names to display names
+var IPTV_CATEGORY_LABELS = {
+  'football': 'Soccer',
+  'basketball': 'Basketball',
+  'american_football': 'Football',
+  'baseball': 'Baseball',
+  'hockey': 'Hockey'
+};
+
   function el(tag, cls, html) {
     var e = document.createElement(tag);
     if (cls) e.className = cls;
@@ -100,6 +125,23 @@
     }
   }
 
+// League-mapping UI toggle
+function toggleStreamLinks(show) {
+  var links = document.querySelectorAll('.lea-link');
+  links.forEach(function (link) {
+    if (show) {
+      link.style.display = 'inline-block';
+    } else {
+      link.style.display = 'none';
+    }
+  });
+  // Update the toggle text
+  var toggle = document.getElementById('lea-toggle');
+  if (toggle) {
+    toggle.innerHTML = show ? 'Hide stream links' : 'Show stream links';
+  }
+}
+
   function mount() {
     var host = document.getElementById("scores-widget");
     if (!host) return;
@@ -116,6 +158,29 @@
           grid.appendChild(cell);
         });
         host.appendChild(grid);
+
+        // League-mapping stream links toggle
+        var leaToggle = el("a", "lea-toggle", 'Show stream links');
+        leaToggle.href = "#";
+        leaToggle.style.cssText = "color:var(--acc);font-size:.75rem;margin:8px 0 4px;text-decoration:underline;cursor:pointer";
+        leaToggle.onclick = function() {
+          var isVisible = !linksVisible;
+          toggleStreamLinks(isVisible);
+          linksVisible = isVisible;
+          return false;
+        };
+        host.appendChild(leaToggle);
+
+        // Insert stream link capsules under each league card
+        var linksVisible = false;
+        LEAGUES.forEach(function (l, i) {
+          var cat = LEAGUE_TO_IPTV[l.id];
+          if (cat) {
+            var capsule = el("div", "lea-caption",
+              '<a href="https://iptv-org.github.io/iptv/categories/' + cat + '.m3u" class="lea-link" target="_blank" rel="noopener" style="color:var(--muted);font-size:.75rem;display:none; margin:2px 0;">' + (IPTV_CATEGORY_LABELS[cat] || cat) + ' channels on iptv-org</a>');
+            grid.children[i].appendChild(capsule);
+          }
+        });
 
         // REA analysis badge
         initREABadge();
