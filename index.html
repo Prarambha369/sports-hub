@@ -62,7 +62,22 @@
       </div>
     </section>
 
-    <!-- Ad: in-content -->
+    
+    <!-- sportsonline.st dynamic matches -->
+    <section class="section" id="sportsonline-matches">
+      <div class="container">
+        <h2>Live Match Integration</h2>
+        <p class="sub">24/7 sports channels from sportsonline.st — no unlicensed video streams</p>
+        <div class="match-grid" style="display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));margin-top:32px;">
+          <!-- Matches injected by JavaScript -->
+        </div>
+        <div style="margin-top:24px;padding-top:16px;border-top:1px solid var(--border);font-size:.75rem;color:var(--muted);">
+          Fetched: <span id="sportsonline-fetch-time-home">never fetched</span> | 
+          <button class="btn tiny" style="padding:4px 8px;font-size:.6rem;" onclick="refreshSportsonlineMatchesHome()">Refresh</button>
+        </div>
+      </div>
+    </section>
+<!-- Ad: in-content -->
     <div class="container">
       <div class="ad-slot" aria-hidden="true">
         <ins class="adsbygoogle" style="display:block" data-ad-slot="0000000002" data-ad-format="auto" data-full-width-responsive="true"></ins>
@@ -73,5 +88,68 @@
   <div id="site-footer"></div>
   <script src="assets/js/site.js"></script>
   <script src="assets/js/scores.js"></script>
-</body>
+
+    <script>
+    // Sportsonline match data - will be populated by fetch
+    var homeSportsonlineMatches = [];
+    var homeLastSportsonlineFetch = 0;
+
+    function refreshSportsonlineMatchesHome() {
+      localStorage.removeItem("home-sportsonline-matches");
+      localStorage.removeItem("home-sportsonline-fetch");
+      window.location.reload();
+    }
+
+    // Initial fetch on page load
+    (function () {
+      var lastFetch = localStorage.getItem("home-sportsonline-fetch");
+      var now = Date.now();
+      // Fetch at most once per 6 hours
+      if (lastFetch && now - lastFetch < 21600000) {
+        // Load cached matches
+        homeSportsonlineMatches = JSON.parse(localStorage.getItem("home-sportsonline-matches") || "[]");
+        displayHomeMatches();
+        return;
+      }
+      fetch("https://sportsonline.st")
+        .then(function (r) { return r.text(); })
+        .then(function (text) {
+          var matches = [];
+          var lines = text.split("\n");
+          for (var i = 0; i < lines.length; i++) {
+            var matchLine = lines[i].match(/^\s*([0-9:]+)\s+(.+)\|\s*(https?:\/\/.+)$/);
+            if (matchLine) {
+              var time = matchLine[1];
+              var teams = matchLine[2].trim();
+              var url = matchLine[3];
+              matches.push({ time: time, teams: teams, url: url });
+            }
+          }
+          homeSportsonlineMatches = matches;
+          localStorage.setItem("home-sportsonline-matches", JSON.stringify(matches));
+          localStorage.setItem("home-sportsonline-fetch", now);
+          displayHomeMatches();
+        })
+        .catch(function () { /* silent fail */ });
+    })();
+
+    function displayHomeMatches() {
+      var grid = document.querySelector(".match-grid");
+      if (!grid) return;
+      var html = homeSportsonlineMatches.map(function (match) {
+        var time = match.time || "-";
+        var teams = match.teams || "-";
+        var url = match.url || "-";
+        var sportKey = (teams.match(/\b(football|soccer|cricket|nba|nfl|tennis|ufc|rugby|golf|boxing|hockey)\b/i) || [""])[1].toLowerCase() || "sports";
+        var icons = {"football": "⚽", "soccer": "⚽", "cricket": "🏏", "nba": "🏀", "nfl": "🏈", "tennis": "🎾", "ufc": "🥊", "rugby": "🏉", "golf": "⛳", "boxing": "🥋", "hockey": "🏒"};
+        var icon = icons[sportKey] || "⚽";
+        var teamPair = teams.split("|").map(t => t.trim()).filter(t => t)[0] || teams;
+        return "<div class="match-card"><div class="match-info"><span class="match-icon">" + icon + "</span><span class="match-details"><strong>" + teamPair + "</strong><small>" + time + "</small></span></div><button class="match-play-btn" onclick="window.open('" + url + "', '_blank'); return false;">Play</button></div>";
+      }).join("");
+      grid.innerHTML = html;
+      var fetchTime = homeLastSportsonlineFetch ? new Date(homeLastSportsonlineFetch).toLocaleTimeString() : "never fetched";
+      var fetchDiv = document.getElementById("sportsonline-fetch-time-home");
+      if (fetchDiv) fetchDiv.innerText = fetchTime;
+    }
+    </body>
 </html>
