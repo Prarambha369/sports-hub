@@ -68,7 +68,7 @@
       <div class="container">
         <h2>Live Match Integration</h2>
         <p class="sub">24/7 sports channels from sportsonline.st — no unlicensed video streams</p>
-        <div class="match-grid" style="display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));margin-top:32px;">
+        <div class="match-grid sportsonline-match-grid" style="display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));margin-top:32px;">
           <!-- Matches injected by JavaScript -->
         </div>
         <div style="margin-top:24px;padding-top:16px;border-top:1px solid var(--border);font-size:.75rem;color:var(--muted);">
@@ -79,11 +79,11 @@
     </section>
 
     <!-- Live On TV Today (REA-analyzed, kokasports.com-inspired) -->
-    <section class="section" style="margin:32px 0;padding:24px;border-radius:var(--radius);background:var(--bg-card);border:1px solid var(--border);">
+    <section class="section" id="kokasports-tv-section" style="margin:32px 0;padding:24px;border-radius:var(--radius);background:var(--bg-card);border:1px solid var(--border);">
       <div class="container">
         <h2>Live On TV Today</h2>
         <p class="sub">Today"s sports fixtures and broadcasters — data from publicly accessible TV listings</p>
-        <div class="match-grid" style="display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));margin-top:16px;">
+        <div class="match-grid kokasports-match-grid" style="display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));margin-top:16px;">
           <!-- Matches injected by JavaScript -->
         </div>
         <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border);font-size:.75rem;color:var(--muted);">
@@ -181,7 +181,7 @@
     })();
 
     function displayHomeKokasportsFixtures(fixtures) {
-      var container = document.querySelector(".match-grid");
+      var container = document.querySelector(".kokasports-match-grid");
       if (!container) return;
       var html = fixtures.map(function (fixture) {
         var dateTime = fixture.dateTime || "-";
@@ -209,7 +209,7 @@
     })();
 
     function displayHomeMatches() {
-      var grid = document.querySelector(".match-grid");
+      var grid = document.querySelector(".sportsonline-match-grid");
       if (!grid) return;
       var html = homeSportsonlineMatches.map(function (match) {
         var time = match.time || "-";

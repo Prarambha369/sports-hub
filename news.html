@@ -84,7 +84,7 @@
     </section>
 
     <!-- Live On TV Today (REA-analyzed, kokasports.com-inspired) -->
-    <div class="sportsonline-integration" style="margin:32px 0;padding:24px;border-radius:var(--radius);background:var(--bg-card);border:1px solid var(--border);">
+    <div class="kokasports-integration" style="margin:32px 0;padding:24px;border-radius:var(--radius);background:var(--bg-card);border:1px solid var(--border);">
       <h4 style="margin:0 0 16px;color:var(--text);font-family:var(--ff-heading);font-size:1.1rem;">
         Live On TV Today
         <span class="update-badge cached" id="kokasports-fetch-status">💾 Cached</span>
@@ -277,7 +277,7 @@
       var stored = JSON.parse(localStorage.getItem("sports-hub-latest-fixtures") || "[]");
       var lastKokasportsFetch = localStorage.getItem("sports-hub-last-kokasports-fetch");
       var fetchStatus = lastKokasportsFetch ? "cached" : "fresh fetch";
-      var integrationDiv = document.querySelector(".sportsonline-integration");
+      var integrationDiv = document.querySelector(".kokasports-integration");
       if (!stored.length || !integrationDiv) return;
       // Sport icons mapping
       var sportIcons = {
