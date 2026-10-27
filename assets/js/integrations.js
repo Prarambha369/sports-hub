@@ -88,7 +88,7 @@
           '</span><span class="match-details"><strong>' + esc(teamPair) + '</strong><small>' + esc(time) +
           '</small></span></div><button class="match-play-btn" data-play-url="' + esc(url) + '">Play</button></div>';
       }).join("");
-      grid.innerHTML = html || '<p style="color:var(--muted)">No matches available right now.</p>';
+      grid.innerHTML = html || '<p style="color:var(--muted)">No live data (source may block browser requests).</p>';
       if (timeEl) {
         var t = localStorage.getItem(SPORTSONLINE_TIME);
         timeEl.innerText = t ? new Date(+t).toLocaleTimeString() : "never fetched";
@@ -107,7 +107,7 @@
           '<span style="font-size:1.2rem;">' + icon + '</span><span style="font-weight:600;color:var(--text);font-size:0.9rem;">' +
           esc(competition) + '</span></div><div style="font-size:.8rem;color:var(--muted);">Broadcast: ' + esc(broadcaster) + '</div></div>';
       }).join("");
-      grid.innerHTML = html || '<p style="color:var(--muted)">No fixtures available right now.</p>';
+      grid.innerHTML = html || '<p style="color:var(--muted)">No live data (source may block browser requests).</p>';
       if (timeEl) {
         var t = localStorage.getItem(KOKA_TIME);
         timeEl.innerText = t ? new Date(+t).toLocaleTimeString() : "never fetched";

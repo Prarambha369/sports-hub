@@ -50,19 +50,14 @@
               <p>REA-verified: F1 public data showcase. REA evidence captured from thesportsdb.com (DOM: 13840). Original recaps stay within copyright rules.</p>
             </div>
           </article>
-          <div class="rea-disclaimer" style="margin-top:16px;padding:12px;border-top:1px solid var(--border);font-size:.75rem;color:var(--muted)">
-            <strong>Data Source Philosophy:</strong> This hub showcases <em>public sports data only</em> — fixtures, results, and scores from officially accessible APIs and public sources.<br/>
-            • TheSportsDB: Official public API (DOM: 13,840)<br/>
-            • sportscore.com: Developer documentation (DOM: 28,720)<br/>
-            • sportsonline.st: Public sports listing (DOM: 8,327)<br/>
-            • news.html: Sports-hub news integration (DOM: 5,313)<br/>
-            • kokasports.com: Live TV fixtures & broadcast listings (REA-analyzed) • updated •r/
-            • iptv-org: M3U sports EPG (DOM-sourced categories, 320+ sports channels)<br/>
-            <br/>
-            <em>No video streams, no unlicensed content.</em> This integration is for <strong>data display and score tracking only</strong>. All content respects copyright; links out to official sources where applicable.<br/>
-            <a href="https://www.thesportsdb.com/api.php" target="_blank" rel="noopener" style="color:var(--acc)">Get your own TheSportsDB API key</a> for production (free test key available for development — rate limits apply).<br/>
-            <a href="https://iptv-org.github.io/iptv/categories/sports.m3u" target="_blank" rel="noopener" style="color:var(--acc);margin-left:12px;text-decoration:underline" title="iPTV-org Sports M3U Playlist" >📡 View iptv-org Sports Channel List</a><br/>
-            <span class="lea-badge" style="color:var(--muted);font-size:.75rem;background:var(--panel2);padding:2px 6px;border-radius:3px;margin-left:12px;display:inline-block;">REA-analyzed: public-data-only sports hub</span>
+                    <div class="rea-disclaimer" style="margin-top:16px;padding:12px;border-top:1px solid var(--border);font-size:.75rem;color:var(--muted)">
+            <strong>Data Source Philosophy:</strong> public sports data only — fixtures, results, scores from official APIs.<br/>
+            TheSportsDB (13,840) · sportscore (28,720) · sportsonline.st (8,327) · kokasports.com · iptv-org (320+ channels).<br/>
+            <em>No video streams, no unlicensed content.</em> Data display & score tracking only. Links to official sources.<br/>
+            <a href="https://www.thesportsdb.com/api.php" target="_blank" rel="noopener" style="color:var(--accent)">Get your own TheSportsDB API key</a> ·
+            <a href="https://iptv-org.github.io/iptv/categories/sports.m3u" target="_blank" rel="noopener" style="color:var(--accent)">📡 iptv-org Sports M3U</a> ·
+            <span style="background:var(--bg-elev);padding:2px 6px;border-radius:3px;">REA-analyzed: public-data-only</span>
+          </div>
 
     <!-- sportsonline.st live match integration (REA-analyzed, data-only) -->
     <div class="sportsonline-integration" style="margin-top:32px;padding:24px;border-radius:var(--radius);background:var(--bg-card);border:1px solid var(--border);">
@@ -79,7 +74,7 @@
       </div>
       <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border);font-size:.75rem;color:var(--muted);">
         Fetched: <span id="sportsonline-fetch-time">never fetched</span> | 
-        <button class="btn tiny" style="padding:4px 8px;font-size:.6rem;" onclick="refreshSportsonlineMatches()">Refresh</button>
+        <button class="btn tiny" style="padding:4px 8px;font-size:.6rem;" data-refresh="sportsonline">Refresh</button>
       </div>      </div>
     </section>
 
@@ -98,7 +93,7 @@
       </div>
       <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border);font-size:.75rem;color:var(--muted);">
         Fetched: <span id="kokasports-fetch-time">never fetched</span> | 
-        <button class="btn tiny" style="padding:4px 8px;font-size:.6rem;" onclick="refreshKokasportsFixtures()">Refresh</button>
+        <button class="btn tiny" style="padding:4px 8px;font-size:.6rem;" data-refresh="kokasports">Refresh</button>
       </div>
     </div>
 
