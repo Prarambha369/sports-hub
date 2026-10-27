@@ -114,5 +114,18 @@
   <script src="assets/js/site.js"></script>
   <script src="assets/js/integrations.js"></script>
 
+  <script>
+    (function () {
+      var map = { football:"Football", cricket:"Cricket", nba:"NBA", nfl:"NFL",
+        f1:"Formula 1", ufc:"UFC", tennis:"Tennis", rugby:"Rugby", golf:"Golf",
+        motogp:"MotoGP", boxing:"Boxing", hockey:"Hockey" };
+      var sp = new URLSearchParams(location.search).get("sport");
+      if (sp && map[sp]) {
+        document.getElementById("news-title").textContent = map[sp] + " News";
+        document.getElementById("news-sub").textContent = "Latest " + map[sp] + " headlines and updates.";
+        document.title = map[sp] + " News | Kick Sports";
+      }
+    })();
+  </script>
 </body>
 </html>
