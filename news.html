@@ -156,8 +156,8 @@
       var html = stored.map(function (ev) {
         var home = esc(ev.strHomeTeam || "Team");
         var away = esc(ev.strAwayTeam || "Team");
-        var score = ev.intHomeScore != null ? intHomeScore : "-";
-        var awayScore = ev.intAwayScore != null ? intAwayScore : "-";
+        var score = ev.intHomeScore != null ? ev.intHomeScore : "-";
+        var awayScore = ev.intAwayScore != null ? ev.intAwayScore : "-";
         var date = ev.dateEvent || "-";
         return '<article class="article">\n            <div class="thumb">⚽</div>\n            <div class="body">\n              <span class="tag">Football</span>\n              <h2>Sample headline: ' + home + ' vs ' + away + '</h2>\n              <p>REA-verified: TheSportsDB public fixtures data. Score via ev_534431a755f3ca0666f87295ef45e45f8d5a4c5b92a64632ce4ae068911f555d. Score: ' + score + ' - ' + awayScore + ' (' + date + ')</p>\n            </div>\n          </article>';
       }).join("");
@@ -221,15 +221,16 @@
         var sportKey = (teams.match(/\b(football|soccer|cricket|nba|nfl|tennis|ufc|rugby|golf|boxing|hockey)\b/i) || [""])[1].toLowerCase() || "sports";
         var icon = sportIcons[sportKey] || '⚽';
         var teamPair = teams.split('|').map(t => t.trim()).filter(t => t)[0] || teams;
-        return '<div style=\"margin-top:12px;\">\n          <div style=\"display:flex; align-items:center; gap:8px; margin-bottom:6px;\">\n            <span style=\"font-size:1.2rem;\">' + icon + '</span>\n            <span style=\"font-weight:600; color:var(--text); font-size:0.9rem;\">' + (teamPair || "Match") + '</span>\n          </div>\n          <button class="btn secondary" style=\"padding:6px 12px; font-size:.75rem;\" onclick="window.open(\"'+ url +'\", \"_blank\"); return false;\">Play</button>\n        </div>';
+        return '<div style=\"margin-top:12px;\">\n          <div style=\"display:flex; align-items:center; gap:8px; margin-bottom:6px;\">\n            <span style=\"font-size:1.2rem;\">' + icon + '</span>\n            <span style=\"font-weight:600; color:var(--text); font-size:0.9rem;\">' + (teamPair || "Match") + '</span>\n          </div>\n          <button class="btn secondary" style=\"padding:6px 12px; font-size:.75rem;\" data-play-url="' + esc(url) + '">Play</button>\n        </div>';
       }).join("");
       // Insert after the integration note
       var note = integrationDiv.querySelector("em");
       if (note) {
-      note.insertAdjacentHTML('afterend', '<div class="auto-matches-section" style="margin-top:8px;padding:4px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border); background:var(--bg-card); padding:8px; border-radius:var(--radius); font-size:.75rem; color:var(--muted);">\n          <div style="margin-bottom:8px;">' + html + '</div>\n          <div style="text-align:right; font-size:.65rem; color:var(--muted); margin-top:4px;">Fetched: ' + (lastSportsonlineFetch ? new Date(localStorage.getItem("sports-hub-last-sportsonline-fetch")).toLocaleTimeString() : 'never fetched') + ' | <button class="btn tiny" style="padding:4px 8px; font-size:.6rem;" onclick="localStorage.removeItem("sports-hub-latest-matches"); localStorage.removeItem("sports-hub-last-sportsonline-fetch"); window.location.reload();">Refresh</button></div>');\n      }
+      note.insertAdjacentHTML('afterend', '<div class="auto-matches-section" style="margin-top:8px;padding:4px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border); background:var(--bg-card); padding:8px; border-radius:var(--radius); font-size:.75rem; color:var(--muted);">\n          <div style="margin-bottom:8px;">' + html + '</div>\n          <div style="text-align:right; font-size:.65rem; color:var(--muted); margin-top:4px;">Fetched: ' + (lastSportsonlineFetch ? new Date(localStorage.getItem("sports-hub-last-sportsonline-fetch")).toLocaleTimeString() : 'never fetched') + ' | <button class="btn tiny" style="padding:4px 8px; font-size:.6rem;" data-refresh="sportsonline">Refresh</button></div>');
+      }
     });function esc(s) {
       return String(s == null ? "" : s).replace(/[&<>\"]/g, function (c) {
-        return { "&": "&", "<": "<", ">": ">", '\"': "\"" }[c];
+        return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
       });
     }
 
@@ -298,15 +299,16 @@
       // Insert after the integration note
       var note = integrationDiv.querySelector("em");
       if (note) {
-        note.insertAdjacentHTML('afterend', '<div class="auto-matches-section" style="margin-top:8px;padding:4px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border); background:var(--bg-card); padding:8px; border-radius:var(--radius); font-size:.75rem; color:var(--muted);">\n          <div style="margin-bottom:8px;">' + html + '</div>\n          <div style="text-align:right; font-size:.65rem; color:var(--muted); margin-top:4px;">Fetched: ' + (lastKokasportsFetch ? new Date(localStorage.getItem("sports-hub-last-kokasports-fetch")).toLocaleTimeString() : 'never fetched') + ' | <button class="btn tiny" style="padding:4px 8px; font-size:.6rem;" onclick="localStorage.removeItem("sports-hub-latest-fixtures"); localStorage.removeItem("sports-hub-last-kokasports-fetch"); window.location.reload();">Refresh</button></div>');\n      }
+        note.insertAdjacentHTML('afterend', '<div class="auto-matches-section" style="margin-top:8px;padding:4px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border); background:var(--bg-card); padding:8px; border-radius:var(--radius); font-size:.75rem; color:var(--muted);">\n          <div style="margin-bottom:8px;">' + html + '</div>\n          <div style="text-align:right; font-size:.65rem; color:var(--muted); margin-top:4px;">Fetched: ' + (lastKokasportsFetch ? new Date(localStorage.getItem("sports-hub-last-kokasports-fetch")).toLocaleTimeString() : 'never fetched') + ' | <button class="btn tiny" style="padding:4px 8px; font-size:.6rem;" data-refresh="kokasports">Refresh</button></div>');
+      }
     });
 
     function esc(s) {
       return String(s == null ? "" : s).replace(/[&<>\"]/g, function (c) {
-        return { "&": "&", "<": "<", ">": ">", '\"': "\"" }[c];
+        return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
       });
     }
-  )();
 </script>
+<script>document.addEventListener("click",function(e){var b=e.target&&e.target.closest?e.target.closest("[data-play-url],[data-refresh]"):null;if(!b)return;if(b.hasAttribute("data-play-url")){window.open(b.getAttribute("data-play-url"),"_blank");e.preventDefault();}else if(b.getAttribute("data-refresh")==="sportsonline"){localStorage.removeItem("sports-hub-latest-matches");localStorage.removeItem("sports-hub-last-sportsonline-fetch");window.location.reload();}else if(b.getAttribute("data-refresh")==="kokasports"){localStorage.removeItem("sports-hub-latest-fixtures");localStorage.removeItem("sports-hub-last-kokasports-fetch");window.location.reload();}});</script>
 </body>
 </html>

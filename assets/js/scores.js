@@ -57,8 +57,8 @@ var IPTV_CATEGORY_LABELS = {
   }
 
   function esc(s) {
-    return String(s == null ? "" : s).replace(/[&<>\"]/g, function (c) {
-      return { "&": "&", "<": "<", ">": ">", '"': """ }[c];
+    return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
     });
   }
 
@@ -117,7 +117,7 @@ var IPTV_CATEGORY_LABELS = {
 
   function initREABadge() {
     var badge = el("div", "rea-badge");
-    badge.innerHTML = '<span style="color:var(--muted);font-size:.75rem;background:var(--panel2);padding:2px 6px;border-radius:3px;">REA-analyzed: public-data-only sports hub</span';
+    badge.innerHTML = '<span style="color:var(--muted);font-size:.75rem;background:var(--bg-elev);padding:2px 6px;border-radius:3px;">REA-analyzed: public-data-only sports hub</span';
     // Insert after the scores widget
     var host = document.getElementById("scores-widget");
     if (host) {
@@ -160,9 +160,10 @@ function toggleStreamLinks(show) {
         host.appendChild(grid);
 
         // League-mapping stream links toggle
+        var linksVisible = false;
         var leaToggle = el("a", "lea-toggle", 'Show stream links');
         leaToggle.href = "#";
-        leaToggle.style.cssText = "color:var(--acc);font-size:.75rem;margin:8px 0 4px;text-decoration:underline;cursor:pointer";
+        leaToggle.style.cssText = "color:var(--accent);font-size:.75rem;margin:8px 0 4px;text-decoration:underline;cursor:pointer";
         leaToggle.onclick = function() {
           var isVisible = !linksVisible;
           toggleStreamLinks(isVisible);
@@ -172,7 +173,6 @@ function toggleStreamLinks(show) {
         host.appendChild(leaToggle);
 
         // Insert stream link capsules under each league card
-        var linksVisible = false;
         LEAGUES.forEach(function (l, i) {
           var cat = LEAGUE_TO_IPTV[l.id];
           if (cat) {

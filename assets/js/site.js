@@ -40,7 +40,7 @@
 
   /* ---------- Footer ---------- */
   function footerHTML() {
-    var year = document.documentElement.getAttribute("data-year") || "2025";
+    var year = new Date().getFullYear();
     return (
       '<footer class="site-footer">' +
         '<div class="container footer-grid">' +
