@@ -25,6 +25,14 @@
     return sportIcons[key] || "⚽";
   }
 
+  function fetchText(url) {
+    return fetch(url).then(function (r) { return r.text(); }).catch(function () {
+      return fetch("https://api.allorigins.win/get?url=" + encodeURIComponent(url))
+        .then(function (r) { return r.json(); })
+        .then(function (d) { return (d && d.contents) ? d.contents : ""; });
+    });
+  }
+
   function fetchSportsonline(force) {
     var last = localStorage.getItem(SPORTSONLINE_TIME);
     var now = Date.now();
@@ -32,7 +40,7 @@
       try { return Promise.resolve(JSON.parse(localStorage.getItem(SPORTSONLINE_KEY) || "[]")); }
       catch (e) { return Promise.resolve([]); }
     }
-    return fetch("https://sportsonline.st").then(function (r) { return r.text(); }).then(function (text) {
+    return fetchText("https://sportsonline.st").then(function (text) {
       var matches = [];
       var lines = text.split("\n");
       for (var i = 0; i < lines.length; i++) {
@@ -54,7 +62,7 @@
       try { return Promise.resolve(JSON.parse(localStorage.getItem(KOKA_KEY) || "[]")); }
       catch (e) { return Promise.resolve([]); }
     }
-    return fetch("https://www.kokasports.com/").then(function (r) { return r.text(); }).then(function (text) {
+    return fetchText("https://www.kokasports.com/").then(function (text) {
       var fixtures = [];
       var onTv = text.match(/On TV Today[\s\S]{0,3000}/);
       if (onTv) {
