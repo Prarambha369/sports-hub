@@ -267,6 +267,7 @@
           // Store fixtures for display (limit to 8 for performance)
           if (fixtures.length > 0) {
             localStorage.setItem("sports-hub-latest-fixtures", JSON.stringify(fixtures.slice(0, 8)));
+            localStorage.setItem("sports-hub-last-kokasports-fetch", Date.now());
           }
         })
         .catch(function () { /* silent fail */ });
