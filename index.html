@@ -77,6 +77,21 @@
         </div>
       </div>
     </section>
+
+    <!-- Live On TV Today (REA-analyzed, kokasports.com-inspired) -->
+    <section class="section" style="margin:32px 0;padding:24px;border-radius:var(--radius);background:var(--bg-card);border:1px solid var(--border);">
+      <div class="container">
+        <h2>Live On TV Today</h2>
+        <p class="sub">Today"s sports fixtures and broadcasters — data from publicly accessible TV listings</p>
+        <div class="match-grid" style="display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));margin-top:16px;">
+          <!-- Matches injected by JavaScript -->
+        </div>
+        <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border);font-size:.75rem;color:var(--muted);">
+          Fetched: <span id="kokasports-fetch-time-home">never fetched</span> | 
+          <button class="btn tiny" style="padding:4px 8px;font-size:.6rem;" onclick="refreshKokasportsFixturesHome()">Refresh</button>
+        </div>
+      </div>
+    </section>
 <!-- Ad: in-content -->
     <div class="container">
       <div class="ad-slot" aria-hidden="true">
@@ -123,7 +138,67 @@
               var teams = matchLine[2].trim();
               var url = matchLine[3];
               matches.push({ time: time, teams: teams, url: url });
+
+    // Kokasports fixtures fetch and display
+    // Initial fetch on page load
+    (function () {
+      var lastFetch = localStorage.getItem("home-kokasports-fetch");
+      var now = Date.now();
+      // Fetch at most once per 6 hours
+      if (lastFetch && now - lastFetch < 21600000) {
+        // Load cached fixtures
+        var cachedFixtures = JSON.parse(localStorage.getItem("home-sportsonline-fixtures") || "[]");
+        displayHomeKokasportsFixtures(cachedFixtures);
+        return;
+      }
+      fetch("https://www.kokasports.com/")
+        .then(function (r) { return r.text(); })
+        .then(function (text) {
+          var fixtures = [];
+          // Look for "On TV Today" section with match data
+          var onTvMatch = text.match(/On TV Today[\s\S]{0,3000}/);
+          if (onTvMatch) {
+            var section = onTvMatch[0];
+            var lines = section.split("\n");
+            for (var i = 0; i < lines.length; i++) {
+              var line = lines[i];
+              var tvMatch = line.match(/(\w+day\s\d+\s\w+)\n([^<>]+)\n([^<>]+)/i);
+              if (tvMatch) {
+                var dateTime = tvMatch[1].trim();
+                var competition = tvMatch[2].trim();
+                var broadcaster = tvMatch[3] ? tvMatch[3].replace(/[()]/g, "").trim() : "-";
+                fixtures.push({ dateTime: dateTime, competition: competition, broadcaster: broadcaster });
+              }
             }
+          }
+          // Store fixtures for display (limit to 8 for performance)
+          if (fixtures.length > 0) {
+            localStorage.setItem("home-sportsonline-fixtures", JSON.stringify(fixtures.slice(0, 8)));
+          }
+          displayHomeKokasportsFixtures(fixtures);
+        })
+        .catch(function () { /* silent fail */ });
+    })();
+
+    function displayHomeKokasportsFixtures(fixtures) {
+      var container = document.querySelector(".match-grid");
+      if (!container) return;
+      var html = fixtures.map(function (fixture) {
+        var dateTime = fixture.dateTime || "-";
+        var competition = fixture.competition || "-";
+        var broadcaster = fixture.broadcaster || "-";
+        var sportKey = (competition.match(/\b(football|soccer|cricket|nba|nfl|tennis|ufc|rugby|golf|boxing|hockey)\b/i) || [""])[1].toLowerCase() || "sports";
+        var icon = {football: '⚽', soccer: '⚽', cricket: '🏏', nba: '🏀', nfl: '🏈', tennis: '🎾', ufc: '🥊', rugby: '🏉', golf: '⛳', moto gp: '🏍️', boxing: '🥋', hockey: '🏒'}[sportKey] || '⚽';
+        return '<div style=\"margin-top:12px;\">\n          <div style=\"display:flex; align-items:center; gap:8px; margin-bottom:6px;\">\n            <span style=\"font-size:1.2rem;\">' + icon + '</span>\n            <span style=\"font-weight:600; color:var(--text); font-size:0.9rem;\">' + competition + '</span>\n          </div>\n          <div style=\"font-size:.8rem; color:var(--muted);\">Broadcast: ' + broadcaster + '</div>\n        </div>';
+      }).join("");
+      container.innerHTML = html;
+    }
+
+    function refreshKokasportsFixturesHome() {
+      localStorage.removeItem("home-sportsonline-fixtures");
+      localStorage.removeItem("home-kokasports-fetch");
+      window.location.reload();
+    }            }
           }
           homeSportsonlineMatches = matches;
           localStorage.setItem("home-sportsonline-matches", JSON.stringify(matches));

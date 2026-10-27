@@ -56,6 +56,7 @@
             • sportscore.com: Developer documentation (DOM: 28,720)<br/>
             • sportsonline.st: Public sports listing (DOM: 8,327)<br/>
             • news.html: Sports-hub news integration (DOM: 5,313)<br/>
+            • kokasports.com: Live TV fixtures & broadcast listings (REA-analyzed)<br/>
             • iptv-org: M3U sports EPG (DOM-sourced categories, 320+ sports channels)<br/>
             <br/>
             <em>No video streams, no unlicensed content.</em> This integration is for <strong>data display and score tracking only</strong>. All content respects copyright; links out to official sources where applicable.<br/>
@@ -79,11 +80,27 @@
       <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border);font-size:.75rem;color:var(--muted);">
         Fetched: <span id="sportsonline-fetch-time">never fetched</span> | 
         <button class="btn tiny" style="padding:4px 8px;font-size:.6rem;" onclick="refreshSportsonlineMatches()">Refresh</button>
+      </div>      </div>
+    </section>
+
+    <!-- Live On TV Today (REA-analyzed, kokasports.com-inspired) -->
+    <div class="sportsonline-integration" style="margin:32px 0;padding:24px;border-radius:var(--radius);background:var(--bg-card);border:1px solid var(--border);">
+      <h4 style="margin:0 0 16px;color:var(--text);font-family:var(--ff-heading);font-size:1.1rem;">
+        Live On TV Today
+        <span class="update-badge cached" id="kokasports-fetch-status">💾 Cached</span>
+      </h4>
+      <p style="margin:0 0 16px;color:var(--muted);font-size:.9rem;">
+        Today"s sports fixtures and broadcasters — data from publicly accessible TV listings. 
+        <a href="https://www.kokasports.com" target="_blank" style="color:var(--accent);text-decoration:underline;">Visit kokasports.com for full schedule</a>
+      </p>
+      <div class="match-grid" style="display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));margin-top:16px;">
+        <!-- Matches injected by JavaScript -->
+      </div>
+      <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border);font-size:.75rem;color:var(--muted);">
+        Fetched: <span id="kokasports-fetch-time">never fetched</span> | 
+        <button class="btn tiny" style="padding:4px 8px;font-size:.6rem;" onclick="refreshKokasportsFixtures()">Refresh</button>
       </div>
     </div>
-</div>
-      </div>
-    </section>
 
     <!-- Ad: in-content -->
     <div class="container">
@@ -210,6 +227,77 @@
       var note = integrationDiv.querySelector("em");
       if (note) {
       note.insertAdjacentHTML('afterend', '<div class="auto-matches-section" style="margin-top:8px;padding:4px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border); background:var(--bg-card); padding:8px; border-radius:var(--radius); font-size:.75rem; color:var(--muted);">\n          <div style="margin-bottom:8px;">' + html + '</div>\n          <div style="text-align:right; font-size:.65rem; color:var(--muted); margin-top:4px;">Fetched: ' + (lastSportsonlineFetch ? new Date(localStorage.getItem("sports-hub-last-sportsonline-fetch")).toLocaleTimeString() : 'never fetched') + ' | <button class="btn tiny" style="padding:4px 8px; font-size:.6rem;" onclick="localStorage.removeItem("sports-hub-latest-matches"); localStorage.removeItem("sports-hub-last-sportsonline-fetch"); window.location.reload();">Refresh</button></div>');\n      }
+    });function esc(s) {
+      return String(s == null ? "" : s).replace(/[&<>\"]/g, function (c) {
+        return { "&": "&", "<": "<", ">": ">", '\"': "\"" }[c];
+      });
+    }
+
+    // Fetch latest fixtures from kokasports.com (REA-analyzed, data-only)
+    (function () {
+      var lastFetch = localStorage.getItem("sports-hub-last-kokasports-fetch");
+      var now = Date.now();
+      // Fetch at most once per 6 hours (21600000 ms) - respect rate limits
+      if (lastFetch && now - lastFetch < 21600000) {
+        return; // Skip — within 6-hour window
+      }
+      fetch("https://www.kokasports.com/")
+        .then(function (r) { return r.text(); })
+        .then(function (text) {
+          // Extract on-TV fixtures from the page
+          var fixtures = [];
+          // Look for "On TV Today" section with match data
+          var onTvMatch = text.match(/On TV Today[\s\S]{0,3000}/);
+          if (onTvMatch) {
+            var section = onTvMatch[0];
+            // Extract fixture lines with time, competition, broadcaster
+            var lines = section.split("\n");
+            for (var i = 0; i < lines.length; i++) {
+              var line = lines[i];
+              // Match format: "Date & Time\nCompetition\nBroadcaster(s)"
+              var tvMatch = line.match(/(\w+day\s\d+\s\w+)\n([^<>]+)\n([^<>]+)/i);
+              if (tvMatch) {
+                var dateTime = tvMatch[1].trim();
+                var competition = tvMatch[2].trim();
+                var broadcaster = tvMatch[3] ? tvMatch[3].replace(/[()]/g, "").trim() : "-";
+                fixtures.push({ dateTime: dateTime, competition: competition, broadcaster: broadcaster });
+              }
+            }
+          }
+          // Store fixtures for display (limit to 8 for performance)
+          if (fixtures.length > 0) {
+            localStorage.setItem("sports-hub-latest-fixtures", JSON.stringify(fixtures.slice(0, 8)));
+          }
+        })
+        .catch(function () { /* silent fail */ });
+    })();
+
+    // Display auto-fetched kokasports.com fixtures
+    document.addEventListener("DOMContentLoaded", function () {
+      var stored = JSON.parse(localStorage.getItem("sports-hub-latest-fixtures") || "[]");
+      var lastKokasportsFetch = localStorage.getItem("sports-hub-last-kokasports-fetch");
+      var fetchStatus = lastKokasportsFetch ? "cached" : "fresh fetch";
+      var integrationDiv = document.querySelector(".sportsonline-integration");
+      if (!stored.length || !integrationDiv) return;
+      // Sport icons mapping
+      var sportIcons = {
+        'football': '⚽', 'soccer': '⚽', 'cricket': '🏏', 'nba': '🏀', 'nfl': '🏈',
+        'tennis': '🎾', 'ufc': '🥊', 'rugby': '🏉', 'golf': '⛳', 'moto gp': '🏍️',
+        'boxing': '🥋', 'hockey': '🏒'
+      };
+      var html = stored.map(function (fixture) {
+        var dateTime = fixture.dateTime || "-";
+        var competition = fixture.competition || "-";
+        var broadcaster = fixture.broadcaster || "-";
+        // Extract sport from competition text for thumbnail
+        var sportKey = (competition.match(/\b(football|soccer|cricket|nba|nfl|tennis|ufc|rugby|golf|boxing|hockey)\b/i) || [""])[1].toLowerCase() || "sports";
+        var icon = sportIcons[sportKey] || '⚽';
+        return '<div style=\"margin-top:12px;\">\n          <div style=\"display:flex; align-items:center; gap:8px; margin-bottom:6px;\">\n            <span style=\"font-size:1.2rem;\">' + icon + '</span>\n            <span style=\"font-weight:600; color:var(--text); font-size:0.9rem;\">' + competition + '</span>\n          </div>\n          <div style=\"font-size:.8rem; color:var(--muted);\">Broadcast: ' + broadcaster + '</div>\n        </div>';
+      }).join("");
+      // Insert after the integration note
+      var note = integrationDiv.querySelector("em");
+      if (note) {
+        note.insertAdjacentHTML('afterend', '<div class="auto-matches-section" style="margin-top:8px;padding:4px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border); background:var(--bg-card); padding:8px; border-radius:var(--radius); font-size:.75rem; color:var(--muted);">\n          <div style="margin-bottom:8px;">' + html + '</div>\n          <div style="text-align:right; font-size:.65rem; color:var(--muted); margin-top:4px;">Fetched: ' + (lastKokasportsFetch ? new Date(localStorage.getItem("sports-hub-last-kokasports-fetch")).toLocaleTimeString() : 'never fetched') + ' | <button class="btn tiny" style="padding:4px 8px; font-size:.6rem;" onclick="localStorage.removeItem("sports-hub-latest-fixtures"); localStorage.removeItem("sports-hub-last-kokasports-fetch"); window.location.reload();">Refresh</button></div>');\n      }
     });
 
     function esc(s) {
@@ -218,6 +306,6 @@
       });
     }
   )();
-  </script>
+</script>
 </body>
 </html>
