@@ -6,9 +6,10 @@ A sports news and fixtures website with live match integration and TV schedule l
 
 - **Sports News**: Breaking news, top stories and daily updates across football, cricket, NBA, NFL, F1 and more
 - **Live Match Integration**: 24/7 sports channels from sportsonline.st with fetch status and refresh capability
-- **Live On TV Today**: TV fixture listings from kokasports.com with broadcast information
+- **Live On TV Today**: TV fixture listings from kokasports.com with broadcast information, refreshed every 3 hours by a GitHub Action
+- **Watch: official highlights**: multi-source player for official league YouTube channels (Premier League, Bundesliga, Serie A, ICC, NHL, ATP, WTA, Wimbledon, World Rugby, MotoGP, UFC)
 - **Auto-Updated News**: Every 3 hours with fresh/cached badge
-- **REA-analyzed**: Public sports data only - no video streams, no unlicensed content
+- **REA-analyzed**: Public sports data only - no live streams hosted; video limited to official league channels via YouTube's embed player
 
 ## Pages
 
@@ -37,19 +38,26 @@ A sports news and fixtures website with live match integration and TV schedule l
 - Fetch status: "Fetched: [time]" or "never fetched"
 - 6-hour caching with Refresh button
 
-### kokasports.com
+### kokasports.com ("On TV Today")
 
-- Fetches "On TV Today" section with fixture listings
-- Extracts: competition names, broadcast channels, times
-- Display with sport icons (⚽/🏏/🏀/etc.) and broadcast info
-- Play buttons open kokasports.com scheduling URLs in new tab
-- Fetch status: cached every 6 hours with Refresh button
+- kokasports.com sends no CORS headers, so the browser can't read it directly
+- `scripts/fetch_tv.py` (stdlib Python) parses the "On TV Today" table into `data/tv-today.json`
+- `.github/workflows/tv-listings.yml` runs it every 3 hours and commits the JSON; Pages redeploys after it
+- The page reads the same-origin JSON: fixture, time (ET), competition and broadcaster chips
+- Run locally: `python3 scripts/fetch_tv.py`
+
+### Watch: official highlights
+
+- `assets/js/watch.js` — one tab per official league channel, plays the channel's long-form uploads playlist
+- Nothing loads from YouTube until the visitor clicks "Load player" (youtube-nocookie.com)
+- Only channels that allow embedding are listed; F1, NBA, NFL, FIFA, LaLiga, UEFA, MLB, PGA Tour, IPL and MLS block playback on other sites
+- Each source has an "Open on YouTube" link
 
 ## REA Framework
 
 This hub showcases **public sports data only** — fixtures, results, and scores from officially accessible APIs and public sources.
 
-- **No video streams**, no unlicensed content
+- **No live streams hosted**, no unlicensed content; highlight videos come only from official league channels
 - This integration is for **data display and score tracking only**
 - All content respects copyright; links out to official sources where applicable
 

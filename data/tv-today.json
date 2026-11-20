@@ -1,0 +1,189 @@
+{
+ "source": "https://www.kokasports.com/",
+ "fetchedAt": "2026-11-19T21:04:14+00:00",
+ "date": "Thursday 19th November 2026",
+ "timezone": "ET",
+ "fixtures": [
+  {
+   "title": "NCAA Singles and Doubles Tennis Championships Round of 16 (Athens, GA)",
+   "sport": "Tennis",
+   "time": "10:00 AM",
+   "day": "Thu 19 Nov",
+   "competition": "Tennis",
+   "broadcasters": [
+    "ESPN+",
+    "ESPN Select/Unlimited"
+   ]
+  },
+  {
+   "title": "WBCA Showcase: Purdue vs. Florida State (Kissimmee, FL)",
+   "sport": "Women's college basketball",
+   "time": "11:00 AM",
+   "day": "Thu 19 Nov",
+   "competition": "Women's college basketball",
+   "broadcasters": [
+    "ESPNU",
+    "ESPN Unlimited"
+   ]
+  },
+  {
+   "title": "Players Era Eight: tbd vs. tbd (Third-Place Game - Las Vegas, NV)",
+   "sport": "Men's college basketball",
+   "time": "2:30 PM",
+   "day": "Thu 19 Nov",
+   "competition": "Men's college basketball",
+   "broadcasters": [
+    "ESPN",
+    "ESPN Unlimited"
+   ]
+  },
+  {
+   "title": "Players Era Eight: tbd vs. tbd (Fifth-Place Game - Las Vegas, NV)",
+   "sport": "Men's college basketball",
+   "time": "5:00 PM",
+   "day": "Thu 19 Nov",
+   "competition": "Men's college basketball",
+   "broadcasters": [
+    "ESPN",
+    "ESPN Unlimited"
+   ]
+  },
+  {
+   "title": "Baha Mar Championship: NC State vs. Murray State (Semifinal #1 - Nassau, Bahamas)",
+   "sport": "Men's college basketball",
+   "time": "6:00 PM",
+   "day": "Thu 19 Nov",
+   "competition": "Men's college basketball",
+   "broadcasters": [
+    "CBSSN"
+   ]
+  },
+  {
+   "title": "Buffalo Sabres vs. Washington Capitals",
+   "sport": "NHL",
+   "time": "7:00 PM",
+   "day": "Thu 19 Nov",
+   "competition": "NHL",
+   "broadcasters": [
+    "NHL Power Play on ESPN+",
+    "MSG-B",
+    "MNMT"
+   ]
+  },
+  {
+   "title": "Los Angeles Kings vs. Toronto Maple Leafs",
+   "sport": "NHL",
+   "time": "7:00 PM",
+   "day": "Thu 19 Nov",
+   "competition": "NHL",
+   "broadcasters": [
+    "NHL Power Play on ESPN+",
+    "ABTV",
+    "SNE",
+    "SNO"
+   ]
+  },
+  {
+   "title": "Montreal Canadiens vs. Carolina Hurricanes",
+   "sport": "NHL",
+   "time": "7:00 PM",
+   "day": "Thu 19 Nov",
+   "competition": "NHL",
+   "broadcasters": [
+    "NHL Power Play on ESPN+",
+    "RDS",
+    "TSN2",
+    "TSN Premium",
+    "CARNHL",
+    "HHN"
+   ]
+  },
+  {
+   "title": "New York Islanders vs. Winnipeg Jets",
+   "sport": "NHL",
+   "time": "7:00 PM",
+   "day": "Thu 19 Nov",
+   "competition": "NHL",
+   "broadcasters": [
+    "NHL Power Play on ESPN+",
+    "MSGSN",
+    "TSN3",
+    "TSN Premium"
+   ]
+  },
+  {
+   "title": "Rice vs. Temple",
+   "sport": "College Football",
+   "time": "7:30 PM",
+   "day": "Thu 19 Nov",
+   "competition": "College Football",
+   "broadcasters": [
+    "ESPN",
+    "ESPN Unlimited"
+   ]
+  },
+  {
+   "title": "Golden State Warriors vs. Memphis Grizzlies",
+   "sport": "NBA",
+   "time": "8:00 PM",
+   "day": "Thu 19 Nov",
+   "competition": "NBA",
+   "broadcasters": [
+    "NBA League Pass",
+    "NBCSBA",
+    "Peacock",
+    "DAZN"
+   ]
+  },
+  {
+   "title": "Los Angeles Clippers vs. San Antonio Spurs",
+   "sport": "NBA",
+   "time": "8:00 PM",
+   "day": "Thu 19 Nov",
+   "competition": "NBA",
+   "broadcasters": [
+    "NBA League Pass",
+    "KTLA-CW",
+    "ClipperVision",
+    "DAZN"
+   ]
+  },
+  {
+   "title": "New York Knicks vs. Minnesota Timberwolves",
+   "sport": "NBA",
+   "time": "8:00 PM",
+   "day": "Thu 19 Nov",
+   "competition": "NBA",
+   "broadcasters": [
+    "NBA TV",
+    "MSG",
+    "DAZN"
+   ]
+  },
+  {
+   "title": "Portland Trail Blazers vs. Milwaukee Bucks",
+   "sport": "NBA",
+   "time": "8:00 PM",
+   "day": "Thu 19 Nov",
+   "competition": "NBA",
+   "broadcasters": [
+    "NBA League Pass",
+    "KUNP-IND",
+    "BlazerVision",
+    "WCGV-My24",
+    "Bucks+"
+   ]
+  },
+  {
+   "title": "Thursday Night Football: Indianapolis Colts vs. Houston Texans",
+   "sport": "NFL",
+   "time": "8:15 PM",
+   "day": "Thu 19 Nov",
+   "competition": "NFL",
+   "broadcasters": [
+    "Prime Video",
+    "NFL+"
+   ]
+  }
+ ]
+}

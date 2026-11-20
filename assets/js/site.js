@@ -64,7 +64,8 @@
         "</div>" +
         '<div class="disclaimer-strip container">DISCLAIMER: ' + BRAND +
           " publishes sports news and publicly available score data only. We do not host, " +
-          "stream, or distribute any live match footage. Always verify with official sources.</div>" +
+          "stream, or distribute any live match footage; highlight videos play from the leagues' official YouTube channels. " +
+          "Always verify with official sources.</div>" +
         '<div class="footer-bottom">&copy; ' + year + " " + BRAND +
           '. All rights reserved. &middot; <a href="#" data-cookie-reopen>Cookie settings</a></div>' +
       "</footer>"

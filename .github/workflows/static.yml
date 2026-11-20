@@ -2,6 +2,11 @@ name: Deploy static content to Pages
 on:
   push:
     branches: ["main"]
+  # Pushes made with GITHUB_TOKEN don't trigger `push`, so redeploy after the data refresh.
+  workflow_run:
+    workflows: ["TV listings refresh"]
+    types: [completed]
+    branches: ["main"]
   workflow_dispatch:
 permissions:
   contents: read
@@ -12,6 +17,8 @@ concurrency:
   cancel-in-progress: true
 jobs:
   deploy:
+    # After a TV-listings run, only redeploy if that run succeeded.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

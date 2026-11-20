@@ -19,6 +19,7 @@
         <div class="cta">
           <a class="btn primary" href="news.html">Read the news</a>
           <a class="btn" href="#scores">Live scores</a>
+          <a class="btn" href="#watch">Watch highlights</a>
         </div>
       </div>
     </section>
@@ -54,7 +55,7 @@
     <section class="section" id="scores">
       <div class="container">
         <h2>Live scores</h2>
-        <p class="sub">Powered by a third-party sports-data widget (score data only &mdash; no video).</p>
+        <p class="sub">Recent results from TheSportsDB public data.</p>
         <div class="widget-wrap">
           <!-- scores.js renders public fixtures/results here (score data only, no video). -->
           <div id="scores-widget"></div>
@@ -62,13 +63,21 @@
       </div>
     </section>
 
-    
+    <!-- Official highlights: multi-source player (licensed league channels only) -->
+    <section class="section" id="watch">
+      <div class="container">
+        <h2>Watch: official highlights</h2>
+        <p class="sub">Highlights and recaps from the leagues' own YouTube channels. Switch source with the tabs.</p>
+        <div id="watch-player" class="watch"></div>
+      </div>
+    </section>
+
     <!-- sportsonline.st dynamic matches -->
     <section class="section" id="sportsonline-matches">
       <div class="container">
         <h2>Live Match Integration</h2>
         <p class="sub">24/7 sports channels from sportsonline.st — no unlicensed video streams</p>
-        <div class="match-grid sportsonline-match-grid" style="display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));margin-top:32px;">
+        <div class="match-grid sportsonline-match-grid">
           <!-- Matches injected by JavaScript -->
         </div>
         <div style="margin-top:24px;padding-top:16px;border-top:1px solid var(--border);font-size:.75rem;color:var(--muted);">
@@ -79,11 +88,11 @@
     </section>
 
     <!-- Live On TV Today (REA-analyzed, kokasports.com-inspired) -->
-    <section class="section" id="kokasports-tv-section" style="margin:32px 0;padding:24px;border-radius:var(--radius);background:var(--bg-card);border:1px solid var(--border);">
+    <section class="section" id="kokasports-tv-section">
       <div class="container">
         <h2>Live On TV Today</h2>
-        <p class="sub">Today"s sports fixtures and broadcasters — data from publicly accessible TV listings</p>
-        <div class="match-grid kokasports-match-grid" style="display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));margin-top:16px;">
+        <p class="sub">Today’s fixtures and the official broadcasters showing them. Times in ET.</p>
+        <div class="match-grid tv-grid kokasports-match-grid">
           <!-- Matches injected by JavaScript -->
         </div>
         <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border);font-size:.75rem;color:var(--muted);">
@@ -103,8 +112,7 @@
   <div id="site-footer"></div>
   <script src="assets/js/site.js"></script>
   <script src="assets/js/scores.js"></script>
-
-    <script src="assets/js/integrations.js"></script>
-    
+  <script src="assets/js/integrations.js"></script>
+  <script src="assets/js/watch.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 /* ====================================================================
    scores.js — fetches public fixtures/results from TheSportsDB and
-   renders score cards. SCORE DATA ONLY (no video/streams).
+   renders score cards. Score data only.
 
    TheSportsDB: https://www.thesportsdb.com/api/
    - Free test API key works for development.
@@ -20,8 +20,8 @@
     { id: 4328, label: "Premier League", icon: "⚽", sport: "football" },
     { id: 4387, label: "NBA", icon: "🏀", sport: "basketball" },
     { id: 4391, label: "NFL", icon: "🏈", sport: "american_football" },
-    { id: 4395, label: "MLB", icon: "⚾", sport: "baseball" },
-    { id: 4396, label: "NHL", icon: "🏒", sport: "hockey" }
+    { id: 4424, label: "MLB", icon: "⚾", sport: "baseball" },
+    { id: 4380, label: "NHL", icon: "🏒", sport: "hockey" }
   ];
 
 // TheSportsDB → iptv-org channel mapping (league ID → iptv category name)
@@ -35,9 +35,9 @@ var LEAGUE_TO_IPTV = {
   // American football mappings
   '4391': 'american_football', // NFL
   // Baseball mappings
-  '4395': 'baseball',     // MLB
+  '4424': 'baseball',     // MLB
   // Hockey mappings
-  '4396': 'hockey'      // NHL
+  '4380': 'hockey'      // NHL
 };
 
 // Mapping of iptv-org category names to display names
@@ -93,7 +93,10 @@ var IPTV_CATEGORY_LABELS = {
     // "eventspastleague" returns recent results. Falls back gracefully.
     return fetch(BASE + "/eventspastleague.php?id=" + id)
       .then(function (r) { return r.ok ? r.json() : { events: null }; })
-      .then(function (d) { return (d && d.events) || []; })
+      // Defensive: only keep events that belong to the requested league.
+      .then(function (d) {
+        return ((d && d.events) || []).filter(function (ev) { return String(ev.idLeague) === String(id); });
+      })
       .catch(function () { return []; });
   }
 
@@ -117,7 +120,7 @@ var IPTV_CATEGORY_LABELS = {
 
   function initREABadge() {
     var badge = el("div", "rea-badge");
-    badge.innerHTML = '<span style="color:var(--muted);font-size:.75rem;background:var(--bg-elev);padding:2px 6px;border-radius:3px;">REA-analyzed: public-data-only sports hub</span';
+    badge.innerHTML = '<span style="color:var(--muted);font-size:.75rem;background:var(--bg-elev);padding:2px 6px;border-radius:3px;">REA-analyzed: public-data-only sports hub</span>';
     // Insert after the scores widget
     var host = document.getElementById("scores-widget");
     if (host) {
@@ -138,7 +141,8 @@ function toggleStreamLinks(show) {
   // Update the toggle text
   var toggle = document.getElementById('lea-toggle');
   if (toggle) {
-    toggle.innerHTML = show ? 'Hide stream links' : 'Show stream links';
+    toggle.textContent = show ? 'Hide stream links' : 'Show stream links';
+    toggle.setAttribute('aria-expanded', String(show));
   }
 }
 
@@ -161,9 +165,11 @@ function toggleStreamLinks(show) {
 
         // League-mapping stream links toggle
         var linksVisible = false;
-        var leaToggle = el("a", "lea-toggle", 'Show stream links');
-        leaToggle.href = "#";
-        leaToggle.style.cssText = "color:var(--accent);font-size:.75rem;margin:8px 0 4px;text-decoration:underline;cursor:pointer";
+        var leaToggle = el("button", "lea-toggle", 'Show stream links');
+        leaToggle.id = "lea-toggle";
+        leaToggle.type = "button";
+        leaToggle.setAttribute("aria-expanded", "false");
+        leaToggle.style.cssText = "background:none;border:0;padding:0;font:inherit;color:var(--accent);font-size:.75rem;margin:8px 0 4px;text-decoration:underline;cursor:pointer";
         leaToggle.onclick = function() {
           var isVisible = !linksVisible;
           toggleStreamLinks(isVisible);
