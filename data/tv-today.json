@@ -1,14 +1,57 @@
 {
  "source": "https://www.kokasports.com/",
- "fetchedAt": "2026-11-19T21:04:14+00:00",
- "date": "Thursday 19th November 2026",
+ "fetchedAt": "2026-11-21T00:00:21+00:00",
+ "date": "Saturday 21st November 2026",
  "timezone": "ET",
  "fixtures": [
   {
-   "title": "NCAA Singles and Doubles Tennis Championships Round of 16 (Athens, GA)",
+   "title": "Colorado vs. Cincinnati",
+   "sport": "College Football",
+   "time": "12:00 PM",
+   "day": "Sat 21 Nov",
+   "competition": "College Football",
+   "broadcasters": [
+    "ESPN+",
+    "ESPN Select/Unlimited"
+   ]
+  },
+  {
+   "title": "East Carolina vs. Army",
+   "sport": "College Football",
+   "time": "12:00 PM",
+   "day": "Sat 21 Nov",
+   "competition": "College Football",
+   "broadcasters": [
+    "CBSSN"
+   ]
+  },
+  {
+   "title": "Memphis vs. Navy",
+   "sport": "College Football",
+   "time": "12:00 PM",
+   "day": "Sat 21 Nov",
+   "competition": "College Football",
+   "broadcasters": [
+    "ESPN platform tbd",
+    "ESPN Unlimited"
+   ]
+  },
+  {
+   "title": "Detroit vs. #5 Michigan State",
+   "sport": "Men's college basketball",
+   "time": "12:00 PM",
+   "day": "Sat 21 Nov",
+   "competition": "Men's college basketball",
+   "broadcasters": [
+    "BTN",
+    "FOX One"
+   ]
+  },
+  {
+   "title": "NCAA Singles and Doubles Tennis Championships Semifinals (Athens, GA)",
    "sport": "Tennis",
-   "time": "10:00 AM",
-   "day": "Thu 19 Nov",
+   "time": "12:00 PM",
+   "day": "Sat 21 Nov",
    "competition": "Tennis",
    "broadcasters": [
     "ESPN+",
@@ -16,173 +59,129 @@
    ]
   },
   {
-   "title": "WBCA Showcase: Purdue vs. Florida State (Kissimmee, FL)",
+   "title": "Milwaukee Bucks vs. Philadelphia 76ers",
+   "sport": "NBA",
+   "time": "1:00 PM",
+   "day": "Sat 21 Nov",
+   "competition": "NBA",
+   "broadcasters": [
+    "NBA League Pass",
+    "WCGV-My24",
+    "Bucks+",
+    "NBCSP",
+    "Peacock"
+   ]
+  },
+  {
+   "title": "Edmonton Oilers vs. Carolina Hurricanes",
+   "sport": "NHL",
+   "time": "1:00 PM",
+   "day": "Sat 21 Nov",
+   "competition": "NHL",
+   "broadcasters": [
+    "NHL Power Play on ESPN+",
+    "CARNHL",
+    "HHN",
+    "SN",
+    "SN+"
+   ]
+  },
+  {
+   "title": "#1 South Carolina vs. Providence",
    "sport": "Women's college basketball",
-   "time": "11:00 AM",
-   "day": "Thu 19 Nov",
+   "time": "1:30 PM",
+   "day": "Sat 21 Nov",
    "competition": "Women's college basketball",
    "broadcasters": [
-    "ESPNU",
-    "ESPN Unlimited"
+    "Peacock",
+    "NBCSN"
    ]
   },
   {
-   "title": "Players Era Eight: tbd vs. tbd (Third-Place Game - Las Vegas, NV)",
-   "sport": "Men's college basketball",
-   "time": "2:30 PM",
-   "day": "Thu 19 Nov",
-   "competition": "Men's college basketball",
-   "broadcasters": [
-    "ESPN",
-    "ESPN Unlimited"
-   ]
-  },
-  {
-   "title": "Players Era Eight: tbd vs. tbd (Fifth-Place Game - Las Vegas, NV)",
-   "sport": "Men's college basketball",
-   "time": "5:00 PM",
-   "day": "Thu 19 Nov",
-   "competition": "Men's college basketball",
-   "broadcasters": [
-    "ESPN",
-    "ESPN Unlimited"
-   ]
-  },
-  {
-   "title": "Baha Mar Championship: NC State vs. Murray State (Semifinal #1 - Nassau, Bahamas)",
-   "sport": "Men's college basketball",
-   "time": "6:00 PM",
-   "day": "Thu 19 Nov",
-   "competition": "Men's college basketball",
-   "broadcasters": [
-    "CBSSN"
-   ]
-  },
-  {
-   "title": "Buffalo Sabres vs. Washington Capitals",
+   "title": "Chicago Blackhawks vs. Calgary Flames",
    "sport": "NHL",
-   "time": "7:00 PM",
-   "day": "Thu 19 Nov",
+   "time": "3:30 PM",
+   "day": "Sat 21 Nov",
+   "competition": "NHL",
+   "broadcasters": [
+    "NHL Power Play on ESPN+",
+    "CHSN",
+    "SN",
+    "SN+",
+    "SN1"
+   ]
+  },
+  {
+   "title": "Buffalo Sabres vs. Florida Panthers",
+   "sport": "NHL",
+   "time": "6:00 PM",
+   "day": "Sat 21 Nov",
    "competition": "NHL",
    "broadcasters": [
     "NHL Power Play on ESPN+",
     "MSG-B",
-    "MNMT"
+    "SCRIPPS"
    ]
   },
   {
-   "title": "Los Angeles Kings vs. Toronto Maple Leafs",
+   "title": "Pittsburgh Penguins vs. Nashville Predators",
    "sport": "NHL",
-   "time": "7:00 PM",
-   "day": "Thu 19 Nov",
+   "time": "6:00 PM",
+   "day": "Sat 21 Nov",
    "competition": "NHL",
    "broadcasters": [
     "NHL Power Play on ESPN+",
-    "ABTV",
-    "SNE",
-    "SNO"
+    "SN-PIT",
+    "SCRIPPS"
    ]
   },
   {
-   "title": "Montreal Canadiens vs. Carolina Hurricanes",
-   "sport": "NHL",
+   "title": "#20 Michigan vs. Villanova",
+   "sport": "Men's college basketball",
    "time": "7:00 PM",
-   "day": "Thu 19 Nov",
-   "competition": "NHL",
+   "day": "Sat 21 Nov",
+   "competition": "Men's college basketball",
    "broadcasters": [
-    "NHL Power Play on ESPN+",
-    "RDS",
-    "TSN2",
-    "TSN Premium",
-    "CARNHL",
-    "HHN"
+    "FOX",
+    "FOX One"
    ]
   },
   {
-   "title": "New York Islanders vs. Winnipeg Jets",
-   "sport": "NHL",
-   "time": "7:00 PM",
-   "day": "Thu 19 Nov",
-   "competition": "NHL",
-   "broadcasters": [
-    "NHL Power Play on ESPN+",
-    "MSGSN",
-    "TSN3",
-    "TSN Premium"
-   ]
-  },
-  {
-   "title": "Rice vs. Temple",
-   "sport": "College Football",
+   "title": "Portland Trail Blazers vs. New York Knicks",
+   "sport": "NBA",
    "time": "7:30 PM",
-   "day": "Thu 19 Nov",
-   "competition": "College Football",
-   "broadcasters": [
-    "ESPN",
-    "ESPN Unlimited"
-   ]
-  },
-  {
-   "title": "Golden State Warriors vs. Memphis Grizzlies",
-   "sport": "NBA",
-   "time": "8:00 PM",
-   "day": "Thu 19 Nov",
-   "competition": "NBA",
-   "broadcasters": [
-    "NBA League Pass",
-    "NBCSBA",
-    "Peacock",
-    "DAZN"
-   ]
-  },
-  {
-   "title": "Los Angeles Clippers vs. San Antonio Spurs",
-   "sport": "NBA",
-   "time": "8:00 PM",
-   "day": "Thu 19 Nov",
-   "competition": "NBA",
-   "broadcasters": [
-    "NBA League Pass",
-    "KTLA-CW",
-    "ClipperVision",
-    "DAZN"
-   ]
-  },
-  {
-   "title": "New York Knicks vs. Minnesota Timberwolves",
-   "sport": "NBA",
-   "time": "8:00 PM",
-   "day": "Thu 19 Nov",
+   "day": "Sat 21 Nov",
    "competition": "NBA",
    "broadcasters": [
     "NBA TV",
+    "KUNP-IND",
+    "BlazerVision",
     "MSG",
     "DAZN"
    ]
   },
   {
-   "title": "Portland Trail Blazers vs. Milwaukee Bucks",
+   "title": "Los Angeles Clippers vs. Dallas Mavericks",
    "sport": "NBA",
    "time": "8:00 PM",
-   "day": "Thu 19 Nov",
+   "day": "Sat 21 Nov",
    "competition": "NBA",
    "broadcasters": [
     "NBA League Pass",
-    "KUNP-IND",
-    "BlazerVision",
-    "WCGV-My24",
-    "Bucks+"
+    "ClipperVision",
+    "KFAA-IND",
+    "MavsTV+"
    ]
   },
   {
-   "title": "Thursday Night Football: Indianapolis Colts vs. Houston Texans",
-   "sport": "NFL",
-   "time": "8:15 PM",
-   "day": "Thu 19 Nov",
-   "competition": "NFL",
+   "title": "Memphis Grizzlies vs. Minnesota Timberwolves",
+   "sport": "NBA",
+   "time": "8:00 PM",
+   "day": "Sat 21 Nov",
+   "competition": "NBA",
    "broadcasters": [
-    "Prime Video",
-    "NFL+"
+    "NBA League Pass",
+    "DAZN"
    ]
   }
  ]
