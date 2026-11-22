@@ -1,8 +1,9 @@
 /* =====================================================================
    news.js: renders headlines from data/news.json (same origin), built
-   every 3 hours from BBC Sport and ESPN RSS by
-   .github/workflows/news-refresh.yml. Each card links to the original
-   story; only the headline and a short summary are shown here.
+   every 3 hours from ESPN's RSS feeds by .github/workflows/news-refresh.yml.
+   Per ESPN's RSS terms, headlines, summaries and links are shown exactly as
+   the feed provides them, each card links to the full article on espn.com,
+   and ESPN is credited.
 
    Mount points:
    - #articles  (news.html): full list, filtered by ?sport=<key>
@@ -12,7 +13,7 @@
   "use strict";
 
   var ICONS = { football: "⚽", cricket: "🏏", nba: "🏀", nfl: "🏈", f1: "🏎️", ufc: "🥊", tennis: "🎾",
-    rugby: "🏉", golf: "⛳", boxing: "🥊", hockey: "🏒" };
+    rugby: "🏉", golf: "⛳", boxing: "🥊", hockey: "🏒", motorsport: "🏍️" };
 
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
@@ -38,7 +39,7 @@
           '<span class="tag">' + esc(it.sportLabel) + "</span>" +
           '<h2><a href="' + esc(it.link) + '" target="_blank" rel="noopener">' + esc(it.title) + "</a></h2>" +
           (it.summary ? "<p>" + esc(it.summary) + "</p>" : "") +
-          '<p class="meta">' + esc(it.source) + (it.published ? " · " + esc(ago(it.published)) : "") + "</p>" +
+          '<p class="meta">Provided by ' + esc(it.source) + (it.published ? " · " + esc(ago(it.published)) : "") + "</p>" +
         "</div>" +
       "</article>"
     );

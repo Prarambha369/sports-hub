@@ -1,14 +1,23 @@
 {
- "fetchedAt": "2026-11-22T21:21:52+00:00",
+ "fetchedAt": "2026-11-22T21:48:46+00:00",
  "items": [
   {
-   "title": "Man Utd plotting Toney move - Monday's gossip",
-   "summary": "Manchester United eye move for Al-Ahli striker Ivan Toney, Fulham hold contract talks with Calvin Bassey and PSG could step up pursuit of Eli Junior Kroupi.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ck053nyl6399o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T21:04:15+00:00",
-   "source": "BBC Sport",
-   "sport": "football",
-   "sportLabel": "Football"
+   "title": "Thitikul again wins LPGA finale, passes Sorenstam atop career money list",
+   "summary": "Jeeno Thitikul won the CME Group Tour Championship for the third straight year and moved past Annika Sorenstam atop the LPGA career money list.",
+   "link": "https://www.espn.com/golf/story/_/id/50564852/jeeno-thitikul-wins-lpga-finale-sets-career-earnings-record",
+   "published": "2026-11-22T21:42:48+00:00",
+   "source": "ESPN",
+   "sport": "golf",
+   "sportLabel": "Golf"
+  },
+  {
+   "title": "Answering NFL Week 11's biggest questions: Are Cowboys' playoff hopes still alive? Can Chiefs finish strong?",
+   "summary": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 11.",
+   "link": "https://www.espn.com/nfl/story/_/id/50563342/week-11-sunday-games-takeaways-questions-2026",
+   "published": "2026-11-22T21:34:59+00:00",
+   "source": "ESPN",
+   "sport": "nfl",
+   "sportLabel": "NFL"
   },
   {
    "title": "Sources: Kings set to boost backcourt depth with Vincent signing",
@@ -155,20 +164,92 @@
    "sportLabel": "NFL"
   },
   {
-   "title": "Alcaraz outplays Zverev for first ATP Finals triumph",
-   "summary": "Carlos Alcaraz ends his wait for a first ATP Finals title as he outplays world number one Alexander Zverev in Turin.",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/c60evlendg0jo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T20:15:48+00:00",
-   "source": "BBC Sport",
+   "title": "Alcaraz joins elite club by adding ATP Finals trophy to career Grand Slam",
+   "summary": "Carlos Alcaraz dominated at times as he defeated top-ranked Alexander Zverev 6-2, 7-6 (7) in the championship match at the ATP Finals on Sunday.",
+   "link": "https://www.espn.com/tennis/story/_/id/50563835/carlos-alcaraz-wins-season-ending-atp-finals",
+   "published": "2026-11-22T20:33:22+00:00",
+   "source": "ESPN",
    "sport": "tennis",
    "sportLabel": "Tennis"
   },
   {
-   "title": "Bundesliga",
-   "summary": "Watch highlights from matchday ten in the Bundesliga.",
-   "link": "https://www.bbc.co.uk/iplayer/episode/l0059298?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T20:13:29+00:00",
-   "source": "BBC Sport",
+   "title": "Poch blames 'circumstances' in painful Man United loss to Liverpool",
+   "summary": "Mauricio Pochettino called for understanding of the \"circumstances\" that led to Manchester United suffering a 4-0 defeat Sunday against Liverpool in his first game as head coach.",
+   "link": "https://www.espn.com/soccer/story/_/id/50563730/pochettino-painful-man-united-loss-liverpool",
+   "published": "2026-11-22T20:29:51+00:00",
+   "source": "ESPN",
+   "sport": "football",
+   "sportLabel": "Football"
+  },
+  {
+   "title": "Milan into top four as classy Pulisic solo goal caps Serie A rout",
+   "summary": "AC Milan racked up their biggest win of the season under Ruben Amorim as Frosinone were beaten 5-1 at San Siro on Sunday.",
+   "link": "https://www.espn.com/soccer/report/_/gameId/401874989",
+   "published": "2026-11-22T20:29:51+00:00",
+   "source": "ESPN",
+   "sport": "football",
+   "sportLabel": "Football"
+  },
+  {
+   "title": "Liverpool trounce 10-man United in Pochettino's first game in charge",
+   "summary": "Mauricio Pochettino's Manchester United reign got off to a miserable start as Liverpool punished Leny Yoro's red card with a pair of early goals on their way to a comprehensive 4-0 win against their relegation-threatened rivals.",
+   "link": "https://www.espn.com/soccer/report/_/gameId/401878755",
+   "published": "2026-11-22T20:29:51+00:00",
+   "source": "ESPN",
+   "sport": "football",
+   "sportLabel": "Football"
+  },
+  {
+   "title": "DiBernardo's Olimpico goal leads Kansas City to 1st NWSL Championship",
+   "summary": "The Kansas City Current won their first NWSL Championship, defeating the Washington Spirit 2-1 to hand the Spirit a third consecutive loss in the league final.",
+   "link": "https://www.espn.com/soccer/story/_/id/50557858/nwsl-championship-kansas-city-current-washington-spirit",
+   "published": "2026-11-22T20:29:51+00:00",
+   "source": "ESPN",
+   "sport": "football",
+   "sportLabel": "Football"
+  },
+  {
+   "title": "Columbus coach says Messi should've got red card: 'Everyone knows'",
+   "summary": "Columbus Crew head coach Laurent Courtois said Lionel Messi should have received a red card for taking a throw-in straight into the face of Gonzalo Tapia.",
+   "link": "https://www.espn.com/soccer/story/_/id/50558763/lionel-messi-throw-red-card-inter-miami-columbus-crew",
+   "published": "2026-11-22T20:29:51+00:00",
+   "source": "ESPN",
+   "sport": "football",
+   "sportLabel": "Football"
+  },
+  {
+   "title": "Rodman on 3rd straight NWSL Championship loss: 'This one hurts way worse'",
+   "summary": "Trinity Rodman said she was proud of the Washington Spirit's season after a third straight NWSL Championship loss but acknowledged that this one hurt the most.",
+   "link": "https://www.espn.com/soccer/story/_/id/50559416/trinity-rodman-nwsl-championship-washington-spirit",
+   "published": "2026-11-22T20:29:51+00:00",
+   "source": "ESPN",
+   "sport": "football",
+   "sportLabel": "Football"
+  },
+  {
+   "title": "Fernandes confirms Manchester United contract talks on hold, 'priority is winning'",
+   "summary": "Bruno Fernandes has confirmed Manchester United offered him a new contract but talks are on hold as he wants the club to focus on returning to winning ways.",
+   "link": "https://www.espn.com/soccer/story/_/id/50560581/bruno-fernandes-manchester-united-premier-league-mauricio-pochettino",
+   "published": "2026-11-22T20:29:51+00:00",
+   "source": "ESPN",
+   "sport": "football",
+   "sportLabel": "Football"
+  },
+  {
+   "title": "Flick: Barça comeback 'unbelievable,' not happy with ref",
+   "summary": "Barcelona coach Hansi Flick praised his side's \"unbelievable\" comeback from two goals down to beat Villarreal 3-2 in LaLiga on Sunday, but was left far from happy with referee Alejandro Hernández Hernández.",
+   "link": "https://www.espn.com/soccer/story/_/id/50562953/barcelona-villarreal-la-liga-hansi-flick-refereeing",
+   "published": "2026-11-22T20:29:51+00:00",
+   "source": "ESPN",
+   "sport": "football",
+   "sportLabel": "Football"
+  },
+  {
+   "title": "⚽ Last time GTA was released: Peak Messi vs. Ronaldo, Moyes at Man Utd",
+   "summary": "As Grand Theft Auto VI is finally unleashed, here is what was happening in the world of soccer when the previous game was released 13 years ago",
+   "link": "https://www.espn.com/soccer/story/_/id/50530231/gta-vi-messi-ronaldo-manchester-united",
+   "published": "2026-11-22T20:29:51+00:00",
+   "source": "ESPN",
    "sport": "football",
    "sportLabel": "Football"
   },
@@ -191,31 +272,13 @@
    "sportLabel": "NFL"
   },
   {
-   "title": "McBurnie stoppage-time double earns Hull win over 10-man Brighton",
-   "summary": "Oli McBurnie's stoppage-time double earns victory for Hull City against second-placed Brighton in the Premier League.",
-   "link": "https://www.bbc.co.uk/sport/football/videos/ck62pzzezqz2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T19:59:38+00:00",
-   "source": "BBC Sport",
+   "title": "Mauricio Pochettino gets reality check as Liverpool ruin his Man United debut",
+   "summary": "Mauricio Pochettino began his Manchester United career with a nightmare as his Red Devils went to Anfield and were routed 4-0 by Liverpool on Sunday.",
+   "link": "https://www.espn.com/soccer/story/_/id/50563684/liverpool-ruin-pochettino-manchester-united-debut",
+   "published": "2026-11-22T20:05:35+00:00",
+   "source": "ESPN",
    "sport": "football",
    "sportLabel": "Football"
-  },
-  {
-   "title": "Ngumoha stars as Liverpool thrash 10-man Man Utd",
-   "summary": "Mauricio Pochettino's reign as Manchester United head coach begins in desperate fashion as his team are thrashed by rivals Liverpool to remain in the Premier League relegation zone.",
-   "link": "https://www.bbc.co.uk/sport/football/videos/c933g77knz00o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T19:59:35+00:00",
-   "source": "BBC Sport",
-   "sport": "football",
-   "sportLabel": "Football"
-  },
-  {
-   "title": "Camara to continue with Haas for final two races",
-   "summary": "Brazilian Rafael Camara will continue to race for the Haas team for the final two grands prix of the Formula 1 season.",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/cwe9k29y7z44o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T19:51:49+00:00",
-   "source": "BBC Sport",
-   "sport": "f1",
-   "sportLabel": "Formula 1"
   },
   {
    "title": "Blackhawks' Kaiser hit with 3-game suspension for illegal check to head",
@@ -281,67 +344,67 @@
    "sportLabel": "Hockey"
   },
   {
-   "title": "Iraola 'enjoyed' big win over Man Utd",
-   "summary": "Liverpool head coach Andoni Iraola is pleased with his side's performance in their dominant win over Manchester United although he says that his side can still play better.",
-   "link": "https://www.bbc.co.uk/sport/football/videos/c3y0x55ey81yo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T19:25:21+00:00",
-   "source": "BBC Sport",
-   "sport": "football",
-   "sportLabel": "Football"
-  },
-  {
-   "title": "From conceding seven to Hull heroics - how Tzolakis recovered to defy Brighton",
-   "summary": "Nine days after playing for Greece in a nightmare 7-0 loss, keeper Konstantinos Tzolakis plays a pivotal role in Hull's Premier League win against Brighton.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cm4gn7npqe8yo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T19:03:32+00:00",
-   "source": "BBC Sport",
-   "sport": "football",
-   "sportLabel": "Football"
-  },
-  {
-   "title": "Pochettino on 'painful' defeat in first game as Man Utd boss",
-   "summary": "Manchester United's new head coach Mauricio Pochettino says his side must transform \"anger\" from their thumping at the hands of Liverpool into \"energy\" to improve under his reign.",
-   "link": "https://www.bbc.co.uk/sport/football/videos/c8p3vyyg4d6vo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T19:03:24+00:00",
-   "source": "BBC Sport",
-   "sport": "football",
-   "sportLabel": "Football"
-  },
-  {
-   "title": "Inactives watch: Kenneth Walker III out again, Brock Bowers questionable",
-   "summary": "Updated inactives and analysis based on the latest reports and official announcements leading up to kickoff.",
-   "link": "https://www.espn.com/fantasy/football/story/_/page/FFSundayInactives-50530832/fantasy-football-injuries-nfl-week-11-inactive-active",
-   "published": "2026-11-22T18:01:28+00:00",
+   "title": "Haas confirm Camara will finish 2026 season with the team",
+   "summary": "Brazilian driver Rafa Camara will complete the 2026 season with Haas ahead of his full rookie season in 2027, the team confirmed on Sunday.",
+   "link": "https://www.espn.com/f1/story/_/id/50563772/formula-1-haas-rafa-camara-esteban-ocon",
+   "published": "2026-11-22T19:39:40+00:00",
    "source": "ESPN",
-   "sport": "nfl",
-   "sportLabel": "NFL"
+   "sport": "f1",
+   "sportLabel": "Formula 1"
   },
   {
-   "title": "The red card that changed Liverpool-Man Utd: correct call?",
-   "summary": "Leny Yoro's red card after eight minutes changed Liverpool v Manchester United - did officials make the correct call?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cq7827p8emmxo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T17:55:54+00:00",
-   "source": "BBC Sport",
+   "title": "Zverev tops Medvedev, faces Alcaraz for ATP Finals trophy",
+   "summary": "Alexander Zverev has faced criticism for weeks about ascending to the No. 1 ranking without beating Carlos Alcaraz or Jannik Sinner. Now he is getting a chance to face Alcaraz in the championship match of the ATP Finals.",
+   "link": "https://www.espn.com/tennis/story/_/id/50553968/zverev-tops-medvedev-sets-showdown-alcaraz-atp-finals-title",
+   "published": "2026-11-22T18:59:02+00:00",
+   "source": "ESPN",
+   "sport": "tennis",
+   "sportLabel": "Tennis"
+  },
+  {
+   "title": "Under pressure: Is time running out for Arsenal boss Renee Slegers?",
+   "summary": "After Arsenal again failed to win at home, pressure is building on manager Renee Slegers.",
+   "link": "https://www.espn.com/soccer/story/_/id/50563366/arsenal-renee-slegers-west-ham-women-super-league",
+   "published": "2026-11-22T18:40:11+00:00",
+   "source": "ESPN",
    "sport": "football",
    "sportLabel": "Football"
   },
   {
-   "title": "Spurs deny Man City top spot with statement win",
-   "summary": "Despite taking an early lead through Khadija Shaw, Manchester City suffer a second consecutive defeat as Spurs earn an impressive victory and deny them the chance to return to the top of the table.",
-   "link": "https://www.bbc.co.uk/sport/football/videos/c9vg2112evvdo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T17:54:36+00:00",
-   "source": "BBC Sport",
-   "sport": "football",
-   "sportLabel": "Football"
+   "title": "Verstappen fends off rivals in Vegas GP thriller for third win in 4 years",
+   "summary": "In a race that featured 35 lead changes, Max Verstappen kept finding ways to gain an advantage and emerged victorious in the Las Vegas Grand Prix.",
+   "link": "https://www.espn.com/racing/story/_/id/50560262/max-verstappen-wins-las-vegas-grand-prix-3rd-4-years",
+   "published": "2026-11-22T17:43:55+00:00",
+   "source": "ESPN",
+   "sport": "motorsport",
+   "sportLabel": "Motorsport"
   },
   {
-   "title": "Arsenal frustrations grow as winless home run continues",
-   "summary": "Arsenal remain without a home win in the WSL as they play out a goalless draw with West Ham, increasing the pressure on Renee Slegers.",
-   "link": "https://www.bbc.co.uk/sport/football/videos/cm8e0pdw70d8o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T17:30:45+00:00",
-   "source": "BBC Sport",
-   "sport": "football",
-   "sportLabel": "Football"
+   "title": "Max Verstappen, George Russell's latest war of words unlikely to stay in Vegas",
+   "summary": "The long-standing Max Verstappen-George Russell feud boiled over in Las Vegas, where the victorious Dutchman took delight in his rival's misfortune.",
+   "link": "https://www.espn.com/racing/f1/story/_/id/50562576/verstappen-russell-feud-f1-las-vegas",
+   "published": "2026-11-22T16:58:21+00:00",
+   "source": "ESPN",
+   "sport": "f1",
+   "sportLabel": "Formula 1"
+  },
+  {
+   "title": "Verstappen mocks 'complete joke' Russell at Las Vegas GP as feud intensifies",
+   "summary": "Max Verstappen ridiculed George Russell after the Las Vegas Grand Prix, laughing at the Mercedes driver's late mistake and branding his 2026 season a \"complete joke.\"",
+   "link": "https://www.espn.com/f1/story/_/id/50472110/max-verstappen-george-russell-las-vegas-grand-prix-formula-1",
+   "published": "2026-11-22T16:58:21+00:00",
+   "source": "ESPN",
+   "sport": "f1",
+   "sportLabel": "Formula 1"
+  },
+  {
+   "title": "Verstappen: Las Vegas Grand Prix was like 'Mario Kart'",
+   "summary": "In a career spanning 25 years in go-karts, Formula 3 and Formula 1, Max Verstappen said he has only ever experienced a race as chaotic as the 2026 Las Vegas Grand Prix while playing Nintendo's Mario Kart.",
+   "link": "https://www.espn.com/f1/story/_/id/50472136/max-verstappen-mario-kart-las-vegas-grand-prix-formula-1",
+   "published": "2026-11-22T16:58:21+00:00",
+   "source": "ESPN",
+   "sport": "f1",
+   "sportLabel": "Formula 1"
   },
   {
    "title": "What NBA insiders see from Boozer, Dybantsa and seven other top rookies",
@@ -371,22 +434,31 @@
    "sportLabel": "NBA"
   },
   {
-   "title": "Spurs 'a match for anyone' as win at Man City boosts European hopes",
-   "summary": "Women's Champions League qualification may have seemed fanciful for Tottenham at the start of the season - but they are firmly in the mix after winning at Manchester City.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c6n901w453nlo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T16:25:35+00:00",
-   "source": "BBC Sport",
-   "sport": "football",
-   "sportLabel": "Football"
+   "title": "England, inspired by Moody, pull off one of their greatest performances to stun New Zealand",
+   "summary": "The minute Twickenham held its collective breath and watched on in awe as Lewis Moody joined the England team to face the Haka, you knew the All Blacks were going to have to produce something truly exceptional to stop the hosts.",
+   "link": "https://www.espn.com/rugby/story/_/id/50550740/england-nations-championships-rugby-new-zealand-win",
+   "published": "2026-11-22T15:50:23+00:00",
+   "source": "ESPN",
+   "sport": "rugby",
+   "sportLabel": "Rugby"
   },
   {
-   "title": "PSG's Doue to have surgery on ruptured ACL",
-   "summary": "Paris St-Germain forward Desire Doue will have surgery later this month after rupturing the anterior cruciate ligament in his right knee.",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cw0k6x0764ero?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T15:50:05+00:00",
-   "source": "BBC Sport",
-   "sport": "football",
-   "sportLabel": "Football"
+   "title": "Earl, Fin Smith impress: England player ratings after record win over All Blacks",
+   "summary": "England earned a record win over the All Blacks on Saturday, with the 37-12 victory their biggest margin against New Zealand.",
+   "link": "https://www.espn.com/rugby/story/_/id/50541947/england-player-ratings-new-zealand-rugby",
+   "published": "2026-11-22T15:50:23+00:00",
+   "source": "ESPN",
+   "sport": "rugby",
+   "sportLabel": "Rugby"
+  },
+  {
+   "title": "Nations Championship power rankings: England rise, South Africa, New Zealand tumble",
+   "summary": "ESPN's Nations Championship power rankings, with an eye to the 2027 Rugby World Cup in Australia.",
+   "link": "https://www.espn.com/rugby/story/_/id/50306622/nations-championship-2026-rugby-power-rankings-england-south-africa-new-zealand-australia",
+   "published": "2026-11-22T15:47:39+00:00",
+   "source": "ESPN",
+   "sport": "rugby",
+   "sportLabel": "Rugby"
   },
   {
    "title": "NHL Tonight: Guide to Sunday's five-pack of games",
@@ -398,292 +470,238 @@
    "sportLabel": "Hockey"
   },
   {
-   "title": "England will not get carried away by beating All Blacks",
-   "summary": "In his latest BBC Sport column, England World Cup winner Matt Dawson reflects on Steve Borthwick's side's record win over New Zealand and previews the final round of Nations Championship fixtures.",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/ckr5gdpm1q5no?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T12:45:57+00:00",
-   "source": "BBC Sport",
-   "sport": "rugby",
-   "sportLabel": "Rugby"
+   "title": "Marc Márquez's record-equaling 8th MotoGP title is his most impressive yet",
+   "summary": "No one has more than Marc Márquez's eight MotoGP titles, and the way in which he secured his record-equaling crown might just cement him as the GOAT.",
+   "link": "https://www.espn.com/racing/story/_/id/50557365/marquez-8th-motogp-world-championship",
+   "published": "2026-11-22T14:30:47+00:00",
+   "source": "ESPN",
+   "sport": "motorsport",
+   "sportLabel": "Motorsport"
   },
   {
-   "title": "How to follow Qatar Grand Prix on the BBC",
-   "summary": "All the key BBC coverage details for the Qatar Grand Prix, which takes place from 27 to 29 November.",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/cjzx912pyekdo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T11:57:12+00:00",
-   "source": "BBC Sport",
+   "title": "Kansas City's NWSL title shows investing in women's soccer pays off",
+   "summary": "Only a small group of clubs now truly compete for the NWSL Championship. Kansas City Current is one of them, and now it's a champion for the first time.",
+   "link": "https://www.espn.com/soccer/story/_/id/50561566/kansas-city-nwsl-championship-final-washington-spirit",
+   "published": "2026-11-22T13:56:26+00:00",
+   "source": "ESPN",
+   "sport": "football",
+   "sportLabel": "Football"
+  },
+  {
+   "title": "Verstappen wins dramatic Las Vegas GP; Ferraris clash",
+   "summary": "Max Verstappen delivered a performance for the ages to win a thrill-a-minute Las Vegas Grand Prix -- as Lewis Hamilton and Charles Leclerc collided.",
+   "link": "https://www.espn.com/f1/story/_/id/50472108/max-verstappen-las-vegas-grand-prix-formula-1",
+   "published": "2026-11-22T12:41:02+00:00",
+   "source": "ESPN",
    "sport": "f1",
    "sportLabel": "Formula 1"
   },
   {
-   "title": "Pontypool front row inducted into hall of fame",
-   "summary": "Seventies rugby legends Charlie Faulkner, Bobby Windsor and Graham Price are inducted into the World Rugby Hall of Fame.",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cxe894m6jne0o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T11:37:31+00:00",
-   "source": "BBC Sport",
-   "sport": "rugby",
-   "sportLabel": "Rugby"
-  },
-  {
-   "title": "Did Springboks win change the narrative for Ireland?",
-   "summary": "After a 20-17 win on Saturday, did Ireland's victory over South Africa change the narrative for Andy Farrell's side?",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c64gnry013mko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T11:09:29+00:00",
-   "source": "BBC Sport",
-   "sport": "rugby",
-   "sportLabel": "Rugby"
-  },
-  {
-   "title": "Verstappen a constant amid chaos as he says Russell is 'so far below my level'",
-   "summary": "Max Verstappen was the star figure in a Las Vegas Grand Prix that was unlike any F1 race anyone younger than about 70 had ever seen.",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/c3n0l5p5x5x5o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T11:07:32+00:00",
-   "source": "BBC Sport",
+   "title": "Hamilton and Leclerc collide in latest Ferrari flashpoint at Las Vegas GP",
+   "summary": "Ferrari drivers Charles Leclerc and Lewis Hamilton collided again at the Las Vegas Grand Prix in the latest on-track flashpoint between the teammates.",
+   "link": "https://www.espn.com/f1/story/_/id/50472109/lewis-hamilton-charles-leclerc-ferrari-las-vegas-grand-prix-formula-1",
+   "published": "2026-11-22T10:55:04+00:00",
+   "source": "ESPN",
    "sport": "f1",
    "sportLabel": "Formula 1"
   },
   {
-   "title": "Scotland must let promising McConnell loose against Pumas",
-   "summary": "Scotland head into their Nations Championship finale against Argentina on a high and should unleash Liam McConnell on the Pumas after his hat-trick against Japan, writes Tom English.",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmgqxvzyq959o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T10:59:15+00:00",
-   "source": "BBC Sport",
+   "title": "F1 2026 results: Winners, podium, final positions from every race",
+   "summary": "The 2026 Formula 1 season has been full of twists and turns with the new rules and regulations shaking things up.",
+   "link": "https://www.espn.com/f1/story/_/id/49535228/formula-1-2026-results-kimi-antonelli-lewis-hamilton-george-russell-winners-podium-final-positions-every-race",
+   "published": "2026-11-22T10:32:48+00:00",
+   "source": "ESPN",
+   "sport": "motorsport",
+   "sportLabel": "Motorsport"
+  },
+  {
+   "title": "Formula 1 start times: When does each 2026 race begin?",
+   "summary": "The first half of the Formula 1 2026 season has been full of ups and downs for teams and drivers across the grid.",
+   "link": "https://www.espn.com/f1/story/_/id/49535006/formula-1-start-s-does-2026-race-begin",
+   "published": "2026-11-22T10:25:20+00:00",
+   "source": "ESPN",
+   "sport": "motorsport",
+   "sportLabel": "Motorsport"
+  },
+  {
+   "title": "Ferrari boss fumes over Leclerc, Hamilton clash: 'Completely unacceptable'",
+   "summary": "Ferrari team principal Fred Vasseur has blamed Charles Leclerc for the collision between his two drivers at the Las Vegas Grand Prix, labelling the incident \"unacceptable.\"",
+   "link": "https://www.espn.com/f1/story/_/id/50472128/ferrari-charles-leclerc-lewis-hamilton-las-vegas-grand-prix-formula-1",
+   "published": "2026-11-22T10:00:54+00:00",
+   "source": "ESPN",
+   "sport": "f1",
+   "sportLabel": "Formula 1"
+  },
+  {
+   "title": "Las Vegas Grand Prix 2026: Race start time, how to watch, full schedule, predictions",
+   "summary": "Formula 1 is back under the bright lights of Las Vegas for one of the most extravagant weekends on the calendar.",
+   "link": "https://www.espn.com/f1/story/_/id/50389130/las-vegas-grand-prix-2026-race-f1-start-s-how-watch-schedule-tv-channel-live-stream-predictions",
+   "published": "2026-11-22T08:04:36+00:00",
+   "source": "ESPN",
+   "sport": "motorsport",
+   "sportLabel": "Motorsport"
+  },
+  {
+   "title": "Las Vegas Grand Prix results: Max Verstappen wins drama-packed race in Sin City - as it happened",
+   "summary": "Max Verstappen fended off his rivals in stunning fashion to win a thrilling Las Vegas Grand Prix.",
+   "link": "https://www.espn.com/f1/story/_/id/50530089/max-verstappen-las-vegas-grand-prix-2026-live-updates-results-analysis-commentary",
+   "published": "2026-11-22T07:00:40+00:00",
+   "source": "ESPN",
+   "sport": "motorsport",
+   "sportLabel": "Motorsport"
+  },
+  {
+   "title": "France score seven tries vs. Argentina to book Nations Championship final ticket",
+   "summary": "France reached the Nations Championship final after beating Argentina 45-17 with seven tries on Saturday.",
+   "link": "https://www.espn.com/rugby/story/_/id/50555554/france-argentina-nations-championship",
+   "published": "2026-11-21T23:48:32+00:00",
+   "source": "ESPN",
    "sport": "rugby",
    "sportLabel": "Rugby"
   },
   {
-   "title": "F1: Chequered Flag",
-   "summary": "An extraordinary race, Verstappen’s response to Russell, plus another Ferrari collision.",
-   "link": "https://www.bbc.co.uk/sounds/play/m003506s?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T10:23:00+00:00",
-   "source": "BBC Sport",
-   "sport": "f1",
-   "sportLabel": "Formula 1"
-  },
-  {
-   "title": "Injured Jacks out of T20 Australia tour",
-   "summary": "England all-rounder Will Jacks is ruled out of the rest of the tour of Australia with a broken hand.",
-   "link": "https://www.bbc.co.uk/sport/cricket/articles/c8p3v1p45360o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T10:00:04+00:00",
-   "source": "BBC Sport",
-   "sport": "cricket",
-   "sportLabel": "Cricket"
-  },
-  {
-   "title": "Pakistan ease aside Scotland in Emerging Nations Trophy",
-   "summary": "Scotland's hopes of reaching the Emerging Nations Trophy final are all but ended after Pakistan cruise to a nine-wicket victory in Ajman.",
-   "link": "https://www.bbc.co.uk/sport/cricket/articles/c933gzye80n7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T09:56:12+00:00",
-   "source": "BBC Sport",
-   "sport": "cricket",
-   "sportLabel": "Cricket"
-  },
-  {
-   "title": "Verstappen wins extraordinary race as Ferraris collide",
-   "summary": "Red Bull's Max Verstappen wins an extraordinary Las Vegas Grand Prix that featured 34 lead changes and another collision between the Ferraris.",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/cqx2ex25pvn9o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T09:49:15+00:00",
-   "source": "BBC Sport",
-   "sport": "f1",
-   "sportLabel": "Formula 1"
-  },
-  {
-   "title": "Verstappen's superb racecraft & Russell's costly mistake - driver ratings",
-   "summary": "BBC Radio 5 Live F1 commentator Harry Benjamin rates how the drivers performed during the Las Vegas Grand Prix weekend.",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/c83vg92x21vzo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T09:35:05+00:00",
-   "source": "BBC Sport",
-   "sport": "f1",
-   "sportLabel": "Formula 1"
-  },
-  {
-   "title": "Hamilton-Leclerc collision completely unacceptable, says Ferrari boss",
-   "summary": "Ferrari drivers Lewis Hamilton and Charles Leclerc face yet another tense discussion over their ability to race together cleanly on track after colliding in Las Vegas.",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/c6j9mepj0j1go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T09:07:15+00:00",
-   "source": "BBC Sport",
-   "sport": "f1",
-   "sportLabel": "Formula 1"
-  },
-  {
-   "title": "Wales coach Tandy frustrated by Australia defeat",
-   "summary": "Wales head coach Steve Tandy said he was frustrated after his side failed to back up their epic win over New Zealand with victory against Australia.",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c6gregq87258o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T04:50:34+00:00",
-   "source": "BBC Sport",
+   "title": "Wales brought back to earth by narrow Nations Championship defeat to Australia",
+   "summary": "Wales failed to back up their epic win over New Zealand as Australia edged their Nations Championship clash 29-26 in Cardiff.",
+   "link": "https://www.espn.com/rugby/story/_/id/50555230/wales-australia-nations-championship",
+   "published": "2026-11-21T23:23:42+00:00",
+   "source": "ESPN",
    "sport": "rugby",
    "sportLabel": "Rugby"
   },
   {
-   "title": "Lightning prevents Stars-Renegades result - WBBL scorecard",
-   "summary": "Latest scorecard from the Women's Big Bash League match between Melbourne Stars and Melbourne Renegades at Melbourne's Junction Oval.",
-   "link": "https://www.bbc.co.uk/sport/cricket/scorecard/e-242446?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T00:00:00+00:00",
-   "source": "BBC Sport",
-   "sport": "cricket",
-   "sportLabel": "Cricket"
-  },
-  {
-   "title": "McGrath stars as Strikers beat Heat - WBBL scorecard",
-   "summary": "Latest scorecard from the Women's Big Bash League match between Brisbane Heat and Adelaide Strikers at Brisbane's Allan Border Field.",
-   "link": "https://www.bbc.co.uk/sport/cricket/scorecard/e-242445?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-22T00:00:00+00:00",
-   "source": "BBC Sport",
-   "sport": "cricket",
-   "sportLabel": "Cricket"
-  },
-  {
-   "title": "France thrash Argentina to reach Nations Championship final",
-   "summary": "France beat Argentina 45-17 in Paris to set up a clash with South Africa in the Nations Championship final at the Allianz Stadium.",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/videos/cm879py9n9xwo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-21T23:22:40+00:00",
-   "source": "BBC Sport",
+   "title": "International rugby fixtures: Latest matches, key dates, venues",
+   "summary": "Here's the full list of international rugby fixtures, including the Six Nations, Nations Championship and Rugby Championship.",
+   "link": "https://www.espn.com/rugby/story/_/id/42131438/international-men-rugby-fixtures-latest-matches-key-dates-venues",
+   "published": "2026-11-21T22:31:13+00:00",
+   "source": "ESPN",
    "sport": "rugby",
    "sportLabel": "Rugby"
   },
   {
-   "title": "Alcaraz to face Zverev in ATP Finals title decider",
-   "summary": "Carlos Alcaraz will face world number one Alexander Zverev for the ATP Finals title after completing a superb comeback victory against Ben Shelton.",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/cw5y1gg7nyv0o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-21T22:50:19+00:00",
-   "source": "BBC Sport",
-   "sport": "tennis",
-   "sportLabel": "Tennis"
-  },
-  {
-   "title": "Kim holds one-shot lead at LPGA finale as Korda closes in",
-   "summary": "A-Lim Kim holds a slender lead going into the final round of the CME Group Tour Championship, with world number one Nelly Korda among the chasers.",
-   "link": "https://www.bbc.co.uk/sport/golf/articles/c3ewvg08gjggo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-21T22:28:26+00:00",
-   "source": "BBC Sport",
+   "title": "Kim clings to 1-shot lead in LPGA finale; Korda back in mix",
+   "summary": "A Lim Kim settled for a one-shot lead in the CME Group Tour Championship going into a final round, with Nelly Korda in the mix at two shots back.",
+   "link": "https://www.espn.com/golf/story/_/id/50554344/kim-clings-1-shot-lead-lpga-finale-korda-back-mix",
+   "published": "2026-11-21T22:06:22+00:00",
+   "source": "ESPN",
    "sport": "golf",
    "sportLabel": "Golf"
   },
   {
-   "title": "Can win over All Blacks finally break England's boom-bust cycle?",
-   "summary": "Twelve months ago, England beat New Zealand and flopped in the following Six Nations. Can their 2026 success pave the way to more permanent success?",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c6gregx71gjro?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-21T22:27:36+00:00",
-   "source": "BBC Sport",
+   "title": "South Africa coaching staff deny any Erasmus contact during Ireland defeat",
+   "summary": "South Africa's coaching staff denied suggestions they were receiving instructions from suspended head coach Rassie Erasmus during Saturday's 20-17 defeat to Ireland in Dublin.",
+   "link": "https://www.espn.com/rugby/story/_/id/50553563/south-africa-rugby-rassie-erasmus-nations-championship",
+   "published": "2026-11-21T21:06:12+00:00",
+   "source": "ESPN",
    "sport": "rugby",
    "sportLabel": "Rugby"
   },
   {
-   "title": "France secure Nations Championship final with Springboks",
-   "summary": "France dispatch Argentina in Paris to book their spot against South Africa in the Nations Championship final at Allianz Stadium next Sunday.",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c3zxv4e5g5g5o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-21T22:22:36+00:00",
-   "source": "BBC Sport",
+   "title": "Ireland get statement 20-17 win over South Africa",
+   "summary": "Ireland celebrated a statement 20-17 win over world champions South Africa at the end of a week dominated by Rassie Erasmus' suspension saga.",
+   "link": "https://www.espn.com/rugby/story/_/id/50551990/ireland-claim-statement-20-17-win-south-africa",
+   "published": "2026-11-21T21:05:37+00:00",
+   "source": "ESPN",
    "sport": "rugby",
    "sportLabel": "Rugby"
   },
   {
-   "title": "Rising star Stirling knocks out Prochazka",
-   "summary": "Rising star Navajo Stirling earns the biggest win of his career as he knocks out former champion Jiri Prochazka in the second round at UFC Qatar.",
-   "link": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/ckgj3l8nxev5o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-21T21:51:51+00:00",
-   "source": "BBC Sport",
-   "sport": "ufc",
-   "sportLabel": "UFC"
+   "title": "Rain at Sea Island washes out 3rd round of RSM Classic",
+   "summary": "Heavy rain at Sea Island on Saturday left the Seaside course unplayable and washed out the third round of the RSM Classic, setting up a second straight week of a Monday finish on the PGA Tour.",
+   "link": "https://www.espn.com/golf/story/_/id/50552432/rain-sea-island-washes-3rd-round-rsm-classic",
+   "published": "2026-11-21T19:47:07+00:00",
+   "source": "ESPN",
+   "sport": "golf",
+   "sportLabel": "Golf"
   },
   {
-   "title": "Ireland remind themselves that the best are beatable",
-   "summary": "Ireland put a string of deflating losses against the world's best teams behind them with a hard-fought 20-17 win over South Africa in Dublin.",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c820qxx2k7y2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-21T20:39:51+00:00",
-   "source": "BBC Sport",
+   "title": "Itoje: Moody's presence gave England 'extra lift' in New Zealand win",
+   "summary": "Maro Itoje has said Lewis Moody's presence in camp this week and when facing the haka gave England an extra boost ahead of their historic victory over New Zealand on Saturday.",
+   "link": "https://www.espn.com/rugby/story/_/id/50551503/lewis-moody-england-new-zealand-maro-itoje",
+   "published": "2026-11-21T19:07:21+00:00",
+   "source": "ESPN",
    "sport": "rugby",
    "sportLabel": "Rugby"
   },
   {
-   "title": "Highlights: Ireland hang on to beat South Africa",
-   "summary": "Watch highlights as Ireland hang on to beat world champions South Africa 20-17 in a thrilling Nations Championship game in Dublin.",
-   "link": "https://www.bbc.co.uk/sport/videos/crx276g7267do?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-21T19:25:02+00:00",
-   "source": "BBC Sport",
-   "sport": "rugby",
-   "sportLabel": "Rugby"
-  },
-  {
-   "title": "England beat New Zealand by record margin",
-   "summary": "England stun New Zealand, beating the three-time world champions by 25 points - compounding the All Blacks' disappointment after their loss to Wales last week.",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/videos/c6742znzggeyo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-21T16:28:09+00:00",
-   "source": "BBC Sport",
-   "sport": "rugby",
-   "sportLabel": "Rugby"
-  },
-  {
-   "title": "'Best in world' Price set for Cardiff stadium fight",
-   "summary": "Lauren Price is one of the most decorated fighters in British boxing history and is now set to headline a summer stadium show in Cardiff.",
-   "link": "https://www.bbc.co.uk/sport/boxing/articles/cmly5w82gq0zo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-21T13:45:19+00:00",
-   "source": "BBC Sport",
+   "title": "Fundora floors Zapotoczna twice, stays undisputed with lopsided victory",
+   "summary": "Gabriela Fundora, ESPN's No. 2 pound-for-pound women's fighter, dominated Jasmina Zapotoczna from bell to bell in a one-sided defense of her undisputed flyweight crown.",
+   "link": "https://www.espn.com/boxing/story/_/id/50547252/gabriela-fundora-routs-jasmina-zapotoczna-stay-undisputed",
+   "published": "2026-11-21T19:04:28+00:00",
+   "source": "ESPN",
    "sport": "boxing",
    "sportLabel": "Boxing"
   },
   {
-   "title": "England call up McKinney for South Africa Tests",
-   "summary": "England call up uncapped Durham opener Ben McKinney for the Test tour of South Africa after Jacob Bethell's injury withdrawal.",
-   "link": "https://www.bbc.co.uk/sport/cricket/articles/cwx2evg5pez6o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-21T13:00:06+00:00",
-   "source": "BBC Sport",
-   "sport": "cricket",
-   "sportLabel": "Cricket"
+   "title": "Scotland dominate Japan in 67-5 win",
+   "summary": "Darcy Graham and Liam McConnell inspired much-changed Scotland to a comfortable 11-try 67-5 Nations Championship victory over meek Japan.",
+   "link": "https://www.espn.com/rugby/story/_/id/50550423/scotland-dominate-japan-67-5-win-score-11-tries-rout",
+   "published": "2026-11-21T18:42:35+00:00",
+   "source": "ESPN",
+   "sport": "rugby",
+   "sportLabel": "Rugby"
   },
   {
-   "title": "Australia's Chaudhary downs England in tetchy first T20",
-   "summary": "Unlikely Australia international Nikhil Chaudhary rattles England and secures a tense and tetchy final-over victory in the first T20.",
-   "link": "https://www.bbc.co.uk/sport/cricket/articles/cme39qlevnrqo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-21T12:24:33+00:00",
-   "source": "BBC Sport",
-   "sport": "cricket",
-   "sportLabel": "Cricket"
-  },
-  {
-   "title": "Lehmann again denies knowing about sandpaper plot",
-   "summary": "Former Australia coach Darren Lehmann says he and his staff did not encourage players to use sandpaper on the ball in 2018 despite detailed claims by Cameron Bancroft.",
-   "link": "https://www.bbc.co.uk/sport/cricket/articles/cm62pxqwzw9go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-21T11:36:24+00:00",
-   "source": "BBC Sport",
-   "sport": "cricket",
-   "sportLabel": "Cricket"
-  },
-  {
-   "title": "Cummins' integrity not compromised - Cricket Australia",
-   "summary": "Cricket Australia has \"unequivocally rejected\" the suggestion that captain Pat Cummins' integrity has been compromised by the sandpaper scandal.",
-   "link": "https://www.bbc.co.uk/sport/cricket/articles/c65y1gjnqe50o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-21T09:32:48+00:00",
-   "source": "BBC Sport",
-   "sport": "cricket",
-   "sportLabel": "Cricket"
-  },
-  {
-   "title": "'Somebody has to stand up to that guy' - Verstappen-Russell rivalry blows up again",
-   "summary": "The George Russell-Max Verstappen feud surfaced again in Las Vegas, adding spice to a race where they will start on the front row.",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/c34gnrvl9zvro?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-21T08:13:58+00:00",
-   "source": "BBC Sport",
-   "sport": "f1",
-   "sportLabel": "Formula 1"
-  },
-  {
-   "title": "The story of how golf balls got their dimples",
-   "summary": "Engineer William Taylor took up golf as a hobby to relax - then changed the sport, experts say.",
-   "link": "https://www.bbc.co.uk/news/articles/cw62yy6vx8v6o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-21T07:00:41+00:00",
-   "source": "BBC Sport",
+   "title": "Neergaard-Petersen shares lead at Sea Island; Horschel loses full cards",
+   "summary": "Rasmus Neergaard-Petersen, Marco Penge and Michael Thorbjornsen share the lead at the RSM Classic.",
+   "link": "https://www.espn.com/golf/story/_/id/50547115/neergaard-petersen-part-3-way-tie-lead-sea-island",
+   "published": "2026-11-21T17:53:18+00:00",
+   "source": "ESPN",
    "sport": "golf",
    "sportLabel": "Golf"
   },
   {
-   "title": "Antonelli fastest but penalty leaves Verstappen on pole",
-   "summary": "Mercedes' Kimi Antonelli is fastest in qualifying for the Las Vegas Grand Prix but a grid penalty hands pole position to Red Bull's Max Verstappen.",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/cqlyj4yg366wo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-21T05:54:10+00:00",
-   "source": "BBC Sport",
+   "title": "27-lap tyre limit set for F1 drivers at Qatar Grand Prix",
+   "summary": "Formula 1 drivers will be limited to a total of 27 laps on each set of tyres they use at next weekend's Qatar Grand Prix.",
+   "link": "https://www.espn.com/f1/story/_/id/50472103/qatar-grand-prix-pirelli-formula-1",
+   "published": "2026-11-21T08:59:08+00:00",
+   "source": "ESPN",
    "sport": "f1",
    "sportLabel": "Formula 1"
+  },
+  {
+   "title": "Verstappen 'bigger and better than everyone else,' claims Russell after incident",
+   "summary": "The rivalry between Max Verstappen and George Russell reignited on the streets of Las Vegas on Friday evening after Russell claimed the Red Bull driver thinks he is \"bigger and better than everyone else.\"",
+   "link": "https://www.espn.com/f1/story/_/id/50472101/george-russell-max-verstappen-las-vegas-grand-prix-formula-1",
+   "published": "2026-11-21T08:51:11+00:00",
+   "source": "ESPN",
+   "sport": "motorsport",
+   "sportLabel": "Motorsport"
+  },
+  {
+   "title": "V8 engines will return to F1 in 2030, FIA confirm",
+   "summary": "Formula 1 bosses have reached a unanimous agreement to replace the current power units with V8 turbo hybrid engines in 2030.",
+   "link": "https://www.espn.com/f1/story/_/id/50472097/v8-engine-confirmed-formula-1",
+   "published": "2026-11-21T08:39:32+00:00",
+   "source": "ESPN",
+   "sport": "motorsport",
+   "sportLabel": "Motorsport"
+  },
+  {
+   "title": "Antonelli on Las Vegas pole but starts sixth with penalty, Verstappen promoted",
+   "summary": "New world champion Kimi Antonelli edged out Max Verstappen to take pole position for the Las Vegas Grand Prix.",
+   "link": "https://www.espn.com/f1/story/_/id/50472094/kimi-antonelli-max-verstappen-las-vegas-grand-prix-formula-1",
+   "published": "2026-11-21T07:45:48+00:00",
+   "source": "ESPN",
+   "sport": "motorsport",
+   "sportLabel": "Motorsport"
+  },
+  {
+   "title": "Ferrari's Hamilton, Leclerc suffer shock qualifying exit in Vegas",
+   "summary": "Charles Leclerc labeled Ferrari's qualifying performance at the Las Vegas Grand Prix as \"unbelievable\" after both cars failed to make the cut for the top-10 shootout for the first time this season.",
+   "link": "https://www.espn.com/f1/story/_/id/50472095/lewis-hamilton-charles-leclerc-qualifying-las-vegas-grand-prix-formula-1",
+   "published": "2026-11-21T06:51:45+00:00",
+   "source": "ESPN",
+   "sport": "motorsport",
+   "sportLabel": "Motorsport"
+  },
+  {
+   "title": "Russell and Verstappen clash in final Las Vegas practice",
+   "summary": "In the sole dry running of the weekend in Sin City so far, Russell saw off Mercedes team-mate Kimi Antonelli by nearly a second, with McLaren's Lando Norris third.",
+   "link": "https://www.espn.com/f1/story/_/id/50545696/george-russell-max-verstappen-contact-las-vegas-practice",
+   "published": "2026-11-21T04:20:01+00:00",
+   "source": "ESPN",
+   "sport": "motorsport",
+   "sportLabel": "Motorsport"
   },
   {
    "title": "How a season without their 'admiral' showed the Rockets what they were missing",
@@ -695,31 +713,22 @@
    "sportLabel": "NBA"
   },
   {
-   "title": "Price makes Welsh history",
-   "summary": "Lauren Price makes history in Cardiff. Buncey and Stacey Copeland react to her famous win",
-   "link": "https://www.bbc.co.uk/sounds/play/p0pp625c?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-21T01:55:00+00:00",
-   "source": "BBC Sport",
+   "title": "Price dominates Kotaskova to become Wales' 1st undisputed world champion",
+   "summary": "Lauren Price cruised to a unanimous points decision win over Michaela Kotaskova to become undisputed world welterweight champion in her 11th professional fight.",
+   "link": "https://www.espn.com/boxing/story/_/id/50544504/lauren-price-vs-michaela-kotaskova-undisputed-champion",
+   "published": "2026-11-21T01:37:59+00:00",
+   "source": "ESPN",
    "sport": "boxing",
    "sportLabel": "Boxing"
   },
   {
-   "title": "Drivers limited to 27 laps for tyres in Qatar",
-   "summary": "Formula 1 drivers will be limited to a maximum of 27 laps on a set of tyres at next weekend's Qatar Grand Prix.",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/cwg7l0l313rno?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-21T01:16:54+00:00",
-   "source": "BBC Sport",
-   "sport": "f1",
-   "sportLabel": "Formula 1"
-  },
-  {
-   "title": "Price beats Kotaskova to become undisputed champion",
-   "summary": "Lauren Price dominates Michaela Kotaskova to seal her place in history by becoming undisputed world welterweight champion.",
-   "link": "https://www.bbc.co.uk/sport/boxing/articles/cw808y2lrkzxo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-20T23:30:56+00:00",
-   "source": "BBC Sport",
-   "sport": "boxing",
-   "sportLabel": "Boxing"
+   "title": "A Lim Kim aces par-3 16th, surges to 3-shot lead in LPGA season finale",
+   "summary": "A Lim Kim made a hole-in-one on the par-3 16th hole Friday before pulling away from a crowded field to grab a three-shot lead in the CME Group Tour Championship.",
+   "link": "https://www.espn.com/golf/story/_/id/50544157/a-lim-kim-aces-16th-surges-3-shot-lead-lpga-finale",
+   "published": "2026-11-20T23:16:54+00:00",
+   "source": "ESPN",
+   "sport": "golf",
+   "sportLabel": "Golf"
   },
   {
    "title": "NHL Power Rankings: Updated poll, plus fantasy hockey add/drops for all 32 teams",
@@ -740,31 +749,58 @@
    "sportLabel": "Hockey"
   },
   {
-   "title": "Kim moves clear at LPGA finale after hole-in-one",
-   "summary": "South Korea's A-Lim Kim aces the par-three 16th on her way to claiming a three-shot lead after the second round of CME Group Tour Championship.",
-   "link": "https://www.bbc.co.uk/sport/golf/articles/ck62pzd7vjr0o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-20T23:04:34+00:00",
-   "source": "BBC Sport",
-   "sport": "golf",
-   "sportLabel": "Golf"
-  },
-  {
-   "title": "Alcaraz puts aside injury concerns to take apart Cobolli",
-   "summary": "A ruthless Carlos Alcaraz puts aside his injury concerns to dismantle Flavio Cobolli and ensure a perfect record in the ATP Finals group stages.",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/cqrkgn17emr2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-20T21:58:24+00:00",
-   "source": "BBC Sport",
+   "title": "'Still no Maldives': Holiday postponed, Medvedev to face Zverev at ATP Finals",
+   "summary": "Daniil Medvedev defeated Frances Tiafoe 6-3, 6-4 on Friday to reach the semifinals of the ATP Finals, where he will face top-ranked Alexander Zverev.",
+   "link": "https://www.espn.com/tennis/story/_/id/50544020/daniil-medvedev-defeats-frances-tiafoe-faces-alexander-zverev-atp-finals-semis",
+   "published": "2026-11-20T22:58:11+00:00",
+   "source": "ESPN",
    "sport": "tennis",
    "sportLabel": "Tennis"
   },
   {
-   "title": "'Right time' for Smith exit - but Murray not ready for role",
-   "summary": "Leon Smith steps down as Britain's Davis Cup captain after almost 17 years, but \"standout candidate\" Andy Murray is unlikely to replace him.",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/cvze7d03880ko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-20T17:47:38+00:00",
-   "source": "BBC Sport",
+   "title": "Alcaraz limits movement before ATP Finals semifinal vs. Shelton",
+   "summary": "Carlos Alcaraz completed ATP Finals group play with a perfect three wins and will face Ben Shelton in the semifinals.",
+   "link": "https://www.espn.com/tennis/story/_/id/50543676/carlos-alcaraz-wins-set-atp-finals-semi-vs-ben-shelton",
+   "published": "2026-11-20T22:51:47+00:00",
+   "source": "ESPN",
    "sport": "tennis",
    "sportLabel": "Tennis"
+  },
+  {
+   "title": "Report: Ortiz needs new Dec. 5 opponent after Thurman suffers injury",
+   "summary": "Vergil Ortiz Jr. will need a new opponent Dec. 5 after Keith Thurman suffered an injury in training camp, according to a report by The Ring.",
+   "link": "https://www.espn.com/boxing/story/_/id/50542757/report-ortiz-needs-new-opponent-thurman-suffers-injury",
+   "published": "2026-11-20T22:32:13+00:00",
+   "source": "ESPN",
+   "sport": "boxing",
+   "sportLabel": "Boxing"
+  },
+  {
+   "title": "Where to watch Billie Jean King documentary 'Give Me the Ball!'",
+   "summary": "The documentary chronicles the life of the sports trailblazer.",
+   "link": "https://www.espn.com/tennis/story/_/id/50542057/watch-billie-jean-king-documentary",
+   "published": "2026-11-20T19:35:45+00:00",
+   "source": "ESPN",
+   "sport": "tennis",
+   "sportLabel": "Tennis"
+  },
+  {
+   "title": "Verstappen to ESPN: Antonelli's records won't motivate me to stay in F1",
+   "summary": "Max Verstappen has insisted he doesn't need Kimi Antonelli chasing his records to motivate him to stay in Formula 1, saying only he will make the decision to walk away.",
+   "link": "https://www.espn.com/f1/story/_/id/50320342/max-verstappen-f1-kimi-antonelli-exclusive",
+   "published": "2026-11-20T17:33:04+00:00",
+   "source": "ESPN",
+   "sport": "f1",
+   "sportLabel": "Formula 1"
+  },
+  {
+   "title": "Lee Reeves funeral: Boxer's 'legacy will live on'",
+   "summary": "Irish boxer Lee Reeves \"touched so many lives\" and his \"legacy will live on,\" his funeral was told.",
+   "link": "https://www.espn.com/boxing/story/_/id/50541050/late-irish-boxer-lee-reeves-remembered-funeral",
+   "published": "2026-11-20T15:10:32+00:00",
+   "source": "ESPN",
+   "sport": "boxing",
+   "sportLabel": "Boxing"
   },
   {
    "title": "Mammoth, Avalanche dress for the elements with Winter Classic reveals",
@@ -776,94 +812,76 @@
    "sportLabel": "Hockey"
   },
   {
-   "title": "Durham appoint Gibson as head coach",
-   "summary": "Durham appoint Ottis Gibson as their new head coach on a three-year deal.",
-   "link": "https://www.bbc.co.uk/sport/cricket/articles/cq7829rd3z57o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-20T13:51:27+00:00",
-   "source": "BBC Sport",
-   "sport": "cricket",
-   "sportLabel": "Cricket"
-  },
-  {
-   "title": "ATP increases player compensation to $350m & delays doubles cuts decision",
-   "summary": "The men's ATP Tour promises players rewards of at least $350m in 2028 - but delays a decision on hotly-disputed changes to doubles until next month.",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/cqd01n33x0geo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-20T13:03:50+00:00",
-   "source": "BBC Sport",
-   "sport": "tennis",
-   "sportLabel": "Tennis"
-  },
-  {
-   "title": "UFC title contender Fiorot banned for three months",
-   "summary": "Highly ranked UFC flyweight Manon Fiorot is banned for three months for violating the promotion's anti-doping policy.",
-   "link": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/c6808yxx71e0o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-20T10:18:35+00:00",
-   "source": "BBC Sport",
-   "sport": "ufc",
-   "sportLabel": "UFC"
-  },
-  {
-   "title": "Scots lose Super Six opening thriller to Dutch",
-   "summary": "Scotland fall to a final-over, seven-wicket defeat by the Netherlands in their opening match in the Super Six stage of the Women's Emerging Nations Trophy.",
-   "link": "https://www.bbc.co.uk/sport/cricket/articles/cr3wg173n087o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-20T09:32:19+00:00",
-   "source": "BBC Sport",
-   "sport": "cricket",
-   "sportLabel": "Cricket"
-  },
-  {
-   "title": "The art of protection - inside an F1 helmet factory",
-   "summary": "Inside the extraordinary world of Formula 1 helmets, where precision engineering, personal expression and life-saving technology join forces.",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/cm20vpq8z6n4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-20T06:29:04+00:00",
-   "source": "BBC Sport",
-   "sport": "f1",
-   "sportLabel": "Formula 1"
-  },
-  {
-   "title": "History, hunger and headline bills - why Price is box office",
-   "summary": "As Lauren Price bids to become Wales' first undisputed world champion, the former footballer already has her sights set on stadium fights.",
-   "link": "https://www.bbc.co.uk/sport/boxing/articles/crwy8e7d5lj1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-20T05:32:13+00:00",
-   "source": "BBC Sport",
-   "sport": "boxing",
-   "sportLabel": "Boxing"
-  },
-  {
-   "title": "Donald aims for England T20 chance in Australia",
-   "summary": "Welsh batter Aneurin Donald is part of England's T20 squad for the five-match series in Australia, and hoping to play his part at the MCG.",
-   "link": "https://www.bbc.co.uk/sport/cricket/articles/cqe9lmngjm0eo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-20T05:04:29+00:00",
-   "source": "BBC Sport",
-   "sport": "cricket",
-   "sportLabel": "Cricket"
-  },
-  {
-   "title": "Andrew Benson Q&A: Send us your questions",
-   "summary": "Our F1 correspondent Andrew Benson is doing a weekly Q&A this season, so get your questions in now.",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/ckg3y15zje8o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-20T04:09:21+00:00",
-   "source": "BBC Sport",
-   "sport": "f1",
-   "sportLabel": "Formula 1"
-  },
-  {
-   "title": "England's Hull one stroke off lead at lucrative LPGA finale",
-   "summary": "England's Charley Hull cards a six-under 66 to sit one shot off the first-round lead at the LPGA's lucrative season-ending CME Group Tour Championship.",
-   "link": "https://www.bbc.co.uk/sport/golf/articles/cmx20gypx244o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-19T22:31:40+00:00",
-   "source": "BBC Sport",
+   "title": "Kevin Hart talks golf, his dream foursome and the first Live Más Open",
+   "summary": "At the inaugural Live Más Open, Kevin Hart talks about what keeps him coming back to the course.",
+   "link": "https://www.espn.com/golf/story/_/id/50531020/live-mas-open-taco-bell-golf-tournament-kevin-hart",
+   "published": "2026-11-20T14:00:24+00:00",
+   "source": "ESPN",
    "sport": "golf",
    "sportLabel": "Golf"
   },
   {
-   "title": "Unbeaten Zverev hopes to be 'pain-free' after overcoming Fils at ATP Finals",
-   "summary": "World number one Alexander Zverev says he will do \"everything I can to be pain-free\" after hurting his ankle during his ATP Finals victory over Arthur Fils.",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/c64gne03ykjro?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-19T22:17:25+00:00",
-   "source": "BBC Sport",
+   "title": "UFC fighter Fiorot banned for 3 months for violating anti-doping policy",
+   "summary": "UFC fighter Manon Fiorot of France has been banned for three months for violating its anti-doping policy, the mixed martial arts competition said.",
+   "link": "https://www.espn.com/mma/story/_/id/50540039/ufc-fighter-manon-fiorot-banned-3-months-doping",
+   "published": "2026-11-20T12:13:10+00:00",
+   "source": "ESPN",
+   "sport": "ufc",
+   "sportLabel": "UFC"
+  },
+  {
+   "title": "ATP Tour unveils expanded compensation plan to benefit top 250 players",
+   "summary": "The ATP Tour unveiled a new player compensation plan on Friday that is projected to exceed $350 million starting in 2028 and provide better pay for up to 250 players in men's tennis.",
+   "link": "https://www.espn.com/tennis/story/_/id/50539880/atp-tour-unveils-expanded-compensation-top-250-players",
+   "published": "2026-11-20T11:06:54+00:00",
+   "source": "ESPN",
    "sport": "tennis",
    "sportLabel": "Tennis"
+  },
+  {
+   "title": "Thitikul birdies final 5 holes to share CME Group Tour lead",
+   "summary": "Jeeno Thitikul closed with five straight birdies to give her a 65 to join Karis Davidson and A Lim Kim atop the leaderboard after one round of the CME Group Tour Championship.",
+   "link": "https://www.espn.com/golf/story/_/id/50535191/jeeno-thitikul-birdies-final-5-holes-shares-cme-group-tour-lead",
+   "published": "2026-11-20T00:14:59+00:00",
+   "source": "ESPN",
+   "sport": "golf",
+   "sportLabel": "Golf"
+  },
+  {
+   "title": "Ali American Boxing Revival Act unanimously passed by Senate, heads to House",
+   "summary": "The U.S. Senate unanimously passed the Muhammad Ali American Boxing Revival Act, providing life to a once-stalled bill as the revised version goes to the House.",
+   "link": "https://www.espn.com/boxing/story/_/id/50535111/senate-passes-muhammad-ali-american-boxing-revival-act",
+   "published": "2026-11-19T23:15:18+00:00",
+   "source": "ESPN",
+   "sport": "boxing",
+   "sportLabel": "Boxing"
+  },
+  {
+   "title": "Senate passes its own version after House advances boxing-reform act",
+   "summary": "Questions and answers about the reform bill and its impact on the sport.",
+   "link": "https://www.espn.com/boxing/story/_/id/48298613/boxing-reforms-congress-dana-white",
+   "published": "2026-11-19T23:11:23+00:00",
+   "source": "ESPN",
+   "sport": "ufc",
+   "sportLabel": "UFC"
+  },
+  {
+   "title": "Shelton beats Jodar, joins Zverev, Alcaraz in ATP Finals semis",
+   "summary": "Ben Shelton beat Rafael Jodar on Thursday to join Alexander Zverev and Carlos Alcaraz in the semifinal round of the ATP Finals in Turin, Italy.",
+   "link": "https://www.espn.com/tennis/story/_/id/50534384/shelton-beats-jodar-joins-zverev-alcaraz-atp-finals-semis",
+   "published": "2026-11-19T22:19:37+00:00",
+   "source": "ESPN",
+   "sport": "tennis",
+   "sportLabel": "Tennis"
+  },
+  {
+   "title": "Thorbjornsen dialed in with irons, fires 64 at season-ending RSM Classic",
+   "summary": "Michael Thorbjornsen had a 6-under 64 at the tougher at the tougher Seaside course. Jesper Svensson carded an 8-under 64 at the Plantation course.",
+   "link": "https://www.espn.com/golf/story/_/id/50534530/jesper-svensson-michael-thorbjornsen-start-fast-rsm",
+   "published": "2026-11-19T22:14:27+00:00",
+   "source": "ESPN",
+   "sport": "golf",
+   "sportLabel": "Golf"
   },
   {
    "title": "Five rules to know before trading away (or for) the best player in fantasy hockey",
@@ -875,13 +893,49 @@
    "sportLabel": "Hockey"
   },
   {
-   "title": "Edwards' world title aim to join Welsh boxing greats",
-   "summary": "Rhys Edwards is taking inspiration from Wales' boxing greats as he faces Lee McGregor for the WBA Continental featherweight title.",
-   "link": "https://www.bbc.co.uk/sport/boxing/articles/ckr5g3ql2mdlo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-19T13:54:42+00:00",
-   "source": "BBC Sport",
+   "title": "Fundora chasing rings, not just titles: Predictions and stats vs. Zapotoczna",
+   "summary": "A look at the matchup, key stats and predictions as Gabriela Fundora prepares to defend her titles against Jasmina Zapotoczna.",
+   "link": "https://www.espn.com/boxing/story/_/id/50523377/fundora-zapotoczna-boxing-preview-numbers-data",
+   "published": "2026-11-19T17:35:18+00:00",
+   "source": "ESPN",
    "sport": "boxing",
    "sportLabel": "Boxing"
+  },
+  {
+   "title": "Misdemeanor assault case against Devin Haney, father dismissed",
+   "summary": "The misdemeanor assault case against boxer Devin Haney and his father, stemming from a public brawl in New York in January, has been dropped.",
+   "link": "https://www.espn.com/boxing/story/_/id/50532171/misdemeanor-assault-case-devin-haney-father-dismissed",
+   "published": "2026-11-19T17:15:02+00:00",
+   "source": "ESPN",
+   "sport": "boxing",
+   "sportLabel": "Boxing"
+  },
+  {
+   "title": "Felony charges against Mayweather over bad $200K check dismissed",
+   "summary": "A Las Vegas court has dismissed felony charges against Floyd Mayweather Jr. over allegations the boxing great wrote a bad check while purchasing a watch.",
+   "link": "https://www.espn.com/boxing/story/_/id/50531947/floyd-mayweather-jr-charges-bad-200k-check-dropped",
+   "published": "2026-11-19T16:40:55+00:00",
+   "source": "ESPN",
+   "sport": "boxing",
+   "sportLabel": "Boxing"
+  },
+  {
+   "title": "NASCAR's Chase postseason format delivered what the sport needed in its return",
+   "summary": "In Year 1 of the return of NASCAR's Chase postseason format's return, wins mattered more than ever and everyone can agree on the champion.",
+   "link": "https://www.espn.com/racing/nascar/story/_/id/50531287/nascar-chase-postseason-format",
+   "published": "2026-11-19T14:51:04+00:00",
+   "source": "ESPN",
+   "sport": "motorsport",
+   "sportLabel": "Motorsport"
+  },
+  {
+   "title": "Max Verstappen on F1 retirement, Le Mans and learning to lose: 'Stress a bit less'",
+   "summary": "Max Verstappen spoke to ESPN on his racing ambition and life beyond Formula 1.",
+   "link": "https://www.espn.com/f1/story/_/id/50432818/max-verstappen-red-bull-f1-future",
+   "published": "2026-11-19T14:01:28+00:00",
+   "source": "ESPN",
+   "sport": "f1",
+   "sportLabel": "Formula 1"
   },
   {
    "title": "The hidden danger behind Luka Doncic's historic start﻿",
@@ -893,301 +947,355 @@
    "sportLabel": "NBA"
   },
   {
-   "title": "Woods to design new golf course in Northern Ireland",
-   "summary": "Tiger Woods is to design Northern Ireland's first new championship links golf course in more than a century.",
-   "link": "https://www.bbc.co.uk/sport/golf/articles/ckr5g243jd8qo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-19T13:02:43+00:00",
-   "source": "BBC Sport",
-   "sport": "golf",
-   "sportLabel": "Golf"
+   "title": "Verstappen dismisses biometric plan: 'People don't need to know my heart rate'",
+   "summary": "Max Verstappen has said he will not give permission to Formula 1 and its new partner Whoop to broadcast his biometric data during races.",
+   "link": "https://www.espn.com/f1/story/_/id/50472044/max-verstappen-privacy-las-vegas-grand-prix-formula-1",
+   "published": "2026-11-19T13:27:24+00:00",
+   "source": "ESPN",
+   "sport": "f1",
+   "sportLabel": "Formula 1"
   },
   {
-   "title": "Price wants to make Welsh boxing history",
-   "summary": "Lauren Price is eyeing the chance to become Wales' first ever undisputed world boxing champion when she takes on Michaela Kotaskova on Friday, 20 November.",
-   "link": "https://www.bbc.co.uk/sport/boxing/videos/cm2kl5k53v58o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-19T10:48:39+00:00",
-   "source": "BBC Sport",
-   "sport": "boxing",
-   "sportLabel": "Boxing"
-  },
-  {
-   "title": "Australia's Barty elected into Tennis Hall of Fame",
-   "summary": "Three-time Grand Slam winner Ash Barty will be elected into the International Tennis Hall of Fame at a ceremony in August next year.",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/c5n4eme37p4ko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-19T08:13:00+00:00",
-   "source": "BBC Sport",
+   "title": "Barty, Kunieda elected to International Tennis Hall of Fame",
+   "summary": "Ash Barty, a former world No. 1 and major champion, has been elected for induction in the International Tennis Hall of Fame, along with Shingo Kunieda, a Japanese player who won four Paralympic gold medals and 50 majors in wheelchair tennis.",
+   "link": "https://www.espn.com/tennis/story/_/id/50528209/ash-barty-shingo-kunieda-elected-international-tennis-hall-fame",
+   "published": "2026-11-19T06:48:00+00:00",
+   "source": "ESPN",
    "sport": "tennis",
    "sportLabel": "Tennis"
   },
   {
-   "title": "UK firms owed thousands as Saudi-backed LIV paid golfers millions",
-   "summary": "A BBC Sport investigation has found bills to UK companies were already overdue when LIV Golf made its final payments to players and executives before filing for bankruptcy.",
-   "link": "https://www.bbc.co.uk/sport/golf/articles/cw7vpv793n24o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-19T06:37:40+00:00",
-   "source": "BBC Sport",
-   "sport": "golf",
-   "sportLabel": "Golf"
-  },
-  {
-   "title": "Tennis the saviour for player who tried to take own life before Wimbledon",
-   "summary": "Swiss player Leandro Riedi tried to take his own life days before playing at Wimbledon in 2024. Now he wants to tell his story.",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/cm5y18p5v12yo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-19T06:17:35+00:00",
-   "source": "BBC Sport",
-   "sport": "tennis",
-   "sportLabel": "Tennis"
-  },
-  {
-   "title": "Zverev to defend himself against fresh lawsuit",
-   "summary": "Lawyers for world number one Alexander Zverev say he will defend himself against a lawsuit which alleges he misrepresented the outcome of a domestic abuse trial.",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/c60rkq9kweego?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-18T16:27:24+00:00",
-   "source": "BBC Sport",
-   "sport": "tennis",
-   "sportLabel": "Tennis"
-  },
-  {
-   "title": "Alcaraz continues winning run despite injury concern",
-   "summary": "Carlos Alcaraz continues his sensational late-season form as he outclasses world number five Daniil Medvedev to confirm his progress at the ATP Finals.",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/cmdx1erlpqkxo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-18T16:01:47+00:00",
-   "source": "BBC Sport",
-   "sport": "tennis",
-   "sportLabel": "Tennis"
-  },
-  {
-   "title": "Opetaia out of Wilder fight on Fury-Joshua card",
-   "summary": "Australian Jai Opetaia withdraws from his heavyweight fight with Deontay Wilder on the undercard of Tyson Fury's bout with Anthony Joshua in December.",
-   "link": "https://www.bbc.co.uk/sport/boxing/articles/cq1md5ppd2mxo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-18T10:15:35+00:00",
-   "source": "BBC Sport",
-   "sport": "boxing",
-   "sportLabel": "Boxing"
-  },
-  {
-   "title": "Does tennis do enough to protect players from online abuse?",
-   "summary": "Jodie Burrage is among a number of tennis players speaking out about online abuse",
-   "link": "https://www.bbc.co.uk/sounds/play/w3ct9tpc?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-18T06:00:00+00:00",
-   "source": "BBC Sport",
-   "sport": "tennis",
-   "sportLabel": "Tennis"
-  },
-  {
-   "title": "New Zealand v India - first Test scorecard",
-   "summary": "Latest scorecard from the first Test between New Zealand and India at Wellington's Basin Reserve.",
-   "link": "https://www.bbc.co.uk/sport/cricket/scorecard/e-242118?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-18T00:00:00+00:00",
-   "source": "BBC Sport",
-   "sport": "cricket",
-   "sportLabel": "Cricket"
-  },
-  {
-   "title": "Ruthless Zverev through to ATP Finals knockout stage",
-   "summary": "World number one Alexander Zverev produces a serving masterclass to defeat Ben Shelton and qualify for the ATP Finals knockout stage with a match to spare.",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/c6x2eveyyxp0o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-17T22:30:24+00:00",
-   "source": "BBC Sport",
-   "sport": "tennis",
-   "sportLabel": "Tennis"
-  },
-  {
-   "title": "Woods set to return next month after two years out",
-   "summary": "Tiger Woods is set to return to competitive golf in December for the first time in more than two years.",
-   "link": "https://www.bbc.co.uk/sport/golf/articles/cm93080ep703o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-17T15:54:36+00:00",
-   "source": "BBC Sport",
-   "sport": "golf",
-   "sportLabel": "Golf"
-  },
-  {
-   "title": "Prison sentences rescinded after Nurmagomedov-Dvalishvili brawl",
-   "summary": "The eight people who received prison sentences for their part in a mass brawl involving MMA fighters Usman Nurmagomedov and Merab Dvalishvili have been released.",
-   "link": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cqlyjkl8xz0go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-17T11:20:11+00:00",
-   "source": "BBC Sport",
+   "title": "UFC releases former strawweight title challenger Jandiroba",
+   "summary": "Virna Jandiroba, a former title challenger and the current No. 3-ranked fighter in the women's strawweight division, has been released by the UFC.",
+   "link": "https://www.espn.com/mma/story/_/id/50523092/ufc-releases-former-strawweight-title-challenger-jandiroba",
+   "published": "2026-11-18T19:29:08+00:00",
+   "source": "ESPN",
    "sport": "ufc",
    "sportLabel": "UFC"
   },
   {
-   "title": "Nunes calls for Harrison rematch at featherweight",
-   "summary": "Amanda Nunes calls for a rematch against Kayla Harrison at featherweight after defeat by the UFC bantamweight champion on Saturday.",
-   "link": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cm93rg2lg55qo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-17T07:19:32+00:00",
-   "source": "BBC Sport",
-   "sport": "ufc",
-   "sportLabel": "UFC"
+   "title": "FAQ: Why Zverev's rise to world No. 1 provokes mixed feelings",
+   "summary": "Alexander Zverev's climb to No. 1 presents a complicated scenario for fans, sponsors and media due to his history of domestic violence allegations.",
+   "link": "https://www.espn.com/tennis/story/_/id/50354131/alexander-sasha-zverev-world-no-1-ranking-domestic-abuse-charges",
+   "published": "2026-11-18T18:11:18+00:00",
+   "source": "ESPN",
+   "sport": "tennis",
+   "sportLabel": "Tennis"
   },
   {
-   "title": "Irish boxer Reeves dies aged 31 after three months in coma",
-   "summary": "Irish boxer Lee Reeves has died aged 31, three months after he suffered serious injuries in a bout in Dublin, his promoter Queensberry has announced.",
-   "link": "https://www.bbc.co.uk/sport/boxing/articles/cv4gnp901zzxo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-17T07:18:08+00:00",
-   "source": "BBC Sport",
-   "sport": "boxing",
-   "sportLabel": "Boxing"
+   "title": "Zverev officially notified of lawsuit by ex-partner in abuse case",
+   "summary": "Top-ranked tennis player Alexander Zverev was officially notified of a lawsuit filed by his former partner during the middle of the season-ending ATP Finals on Wednesday.",
+   "link": "https://www.espn.com/tennis/story/_/id/50522116/alexander-zverev-notified-lawsuit-ex-partner-abuse-case",
+   "published": "2026-11-18T16:51:30+00:00",
+   "source": "ESPN",
+   "sport": "tennis",
+   "sportLabel": "Tennis"
   },
   {
-   "title": "From Watford to world champion",
-   "summary": "The story of how Anthony Joshua rose from a late starter in boxing to Olympic gold medallist and heavyweight world champion, before his long-awaited showdown with Tyson Fury.",
-   "link": "https://www.bbc.co.uk/sport/boxing/videos/c6x2v444m171o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-17T06:30:41+00:00",
-   "source": "BBC Sport",
-   "sport": "boxing",
-   "sportLabel": "Boxing"
-  },
-  {
-   "title": "McIlroy wins Race to Dubai after thrilling final day",
-   "summary": "Rory McIlroy takes second place at golf's DP World Tour Championship, finishing ahead of Spain's Eugenio Chacarra to secure the Race to Dubai title for a record-equalling eighth time.",
-   "link": "https://www.bbc.co.uk/sport/golf/videos/c5lyk087yxjko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T15:34:04+00:00",
-   "source": "BBC Sport",
+   "title": "2026 PGA The RSM Classic: Where to watch, schedule, golfers",
+   "summary": "Here's when you can watch The RSM Classic on ESPN.",
+   "link": "https://www.espn.com/golf/story/_/id/50521001/2026-pga-rsm-classic-where-watch-schedule-golfers",
+   "published": "2026-11-18T15:16:31+00:00",
+   "source": "ESPN",
    "sport": "golf",
    "sportLabel": "Golf"
   },
   {
-   "title": "Harrison shocks Nunes on UFC return to retain title",
-   "summary": "Kayla Harrison shocks returning great Amanda Nunes by submitting the former double champion to retain her bantamweight title at UFC 334 in New York.",
-   "link": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/c5742819x9n3o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T08:02:48+00:00",
-   "source": "BBC Sport",
+   "title": "MMA pound-for-pound rankings: Harrison, Nunes in a league of their own",
+   "summary": "Who do Kayla Harrison and Amanda Nunes replace in ESPN's P4P women's top 10?",
+   "link": "https://www.espn.com/mma/story/_/id/24067525/mma-pound-rankings-kayla-harrison-returns-top",
+   "published": "2026-11-18T13:01:25+00:00",
+   "source": "ESPN",
    "sport": "ufc",
    "sportLabel": "UFC"
   },
   {
-   "title": "Highlights: Wales beat New Zealand for first time in 73 years",
-   "summary": "Watch the best of the action as Wales beat New Zealand for the first time in 73 years",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/videos/ckdd10y25mm1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-14T16:35:13+00:00",
-   "source": "BBC Sport",
+   "title": "MMA divisional rankings: Kayla Harrison is back and in top form",
+   "summary": "Here's a look at every weight class to determine the best of the best in UFC, PFL and beyond.",
+   "link": "https://www.espn.com/mma/story/_/id/21807736/mma-divisional-rankings-ufc-pfl-weight-class",
+   "published": "2026-11-18T13:01:25+00:00",
+   "source": "ESPN",
+   "sport": "ufc",
+   "sportLabel": "UFC"
+  },
+  {
+   "title": "Nunes wants rematch after submission loss to Harrison at UFC 334",
+   "summary": "Amanda Nunes is calling for a rematch against Kayla Harrison after she tapped out and suffered a submission-loss in their bantamweight title fight at UFC 334.",
+   "link": "https://www.espn.com/mma/story/_/id/50504744/ufc-nunes-calls-rematch-submission-loss-harrison",
+   "published": "2026-11-18T13:00:09+00:00",
+   "source": "ESPN",
+   "sport": "ufc",
+   "sportLabel": "UFC"
+  },
+  {
+   "title": "Abu Dhabi court reduces sentences for 8 in Nurmagomedov-Dvalishvili brawl",
+   "summary": "An Abu Dhabi court has reduced the sentences of eight defendants, including six members of Team Nurmagomedov, for their part in last week's wild hotel brawl in the UAE's capital city.",
+   "link": "https://www.espn.com/mma/story/_/id/50511188/eight-nurmagomedov-dvalishvili-brawl-get-reduced-sentences",
+   "published": "2026-11-18T12:19:04+00:00",
+   "source": "ESPN",
+   "sport": "ufc",
+   "sportLabel": "UFC"
+  },
+  {
+   "title": "Springboks coach Erasmus suspended for 'match-fixing' comments",
+   "summary": "Springboks head coach Rassie Erasmus has been suspended for six matches by World Rugby following his comments on Monday over whether officials are \"match-fixing.\"",
+   "link": "https://www.espn.com/rugby/story/_/id/50511561/springboks-rassie-erasmus-suspended",
+   "published": "2026-11-18T11:33:34+00:00",
+   "source": "ESPN",
    "sport": "rugby",
    "sportLabel": "Rugby"
   },
   {
-   "title": "Eight sentenced to jail over Nurmagomedov-Dvalishvili brawl",
-   "summary": "Eight people face prison sentences for their part in mass brawl involving MMA fighters Usman Nurmagomedov and Merab Dvalishvili at a hotel in Abu Dhabi on Wednesday.",
-   "link": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cm3wgpl28yzgo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-13T17:15:52+00:00",
-   "source": "BBC Sport",
-   "sport": "ufc",
-   "sportLabel": "UFC"
-  },
-  {
-   "title": "UFC boss White does not like Hokit's 'shtick'",
-   "summary": "UFC president Dana White says he doesn't like Josh Hokit's \"shtick\" but he has earned his heavyweight title shot against Ciryl Gane at UFC 334.",
-   "link": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cm1wrnl8qnd7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-13T11:39:46+00:00",
-   "source": "BBC Sport",
-   "sport": "ufc",
-   "sportLabel": "UFC"
-  },
-  {
-   "title": "Nurmagomedov slaps Dvalishvili to spark hotel brawl",
-   "summary": "Former UFC bantamweight champion Merab Dvalishvili and PFL lightweight champion Usman Nurmagomedov are involved in a physical altercation in Abu Dhabi.",
-   "link": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cq0l38rw2w7ro?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-12T15:52:38+00:00",
-   "source": "BBC Sport",
-   "sport": "ufc",
-   "sportLabel": "UFC"
-  },
-  {
-   "title": "Harrison on verge of 'permanent nerve damage' before surgery",
-   "summary": "Kayla Harrison says she was \"on the verge of having permanent nerve damage\" before having neck and spinal surgery at the start of the year.",
-   "link": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cw23jl3m9l0jo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-12T13:22:33+00:00",
-   "source": "BBC Sport",
-   "sport": "ufc",
-   "sportLabel": "UFC"
-  },
-  {
-   "title": "MVP and PFL merger 'exciting' - McKee",
-   "summary": "Ballymena's Rhys McKee says the merger between Most Valuable Promotions [MVP] and the Professional Fighters League [PFL] is \"exciting\" for all involved.",
-   "link": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cm4g1xx12wxzo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-12T08:27:56+00:00",
-   "source": "BBC Sport",
-   "sport": "ufc",
-   "sportLabel": "UFC"
-  },
-  {
-   "title": "'Crazy' I'll get to 'knock my boss out' - Doumbe",
-   "summary": "Cedric Doumbe says it is \"crazy\" he will get the chance to \"face my boss and knock him out\" when he fights Jake Paul in Dubai on 24 December.",
-   "link": "https://www.bbc.co.uk/sport/boxing/articles/cm752n322gn9o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-11T11:47:07+00:00",
-   "source": "BBC Sport",
-   "sport": "ufc",
-   "sportLabel": "UFC"
-  },
-  {
-   "title": "Why Fury was born to fight",
-   "summary": "Inspired by his father John and drawn to boxing from a young age, Tyson Fury went on to become heavyweight world champion. BBC Sport takes a look at the defining moments that shaped one of Britain's most extraordinary…",
-   "link": "https://www.bbc.co.uk/sport/boxing/videos/cwx29gd12xjko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-11T06:24:24+00:00",
-   "source": "BBC Sport",
+   "title": "Fury vs. Joshua loses key undercard fight, Opetaia out of Wilder clash",
+   "summary": "Jai Opetaia has been forced to withdraw from his fight against Deontay Wilder due to injury, it has been confirmed.",
+   "link": "https://www.espn.com/boxing/story/_/id/50519060/jai-opetaia-deontay-wilder-tyson-fury-anthony-joshua",
+   "published": "2026-11-18T10:15:03+00:00",
+   "source": "ESPN",
    "sport": "boxing",
    "sportLabel": "Boxing"
   },
   {
-   "title": "UFC 334: Gane v Hokit - all you need to know",
-   "summary": "All you need to know as Ciryl Gane defends his heavyweight title against Josh Hokit and Kayla Harrison puts her women's bantamweight belt on the line against Amanda Nunes.",
-   "link": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/c6n494my0g32o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-10T09:06:38+00:00",
-   "source": "BBC Sport",
+   "title": "Back on course: Tiger to return for Hero World Challenge next month",
+   "summary": "Tiger Woods is returning to competitive golf in next month's Hero World Challenge in the Bahamas. The 50-year-old 15-time major winner has not played in a PGA Tour event since 2024.",
+   "link": "https://www.espn.com/golf/story/_/id/50511075/tiger-woods-return-next-month-hero-world-challenge",
+   "published": "2026-11-17T16:09:52+00:00",
+   "source": "ESPN",
+   "sport": "golf",
+   "sportLabel": "Golf"
+  },
+  {
+   "title": "Kayla Harrison, Ciryl Gane could be in line for rematches after UFC 334",
+   "summary": "What options do Harrison and Gane have after the first defenses of their titles at UFC 334?",
+   "link": "https://www.espn.com/mma/story/_/id/50494167/ufc-334-next-ciryl-gane-kayla-harrison-more",
+   "published": "2026-11-17T14:41:21+00:00",
+   "source": "ESPN",
    "sport": "ufc",
    "sportLabel": "UFC"
   },
   {
-   "title": "Watch: Rivals - Fury v Joshua on BBC iPlayer",
-   "summary": "The inside story of heavyweight boxing's long-awaited showdown",
-   "link": "https://www.bbc.co.uk/iplayer/episode/m0034cyd?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-10T06:00:00+00:00",
-   "source": "BBC Sport",
+   "title": "Boxing divisional rankings: Darius Fulghum upsets Diego Pacheco to enter top 10",
+   "summary": "Darius Fulghum pulled off a major upset over Deigo Pacheco to shake up the latest ESPN divisional rankings.",
+   "link": "https://www.espn.com/boxing/story/_/id/21675272/divisional-rankings-best-top-10-fighters-per-division",
+   "published": "2026-11-17T13:07:55+00:00",
+   "source": "ESPN",
    "sport": "boxing",
    "sportLabel": "Boxing"
   },
   {
-   "title": "I don't know what 2027 looks like for me - Rahm",
-   "summary": "Jon Rahm explains his reluctance to join LIV Golf 2.0, saying he \"wasn't willing to follow that path\" after agreeing to leave the series last month.",
-   "link": "https://www.bbc.co.uk/sport/golf/videos/cw3dj3332xrro?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-03T16:52:29+00:00",
-   "source": "BBC Sport",
-   "sport": "golf",
-   "sportLabel": "Golf"
-  },
-  {
-   "title": "US retain Presidents Cup with final day comeback",
-   "summary": "Watch highlights from the final day of the Presidents Cup as the United States complete a thrilling comeback to beat the Internationals and win their 11th successive title.",
-   "link": "https://www.bbc.co.uk/sport/golf/videos/ck790pj7dd32o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-09-28T11:12:18+00:00",
-   "source": "BBC Sport",
-   "sport": "golf",
-   "sportLabel": "Golf"
-  },
-  {
-   "title": "Fury v Joshua fight to provide 'big boost' to city's economy",
-   "summary": "Cardiff is preparing for an influx of fans from across the globe for the 11 December showdown.",
-   "link": "https://www.bbc.co.uk/news/articles/c6qxv75g4zx8o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-09-26T09:45:36+00:00",
-   "source": "BBC Sport",
+   "title": "Women's divisional rankings: Zamorano climbs at atomweight with dominant win",
+   "summary": "WBC world champion Camila Zamorano keeps rising at atomweight. Here are the latest ESPN divisional rankings.",
+   "link": "https://www.espn.com/boxing/story/_/id/32533891/boxing-rankings-espn-top-5-women-every-boxing-division",
+   "published": "2026-11-17T13:07:55+00:00",
+   "source": "ESPN",
    "sport": "boxing",
    "sportLabel": "Boxing"
   },
   {
-   "title": "Spaun wins PGA Championship after final round of 67",
-   "summary": "JJ Spaun hits a final round of 67 to win the PGA Championship and to become the second American in three years to do so.",
-   "link": "https://www.bbc.co.uk/sport/golf/videos/cm4g50pr405eo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-09-20T17:29:36+00:00",
-   "source": "BBC Sport",
+   "title": "UFC 334 takeaways: Gane deserves a homecoming; Nunes made a costly tactical mistake",
+   "summary": "Ciryl Gane deserves a chance to win over fans, while Amanda Nunes fought the wrong fight against Kayla Harrison.",
+   "link": "https://www.espn.com/mma/story/_/id/50485499/ufc-334-gane-homecoming-fight-nunes-mistakes",
+   "published": "2026-11-17T12:42:55+00:00",
+   "source": "ESPN",
+   "sport": "ufc",
+   "sportLabel": "UFC"
+  },
+  {
+   "title": "What does the future hold for the WTA Finals?",
+   "summary": "After six host cities in seven years, the WTA Finals will enter a new era of stability for the marquee year-end event.",
+   "link": "https://www.espn.com/tennis/story/_/id/50504216/wta-finals-indian-wells-charlotte-north-carolina-andreeva",
+   "published": "2026-11-16T23:29:23+00:00",
+   "source": "ESPN",
+   "sport": "tennis",
+   "sportLabel": "Tennis"
+  },
+  {
+   "title": "Nations Championship reaction: Are Wales back? All Blacks in must-win territory",
+   "summary": "Wales stun the All Blacks, France topple South Africa and England face a selection headache. ESPN breaks down the Nations Championship's biggest talking points.",
+   "link": "https://www.espn.com/rugby/story/_/id/50491028/nations-championship-rugby-wales-new-zealand",
+   "published": "2026-11-16T20:30:18+00:00",
+   "source": "ESPN",
+   "sport": "rugby",
+   "sportLabel": "Rugby"
+  },
+  {
+   "title": "Gane taken to brink by game Hokit, edges out decision in UFC title slugfest",
+   "summary": "Ciryl Gane got all he could handle from Josh Hokit in a five-round slugfest but took command late to defend his heavyweight title at UFC 334.",
+   "link": "https://www.espn.com/mma/story/_/id/50488012/ciryl-gane-edges-josh-hokit-slugfest-retains-title-ufc-334",
+   "published": "2026-11-15T15:08:04+00:00",
+   "source": "ESPN",
+   "sport": "ufc",
+   "sportLabel": "UFC"
+  },
+  {
+   "title": "Harrison spoils Nunes' return, submits ex-champion to retain UFC crown",
+   "summary": "Kayla Harrison scored the biggest victory of her career, submitting former champion Amanda Nunes by rear-naked choke in Round 4 to retain her title at UFC 334.",
+   "link": "https://www.espn.com/mma/story/_/id/50487730/kayla-harrison-submits-amanda-nunes-retain-title-ufc-334",
+   "published": "2026-11-15T13:52:54+00:00",
+   "source": "ESPN",
+   "sport": "ufc",
+   "sportLabel": "UFC"
+  },
+  {
+   "title": "'Wonderboy' retires in style with spinning-kick knockout victory at UFC 334",
+   "summary": "Stephen \"Wonderboy\" Thompson closed his MMA career by knocking out Charles Radtke with a spinning kick to the head Saturday night at UFC 334.",
+   "link": "https://www.espn.com/mma/story/_/id/50486254/stephen-thompson-caps-career-spinning-kick-ko-ufc-334",
+   "published": "2026-11-15T03:17:07+00:00",
+   "source": "ESPN",
+   "sport": "ufc",
+   "sportLabel": "UFC"
+  },
+  {
+   "title": "ATP Finals preview: Can Alcaraz close out the year with a big win?",
+   "summary": "Alcaraz has returned from injury and is on a hot streak, while Americans Shelton and Tiafoe are hoping to challenge for the ATP Finals title.",
+   "link": "https://www.espn.com/tennis/story/_/id/50473425/atp-finals-alcaraz-zverev-shelton-tiafoe-jodar-medvedev",
+   "published": "2026-11-13T20:42:37+00:00",
+   "source": "ESPN",
+   "sport": "tennis",
+   "sportLabel": "Tennis"
+  },
+  {
+   "title": "F1 season set to finish in Middle East as Imola backup plan ruled out",
+   "summary": "Formula 1 has told Imola it will not be required to hold a season-ending race, meaning the plan to finish 2026 in Qatar and Abh Dhabi is now set in stone.",
+   "link": "https://www.espn.com/f1/story/_/id/50442406/qatar-abu-dhabi-imola-f1-2026",
+   "published": "2026-11-13T11:02:39+00:00",
+   "source": "ESPN",
+   "sport": "f1",
+   "sportLabel": "Formula 1"
+  },
+  {
+   "title": "What to know ahead of the inaugural WTGL season",
+   "summary": "The first WTGL season gets started Sunday. Who is playing, and what can you expect when the new league tees off?",
+   "link": "https://www.espn.com/golf/story/_/id/50391580/inaugural-wtgl-season-lexi-thompson-michelle-wie-west",
+   "published": "2026-11-09T16:13:07+00:00",
+   "source": "ESPN",
    "sport": "golf",
    "sportLabel": "Golf"
   },
   {
-   "title": "'Look at this!' - McIlroy in contention after eagle on 18th",
-   "summary": "Rory McIlroy climbs the leaderboard in the PGA Championship after an eagle on the 18th hole at Wentworth Club in Virginia Water, Surrey.",
-   "link": "https://www.bbc.co.uk/sport/golf/videos/c3dx0djnp085o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-09-19T17:44:51+00:00",
-   "source": "BBC Sport",
+   "title": "Is this really the end of LIV Golf, and what's next for some the world's best golfers?",
+   "summary": "The news that LIV Golf is going to shutter the league raised several questions, including what's next for Bryson DeChambeau and others.",
+   "link": "https://www.espn.com/golf/story/_/id/50390018/liv-golf-liquidation-next-bryson-dechambeau-jon-rahm",
+   "published": "2026-11-06T00:31:15+00:00",
+   "source": "ESPN",
    "sport": "golf",
    "sportLabel": "Golf"
+  },
+  {
+   "title": "Behind the scenes of the Ramla Ali biopic: An epic story of blood, sweat and tears",
+   "summary": "The making of the Ramla Ali biopic \"In the Shadows\" took an epic struggle, transforming the boxer's life.",
+   "link": "https://www.espn.com/boxing/story/_/id/50358767/ramla-ali-shadows-mikiah-kreps",
+   "published": "2026-11-04T22:58:11+00:00",
+   "source": "ESPN",
+   "sport": "boxing",
+   "sportLabel": "Boxing"
+  },
+  {
+   "title": "Whatever happened to Craig Simmons, maker of the fastest BBL hundred?",
+   "summary": "The man who made a century in 39 balls in his first season looks back at that golden summer and after",
+   "link": "https://www.espn.com/cricket/story/_/id/30522685/happened-craig-simmons-maker-fastest-bbl-hundred",
+   "published": "2025-06-25T16:11:24+00:00",
+   "source": "ESPN",
+   "sport": "cricket",
+   "sportLabel": "Cricket"
+  },
+  {
+   "title": "WTC equations: India need to target five wins, Australia on easier footing",
+   "summary": "The ask for both teams will depend on how NZ fare in their series against Pakistan too",
+   "link": "https://www.espn.com/cricket/story/_/id/30522162/wtc-equations-india-need-target-five-wins-australia-easier-footing",
+   "published": "2020-12-18T14:13:00+00:00",
+   "source": "ESPN",
+   "sport": "cricket",
+   "sportLabel": "Cricket"
+  },
+  {
+   "title": "NZ put pressure on India as race for Lord's heats up",
+   "summary": "If NZ sweep Pakistan, India will need at least four wins and three draws in eight Tests",
+   "link": "https://www.espn.com/cricket/story/_/id/30515460/world-test-championship-new-zealand-put-pressure-india-race-lord-final-heats-up",
+   "published": "2020-12-18T14:13:00+00:00",
+   "source": "ESPN",
+   "sport": "cricket",
+   "sportLabel": "Cricket"
+  },
+  {
+   "title": "Excited about possibility but focused on Pakistan - Latham",
+   "summary": "Plunket Shield at start of the season was \"great for the guys to get into that mode of the longer form\", says Latham",
+   "link": "https://www.espn.com/cricket/story/_/id/30517313/nz-vs-wi-2nd-test-excited-possibility-playing-wtc-final-focused-pakistan-tom-latham",
+   "published": "2020-12-18T14:13:00+00:00",
+   "source": "ESPN",
+   "sport": "cricket",
+   "sportLabel": "Cricket"
+  },
+  {
+   "title": "What will Pakistan do without Babar Azam?",
+   "summary": "As Babar Azam's prowess has increased, so has his side's tendency to rely heavily on him",
+   "link": "https://www.espn.com/cricket/story/_/id/30529998/new-zealand-vs-pakistan-pakistan-do-babar-azam",
+   "published": "2020-12-17T14:32:39+00:00",
+   "source": "ESPN",
+   "sport": "cricket",
+   "sportLabel": "Cricket"
+  },
+  {
+   "title": "For Kohli, it will be about 'high-voltage cricket' but no 'unnecessary tension'",
+   "summary": "\"We understand that we are contributing to a larger cause, and the quality of cricket has to stand out\"",
+   "link": "https://www.espn.com/cricket/story/_/id/30529971/aus-vs-ind-1st-test-virat-kohli-about-high-voltage-cricket-no-unnecessary-tension",
+   "published": "2020-12-16T13:37:51+00:00",
+   "source": "ESPN",
+   "sport": "cricket",
+   "sportLabel": "Cricket"
+  },
+  {
+   "title": "Rain leaves points shared after Turner onslaught",
+   "summary": "Hatcher, Maddinson turned things around in field before the Stars were left a tough six-over target",
+   "link": "https://www.espn.com/cricket/series/8044/report/1226867/perth-scorchers-vs-melbourne-stars-9th-match-big-bash-league",
+   "published": "2020-12-16T11:57:31+00:00",
+   "source": "ESPN",
+   "sport": "cricket",
+   "sportLabel": "Cricket"
+  },
+  {
+   "title": "India name Shaw, Saha, Ashwin, Umesh in XI for first Test",
+   "summary": "Gill and Pant were left out of the day-night Test",
+   "link": "https://www.espn.com/cricket/story/_/id/30529486/australia-vs-india-2020-india-name-prithvi-shaw-wriddhiman-saha-r-ashwin-umesh-yadav-xi-first-test",
+   "published": "2020-12-16T10:38:16+00:00",
+   "source": "ESPN",
+   "sport": "cricket",
+   "sportLabel": "Cricket"
+  },
+  {
+   "title": "Kohli: My 'personality' is a 'representation' of 'new India'",
+   "summary": "Greg Chappell had recently called Kohli the \"most Australian non-Australian cricketer of all time\"",
+   "link": "https://www.espn.com/cricket/story/_/id/30529723/aus-vs-ind-2020-1st-test-pink-ball-adelaide-chappell-virat-kohli-my-personality-representation-new-india",
+   "published": "2020-12-16T10:38:16+00:00",
+   "source": "ESPN",
+   "sport": "cricket",
+   "sportLabel": "Cricket"
+  },
+  {
+   "title": "A reassuring Australia-India rivalry to dull memories of a chaotic year",
+   "summary": "Given the challenges 2020 has thrown at everyone, it is refreshing just to talk about cricket again",
+   "link": "https://www.espn.com/cricket/story/_/id/30529489/aus-vs-ind-1st-test-adelaide-reassuring-australia-india-rivalry-dull-memories-chaotic-year",
+   "published": "2020-12-16T09:40:31+00:00",
+   "source": "ESPN",
+   "sport": "cricket",
+   "sportLabel": "Cricket"
+  },
+  {
+   "title": "Australia's next superstar? Get to know Cameron Green",
+   "summary": "A first-class batting of average of 55 and bowling average 21 - the Western Australia allrounder has the makings of an outstanding cricketer",
+   "link": "https://www.espn.com/cricket/story/_/id/30529614/australia-vs-india-2020-australia-next-superstar-get-know-cameron-green",
+   "published": "2020-12-16T09:40:10+00:00",
+   "source": "ESPN",
+   "sport": "cricket",
+   "sportLabel": "Cricket"
+  },
+  {
+   "title": "West Indies to tour Bangladesh in January",
+   "summary": "Visitors will arrive in Dhaka on Jan 10; tour to feature three ODIs and two Tests",
+   "link": "https://www.espn.com/cricket/story/_/id/30524027/west-indies-tour-bangladesh-january-three-odis-two-tests",
+   "published": "2020-12-15T18:02:11+00:00",
+   "source": "ESPN",
+   "sport": "cricket",
+   "sportLabel": "Cricket"
   }
  ]
 }

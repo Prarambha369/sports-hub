@@ -277,7 +277,7 @@ a:hover { text-decoration: underline; }
 }
 
 /* ===== Scores & fixtures ===== */
-.league-grid { display: grid; gap: 16px; padding: 0 24px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+.league-grid { display: grid; gap: 16px; padding: 0 24px; grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr)); }
 .league-card h3 { margin: 0 0 12px; }
 .fixture { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: baseline; padding: 10px 0; border-bottom: 1px solid var(--border); font-size: .9rem; }
 .fixture:last-child { border-bottom: 0; }
