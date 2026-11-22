@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Fetch sports headlines (BBC Sport, ESPN RSS)
+      - name: Fetch sports headlines (ESPN RSS)
         run: python scripts/fetch_news.py
 
       - name: Commit updated data

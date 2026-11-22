@@ -14,6 +14,8 @@ directly. Stdlib only.
 import email.utils
 import json
 import os
+import shutil
+import subprocess
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -58,8 +60,19 @@ def iso(pub):
         return None
 
 
+USER_AGENT = "Mozilla/5.0 (compatible; kick-sports-news/1.0)"
+
+
 def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; kick-sports-news/1.0)"})
+    # ESPN's CDN firewall challenges Python's HTTP client from cloud runners
+    # (HTTP 202 with an empty body) but serves curl normally, so prefer curl
+    # when it's installed (it is on GitHub's runners) and fall back to urllib.
+    if shutil.which("curl"):
+        return subprocess.run(
+            ["curl", "-sSfL", "--max-time", "30", "-A", USER_AGENT, url],
+            check=True, capture_output=True,
+        ).stdout
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=30) as r:
         return r.read()
 
