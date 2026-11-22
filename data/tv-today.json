@@ -1,57 +1,44 @@
 {
  "source": "https://www.kokasports.com/",
- "fetchedAt": "2026-11-21T00:00:21+00:00",
- "date": "Saturday 21st November 2026",
+ "fetchedAt": "2026-11-22T06:58:14+00:00",
+ "date": "Sunday 22nd November 2026",
  "timezone": "ET",
  "fixtures": [
   {
-   "title": "Colorado vs. Cincinnati",
-   "sport": "College Football",
-   "time": "12:00 PM",
-   "day": "Sat 21 Nov",
-   "competition": "College Football",
+   "title": "Birmingham City vs. Manchester United",
+   "sport": "Soccer",
+   "time": "7:00 AM",
+   "day": "Sun 22 Nov",
+   "competition": "Soccer",
    "broadcasters": [
-    "ESPN+",
-    "ESPN Select/Unlimited"
+    "Paramount+"
    ]
   },
   {
-   "title": "East Carolina vs. Army",
-   "sport": "College Football",
-   "time": "12:00 PM",
-   "day": "Sat 21 Nov",
-   "competition": "College Football",
+   "title": "Manchester City vs. Tottenham Hotspur",
+   "sport": "Soccer",
+   "time": "7:00 AM",
+   "day": "Sun 22 Nov",
+   "competition": "Soccer",
    "broadcasters": [
-    "CBSSN"
+    "Paramount+"
    ]
   },
   {
-   "title": "Memphis vs. Navy",
-   "sport": "College Football",
-   "time": "12:00 PM",
-   "day": "Sat 21 Nov",
-   "competition": "College Football",
+   "title": "Charlton Athletic vs. Aston Villa",
+   "sport": "Soccer",
+   "time": "9:00 AM",
+   "day": "Sun 22 Nov",
+   "competition": "Soccer",
    "broadcasters": [
-    "ESPN platform tbd",
-    "ESPN Unlimited"
+    "Paramount+"
    ]
   },
   {
-   "title": "Detroit vs. #5 Michigan State",
-   "sport": "Men's college basketball",
-   "time": "12:00 PM",
-   "day": "Sat 21 Nov",
-   "competition": "Men's college basketball",
-   "broadcasters": [
-    "BTN",
-    "FOX One"
-   ]
-  },
-  {
-   "title": "NCAA Singles and Doubles Tennis Championships Semifinals (Athens, GA)",
+   "title": "NCAA Singles and Doubles Tennis Championships Finals (Athens, GA)",
    "sport": "Tennis",
    "time": "12:00 PM",
-   "day": "Sat 21 Nov",
+   "day": "Sun 22 Nov",
    "competition": "Tennis",
    "broadcasters": [
     "ESPN+",
@@ -59,129 +46,146 @@
    ]
   },
   {
-   "title": "Milwaukee Bucks vs. Philadelphia 76ers",
-   "sport": "NBA",
-   "time": "1:00 PM",
-   "day": "Sat 21 Nov",
-   "competition": "NBA",
-   "broadcasters": [
-    "NBA League Pass",
-    "WCGV-My24",
-    "Bucks+",
-    "NBCSP",
-    "Peacock"
-   ]
-  },
-  {
-   "title": "Edmonton Oilers vs. Carolina Hurricanes",
+   "title": "NHL Sunday: Carolina Hurricanes vs. New York Rangers",
    "sport": "NHL",
-   "time": "1:00 PM",
-   "day": "Sat 21 Nov",
+   "time": "12:30 PM",
+   "day": "Sun 22 Nov",
    "competition": "NHL",
    "broadcasters": [
     "NHL Power Play on ESPN+",
     "CARNHL",
     "HHN",
-    "SN",
-    "SN+"
+    "MSG",
+    "SN1",
+    "TVAS",
+    "TVAS+"
    ]
   },
   {
-   "title": "#1 South Carolina vs. Providence",
-   "sport": "Women's college basketball",
-   "time": "1:30 PM",
-   "day": "Sat 21 Nov",
-   "competition": "Women's college basketball",
+   "title": "Arizona Cardinals vs. Kansas City Chiefs",
+   "sport": "NFL",
+   "time": "1:00 PM",
+   "day": "Sun 22 Nov",
+   "competition": "NFL",
    "broadcasters": [
-    "Peacock",
-    "NBCSN"
+    "CBS",
+    "Paramount+"
    ]
   },
   {
-   "title": "Chicago Blackhawks vs. Calgary Flames",
-   "sport": "NHL",
-   "time": "3:30 PM",
-   "day": "Sat 21 Nov",
-   "competition": "NHL",
-   "broadcasters": [
-    "NHL Power Play on ESPN+",
-    "CHSN",
-    "SN",
-    "SN+",
-    "SN1"
-   ]
-  },
-  {
-   "title": "Buffalo Sabres vs. Florida Panthers",
-   "sport": "NHL",
-   "time": "6:00 PM",
-   "day": "Sat 21 Nov",
-   "competition": "NHL",
-   "broadcasters": [
-    "NHL Power Play on ESPN+",
-    "MSG-B",
-    "SCRIPPS"
-   ]
-  },
-  {
-   "title": "Pittsburgh Penguins vs. Nashville Predators",
-   "sport": "NHL",
-   "time": "6:00 PM",
-   "day": "Sat 21 Nov",
-   "competition": "NHL",
-   "broadcasters": [
-    "NHL Power Play on ESPN+",
-    "SN-PIT",
-    "SCRIPPS"
-   ]
-  },
-  {
-   "title": "#20 Michigan vs. Villanova",
-   "sport": "Men's college basketball",
-   "time": "7:00 PM",
-   "day": "Sat 21 Nov",
-   "competition": "Men's college basketball",
+   "title": "Baltimore Ravens vs. Carolina Panthers",
+   "sport": "NFL",
+   "time": "1:00 PM",
+   "day": "Sun 22 Nov",
+   "competition": "NFL",
    "broadcasters": [
     "FOX",
     "FOX One"
    ]
   },
   {
-   "title": "Portland Trail Blazers vs. New York Knicks",
-   "sport": "NBA",
-   "time": "7:30 PM",
-   "day": "Sat 21 Nov",
-   "competition": "NBA",
+   "title": "Miami Dolphins vs. Buffalo Bills",
+   "sport": "NFL",
+   "time": "1:00 PM",
+   "day": "Sun 22 Nov",
+   "competition": "NFL",
    "broadcasters": [
-    "NBA TV",
-    "KUNP-IND",
-    "BlazerVision",
-    "MSG",
-    "DAZN"
+    "FOX",
+    "FOX One"
    ]
   },
   {
-   "title": "Los Angeles Clippers vs. Dallas Mavericks",
+   "title": "Butler vs. #25 Nebraska (Chicago, IL)",
+   "sport": "Men's college basketball",
+   "time": "1:00 PM",
+   "day": "Sun 22 Nov",
+   "competition": "Men's college basketball",
+   "broadcasters": [
+    "FS1",
+    "FOX One"
+   ]
+  },
+  {
+   "title": "Charleston Classic: Dayton vs. Northwestern (Charleston, SC)",
+   "sport": "Men's college basketball",
+   "time": "1:00 PM",
+   "day": "Sun 22 Nov",
+   "competition": "Men's college basketball",
+   "broadcasters": [
+    "ESPN2",
+    "ESPN Unlimited"
+   ]
+  },
+  {
+   "title": "Detroit Pistons vs. Atlanta Hawks",
    "sport": "NBA",
-   "time": "8:00 PM",
-   "day": "Sat 21 Nov",
+   "time": "3:30 PM",
+   "day": "Sun 22 Nov",
    "competition": "NBA",
    "broadcasters": [
     "NBA League Pass",
-    "ClipperVision",
+    "WMYD-IND",
+    "DAZN",
+    "WANF",
+    "WPCH.2"
+   ]
+  },
+  {
+   "title": "Buffalo Sabres vs. Tampa Bay Lightning",
+   "sport": "NHL",
+   "time": "5:00 PM",
+   "day": "Sun 22 Nov",
+   "competition": "NHL",
+   "broadcasters": [
+    "NHL Power Play on ESPN+",
+    "MSG-B",
+    "The Spot",
+    "SN+",
+    "TVAS",
+    "TVAS+"
+   ]
+  },
+  {
+   "title": "Oklahoma City Thunder vs. Miami Heat",
+   "sport": "NBA",
+   "time": "6:00 PM",
+   "day": "Sun 22 Nov",
+   "competition": "NBA",
+   "broadcasters": [
+    "NBA League Pass",
+    "KSBI-IND",
+    "Thunder+",
+    "WPLG-IND",
+    "Local10+"
+   ]
+  },
+  {
+   "title": "Dallas Mavericks vs. Utah Jazz",
+   "sport": "NBA",
+   "time": "7:00 PM",
+   "day": "Sun 22 Nov",
+   "competition": "NBA",
+   "broadcasters": [
+    "NBA League Pass",
     "KFAA-IND",
-    "MavsTV+"
+    "MavsTV+",
+    "KJZZ-IND",
+    "Jazz+"
    ]
   },
   {
-   "title": "Memphis Grizzlies vs. Minnesota Timberwolves",
-   "sport": "NBA",
-   "time": "8:00 PM",
-   "day": "Sat 21 Nov",
-   "competition": "NBA",
+   "title": "Edmonton Oilers vs. St. Louis Blues",
+   "sport": "NHL",
+   "time": "7:00 PM",
+   "day": "Sun 22 Nov",
+   "competition": "NHL",
    "broadcasters": [
-    "NBA League Pass",
-    "DAZN"
+    "NHL Power Play on ESPN+",
+    "BN+",
+    "STLNHL",
+    "SNE",
+    "SNO",
+    "SNW"
    ]
   }
  ]
