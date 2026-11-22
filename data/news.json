@@ -1,15 +1,6 @@
 {
- "fetchedAt": "2026-11-22T21:53:56+00:00",
+ "fetchedAt": "2026-11-22T21:54:36+00:00",
  "items": [
-  {
-   "title": "Alcaraz adds ATP Finals trophy to career Grand Slam",
-   "summary": "Carlos Alcaraz dominated at times as he defeated top-ranked Alexander Zverev 6-2, 7-6 (7) in the championship match at the ATP Finals on Sunday.",
-   "link": "https://www.espn.com/tennis/story/_/id/50563835/carlos-alcaraz-wins-season-ending-atp-finals",
-   "published": "2026-11-22T21:52:14+00:00",
-   "source": "ESPN",
-   "sport": "tennis",
-   "sportLabel": "Tennis"
-  },
   {
    "title": "Reid's midseason NFL mock draft: 32 prospect landing spots, four QBs and one big trade",
    "summary": "Which NFL team could land Drew Mestemaker? Who needs Chris Cole, Ashton Hampton or Jamari Johnson? Jordan Reid projected first-round picks for 2027 -- and a trade.",
@@ -180,6 +171,15 @@
    "source": "ESPN",
    "sport": "nfl",
    "sportLabel": "NFL"
+  },
+  {
+   "title": "Alcaraz joins elite club by adding ATP Finals trophy to career Grand Slam",
+   "summary": "Carlos Alcaraz dominated at times as he defeated top-ranked Alexander Zverev 6-2, 7-6 (7) in the championship match at the ATP Finals on Sunday.",
+   "link": "https://www.espn.com/tennis/story/_/id/50563835/carlos-alcaraz-wins-season-ending-atp-finals",
+   "published": "2026-11-22T20:33:22+00:00",
+   "source": "ESPN",
+   "sport": "tennis",
+   "sportLabel": "Tennis"
   },
   {
    "title": "Poch blames 'circumstances' in painful Man United loss to Liverpool",
