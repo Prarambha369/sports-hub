@@ -14,111 +14,23 @@
     <section class="section">
       <div class="container">
         <h1 id="news-title">Sports News</h1>
-        <h2 class="section-sub" id="news-sub">Breaking news, top stories and daily updates.</h2>
+        <p class="section-sub" id="news-sub">Top stories across football, cricket, NBA, NFL, F1 and more.</p>
 
+        <p class="sub"><span id="news-updated"></span></p>
         <div class="articles" id="articles">
-          <!-- REA-analyzed public sports news — data/score integration -->
-          <article class="article">
-            <div class="thumb">⚽</div>
-            <div class="body">
-              <span class="tag">Football</span>
-              <h2>Sample headline: transfer window heats up</h2>
-              <p>REA-verified: TheSportsDB public fixtures data. Scores via ev_534431a755f3ca0666f87295ef45e45f8d5a4c5b92a64632ce4ae068911f555d. Never paste full articles you don't own.</p>
-            </div>
-          </article>
-          <article class="article">
-            <div class="thumb">🏏</div>
-            <div class="body">
-              <span class="tag">Cricket</span>
-              <h2>Sample headline: series decider preview</h2>
-              <p>REA-verified: Public cricket fixtures. Score data indexed from official sources only.</p>
-            </div>
-          </article>
-          <article class="article">
-            <div class="thumb">🏀</div>
-            <div class="body">
-              <span class="tag">NBA</span>
-              <h2>Sample headline: playoff race tightens</h2>
-              <p>REA-verified: NBA public data from TheSportsDB API. Score integration via REA analysis.</p>
-            </div>
-          </article>
-          <article class="article">
-            <div class="thumb">🏎️</div>
-            <div class="body">
-              <span class="tag">Formula 1</span>
-              <h2>Sample headline: qualifying report</h2>
-              <p>REA-verified: F1 public data showcase. REA evidence captured from thesportsdb.com (DOM: 13840). Original recaps stay within copyright rules.</p>
-            </div>
-          </article>
+          <p class="muted">Loading headlines…</p>
         </div>
 
-        <div class="rea-disclaimer" style="margin-top:24px;padding:12px;border-top:1px solid var(--border);font-size:.75rem;color:var(--muted)">
-            <strong>Data Source Philosophy:</strong> public sports data only — fixtures, results, scores from official APIs.<br/>
-            TheSportsDB (13,840) · sportscore (28,720) · sportsonline.st (8,327) · kokasports.com · iptv-org (320+ channels).<br/>
-            <em>No live streams hosted, no unlicensed content.</em> Data display & score tracking only. Links to official sources.<br/>
-            <a href="https://www.thesportsdb.com/api.php" target="_blank" rel="noopener" style="color:var(--accent)">Get your own TheSportsDB API key</a> ·
-            <a href="https://iptv-org.github.io/iptv/categories/sports.m3u" target="_blank" rel="noopener" style="color:var(--accent)">📡 iptv-org Sports M3U</a> ·
-            <span style="background:var(--bg-elev);padding:2px 6px;border-radius:3px;">REA-analyzed: public-data-only</span>
-          </div>
+        <p class="source-note">
+          Headlines and summaries provided by <a href="https://www.espn.com" target="_blank" rel="noopener">ESPN</a> via its
+          RSS feeds, shown as published. Every story links to the full article on espn.com.
+        </p>
 
-        <!-- sportsonline.st list -->
-        <div class="sportsonline-integration integration-box">
-          <h4>
-            Live Match Integration: sportsonline.st
-            <span class="update-badge cached" id="sportsonline-fetch-status">💾 Cached</span>
-          </h4>
-          <p class="integration-note">
-            24/7 sports channels listed — no video embedded on this site.
-            <a href="https://sportsonline.st" target="_blank" rel="noopener">Visit sportsonline.st</a>
-          </p>
-          <div class="match-grid"></div>
-          <div class="integration-foot">
-            Fetched: <span id="sportsonline-fetch-time">never fetched</span> |
-            <button class="btn tiny" data-refresh="sportsonline">Refresh</button>
-          </div>
-        </div>
-
-        <!-- Live On TV Today (data/tv-today.json) -->
-        <div class="kokasports-integration integration-box">
-          <h4>
-            Live On TV Today
-            <span class="update-badge cached" id="kokasports-fetch-status">💾 Cached</span>
-          </h4>
-          <p class="integration-note">
-            Today’s fixtures and the official broadcasters showing them. Times in ET.
-            <a href="https://www.kokasports.com" target="_blank" rel="noopener">Full schedule on kokasports.com</a>
-          </p>
-          <div class="match-grid tv-grid"></div>
-          <div class="integration-foot">
-            Updated: <span id="kokasports-fetch-time">never fetched</span> |
-            <button class="btn tiny" data-refresh="kokasports">Refresh</button>
-          </div>
-        </div>
-
-        <!-- Ad: in-content -->
-        <div class="ad-slot" aria-hidden="true">
-          <ins class="adsbygoogle" style="display:block" data-ad-slot="0000000003" data-ad-format="auto" data-full-width-responsive="true"></ins>
-        </div>
-      </div>
     </section>
   </main>
 
   <div id="site-footer"></div>
   <script src="assets/js/site.js"></script>
-  <script src="assets/js/integrations.js"></script>
-
-  <script>
-    (function () {
-      var map = { football:"Football", cricket:"Cricket", nba:"NBA", nfl:"NFL",
-        f1:"Formula 1", ufc:"UFC", tennis:"Tennis", rugby:"Rugby", golf:"Golf",
-        motogp:"MotoGP", boxing:"Boxing", hockey:"Hockey" };
-      var sp = new URLSearchParams(location.search).get("sport");
-      if (sp && map[sp]) {
-        document.getElementById("news-title").textContent = map[sp] + " News";
-        document.getElementById("news-sub").textContent = "Latest " + map[sp] + " headlines and updates.";
-        document.title = map[sp] + " News | Kick Sports";
-      }
-    })();
-  </script>
+  <script src="assets/js/news.js"></script>
 </body>
 </html>

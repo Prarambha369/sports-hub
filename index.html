@@ -24,12 +24,6 @@
       </div>
     </section>
 
-    <!-- Ad: leaderboard -->
-    <div class="container">
-      <div class="ad-slot" aria-hidden="true">
-        <ins class="adsbygoogle" style="display:block" data-ad-slot="0000000001" data-ad-format="auto" data-full-width-responsive="true"></ins>
-      </div>
-    </div>
 
     <section class="section" id="sports">
       <div class="container">
@@ -45,7 +39,7 @@
           <a class="card" href="news.html?sport=tennis"><div class="icon">🎾</div><h3>Tennis</h3><p>Wimbledon · US Open · ATP</p></a>
           <a class="card" href="news.html?sport=rugby"><div class="icon">🏉</div><h3>Rugby</h3><p>World Cup · Six Nations</p></a>
           <a class="card" href="news.html?sport=golf"><div class="icon">⛳</div><h3>Golf</h3><p>PGA Tour · Masters · The Open</p></a>
-          <a class="card" href="news.html?sport=motogp"><div class="icon">🏍️</div><h3>MotoGP</h3><p>MotoGP · Moto2 · Moto3</p></a>
+          <a class="card" href="news.html?sport=motorsport"><div class="icon">🏍️</div><h3>Motorsport</h3><p>MotoGP · NASCAR · IndyCar</p></a>
           <a class="card" href="news.html?sport=boxing"><div class="icon">🥋</div><h3>Boxing</h3><p>World Titles · Rankings</p></a>
           <a class="card" href="news.html?sport=hockey"><div class="icon">🏒</div><h3>Hockey</h3><p>NHL · World Championship</p></a>
         </div>
@@ -54,10 +48,10 @@
 
     <section class="section" id="scores">
       <div class="container">
-        <h2>Live scores</h2>
-        <p class="sub">Recent results from TheSportsDB public data.</p>
+        <h2>Scores &amp; fixtures</h2>
+        <p class="sub">Latest result and next match for popular leagues.</p>
         <div class="widget-wrap">
-          <!-- scores.js renders public fixtures/results here (score data only, no video). -->
+          <!-- scores.js renders the latest result and next fixture per league. -->
           <div id="scores-widget"></div>
         </div>
       </div>
@@ -72,47 +66,22 @@
       </div>
     </section>
 
-    <!-- sportsonline.st dynamic matches -->
-    <section class="section" id="sportsonline-matches">
+    <!-- Latest headlines: data/news.json, linked to the original stories -->
+    <section class="section" id="headlines-section">
       <div class="container">
-        <h2>Live Match Integration</h2>
-        <p class="sub">24/7 sports channels from sportsonline.st — no unlicensed video streams</p>
-        <div class="match-grid sportsonline-match-grid">
-          <!-- Matches injected by JavaScript -->
-        </div>
-        <div style="margin-top:24px;padding-top:16px;border-top:1px solid var(--border);font-size:.75rem;color:var(--muted);">
-          Fetched: <span id="sportsonline-fetch-time-home">never fetched</span> | 
-          <button class="btn tiny" style="padding:4px 8px;font-size:.6rem;" data-refresh="sportsonline">Refresh</button>
-        </div>
+        <h2>Latest headlines</h2>
+        <p class="sub">Provided by ESPN, refreshed every 3 hours. <span id="news-updated"></span></p>
+        <div class="articles" id="headlines" data-limit="6"></div>
+        <p><a class="btn" href="news.html">All news →</a></p>
       </div>
     </section>
 
-    <!-- Live On TV Today (REA-analyzed, kokasports.com-inspired) -->
-    <section class="section" id="kokasports-tv-section">
-      <div class="container">
-        <h2>Live On TV Today</h2>
-        <p class="sub">Today’s fixtures and the official broadcasters showing them. Times in ET.</p>
-        <div class="match-grid tv-grid kokasports-match-grid">
-          <!-- Matches injected by JavaScript -->
-        </div>
-        <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border);font-size:.75rem;color:var(--muted);">
-          Fetched: <span id="kokasports-fetch-time-home">never fetched</span> | 
-          <button class="btn tiny" style="padding:4px 8px;font-size:.6rem;" data-refresh="kokasports">Refresh</button>
-        </div>
-      </div>
-    </section>
-<!-- Ad: in-content -->
-    <div class="container">
-      <div class="ad-slot" aria-hidden="true">
-        <ins class="adsbygoogle" style="display:block" data-ad-slot="0000000002" data-ad-format="auto" data-full-width-responsive="true"></ins>
-      </div>
-    </div>
   </main>
 
   <div id="site-footer"></div>
   <script src="assets/js/site.js"></script>
   <script src="assets/js/scores.js"></script>
-  <script src="assets/js/integrations.js"></script>
+  <script src="assets/js/news.js"></script>
   <script src="assets/js/watch.js"></script>
 </body>
 </html>
