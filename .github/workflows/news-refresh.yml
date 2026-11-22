@@ -1,4 +1,4 @@
-name: TV listings refresh
+name: News refresh
 
 on:
   schedule:
@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: tv-listings
+  group: news
   cancel-in-progress: false
 
 jobs:
@@ -24,18 +24,18 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Fetch On TV Today listings
-        run: python scripts/fetch_tv.py
+      - name: Fetch sports headlines (BBC Sport, ESPN RSS)
+        run: python scripts/fetch_news.py
 
       - name: Commit updated data
         run: |
-          if git diff --quiet -- data/tv-today.json; then
+          if git diff --quiet -- data/news.json; then
             echo "No changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/tv-today.json
-          git commit -m "chore: refresh TV listings"
+          git add data/news.json
+          git commit -m "chore: refresh headlines"
           git pull --rebase origin main
           git push origin HEAD:main
